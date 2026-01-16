@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(init)",
+      "Bash(npm create:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout:*)",
+      "Bash(pip install:*)",
+      "Bash(python scripts/generate_puzzle.py:*)",
+      "Bash(python -m pip install:*)"
+    ]
+  }
+}
