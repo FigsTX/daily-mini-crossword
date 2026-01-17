@@ -758,3 +758,34 @@ Next Steps:
 2. Add `GEMINI_API_KEY` to repository secrets
 
 **Deployment URL:** Will be available at `https://<username>.github.io/<repo-name>/`
+
+---
+
+## Session: 2026-01-17
+
+### Task #13: GitHub Pages Deployment Fixes
+
+**Status:** COMPLETE
+
+**Issues Identified:**
+1. Requirements.txt path in workflow was incorrect (`scripts/requirements.txt` → `requirements.txt`)
+2. Vite base URL missing, causing blank white screen on deployed site (assets loaded from root instead of repo subfolder)
+
+**Fixes Applied:**
+
+1. **Workflow Path Fix** (`.github/workflows/daily_crossword.yml`)
+   - Line 41: `cache-dependency-path: scripts/requirements.txt` → `requirements.txt`
+   - Line 44: `pip install -r scripts/requirements.txt` → `pip install -r requirements.txt`
+   - Commit: 2fe7105
+
+2. **Vite Base URL Fix** (`vite.config.ts`)
+   - Added `base: "/daily-mini-crossword/"` to defineConfig
+   - This ensures assets are loaded relative to the GitHub Pages subfolder
+   - Commit: 7cd63cd
+
+**Root Cause:**
+GitHub Pages deploys to `https://<user>.github.io/<repo>/` (subfolder), but Vite defaults to absolute paths (`/assets/`). Without the `base` config, the browser looks for assets at `https://<user>.github.io/assets/` instead of `https://<user>.github.io/daily-mini-crossword/assets/`.
+
+**Verification:**
+- Workflow will rebuild on next push/schedule
+- Site should load correctly at `https://figstx.github.io/daily-mini-crossword/`
