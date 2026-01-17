@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-01-16",
+    "date": "2026-01-17",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Mythical and Learned",
-    "templateId": "fingers",
-    "wordTier": 2
+    "theme": "Initial Reactions",
+    "templateId": "tuesday",
+    "wordTier": 4
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "F",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "I",
-      "clueIndex": 2
+      "char": "C",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "N",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": "S",
-      "clueIndex": 4
+      "char": "D",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "A",
-      "clueIndex": 5
+      "char": "O",
+      "clueIndex": 4
     },
     "1,1": {
-      "char": "M"
+      "char": "R"
     },
     "1,2": {
       "char": "A"
     },
     "1,3": {
-      "char": "L"
+      "char": "O"
     },
     "1,4": {
-      "char": "A",
-      "clueIndex": 6
+      "char": "N",
+      "clueIndex": 5
     },
     "2,0": {
-      "char": "S",
-      "clueIndex": 7
+      "char": "T",
+      "clueIndex": 6
     },
     "2,1": {
-      "char": "A"
-    },
-    "2,2": {
-      "char": "T"
-    },
-    "2,3": {
-      "char": "Y"
-    },
-    "2,4": {
-      "char": "R"
-    },
-    "3,0": {
-      "char": "T",
-      "clueIndex": 8
-    },
-    "3,1": {
       "char": "U"
     },
+    "2,2": {
+      "char": "R"
+    },
+    "2,3": {
+      "char": "S"
+    },
+    "2,4": {
+      "char": "E"
+    },
+    "3,0": {
+      "char": "C",
+      "clueIndex": 7
+    },
+    "3,1": {
+      "char": "L"
+    },
     "3,2": {
-      "char": "T"
+      "char": "A"
     },
     "3,3": {
-      "char": "E"
+      "char": "S"
     },
     "3,4": {
-      "char": "E"
+      "char": "P"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "M",
-      "clueIndex": 9
+      "char": "L",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "Y"
+      "char": "D"
     },
     "4,3": {
-      "char": "R"
+      "char": "Y"
     },
     "4,4": {
-      "char": "S"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "They help swimmers glide through water",
-      "5": "South Indian dish with greens",
-      "7": "Forest creature with a wild side",
-      "8": "Pupil in a one-on-one session",
-      "9": "Aromatic resins from the East"
+      "1": "Modeling tool initialism",
+      "4": "Indian tribal group",
+      "6": "Purse with a twist",
+      "7": "Fasten, like jewelry",
+      "8": "British title, briefly"
     },
     "down": {
-      "1": "Rapid, or abstain from food",
-      "2": "Mosque leader, perhaps",
-      "3": "Dapper, stylish, like a sharp dresser",
-      "4": "More cunning than most",
-      "6": "God of war, to the Greeks"
+      "1": "Twisted donut",
+      "2": "Capacitance unit",
+      "3": "Thick, like a sauce",
+      "4": "Counter purchase, for short",
+      "5": "Herb for warding off moths"
     }
   }
 }
