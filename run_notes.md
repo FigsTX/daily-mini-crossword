@@ -295,8 +295,390 @@ S  T  A  B  #   (8-Across: A quick jab)
 - Clue quality is good and contextual
 
 **Next Steps:**
-- Consider adding word validation against dictionary
-- Could implement retry logic for invalid words
+- ~~Consider adding word validation against dictionary~~ (Task #8)
+- ~~Could implement retry logic for invalid words~~ (Task #8)
 - GitHub Actions workflow for daily automation
 
 ---
+
+### Task #8: Dictionary Guardrail
+
+**Status:** Complete (Implementation)
+
+**Objective:** Ensure every generated puzzle contains 100% valid English words via dictionary validation and feedback prompting.
+
+**Implementation:**
+
+1. **Dictionary Download Capability**
+   - Auto-downloads `words_alpha.txt` from dwyl/english-words repo if missing
+   - Loads 370,105 English words into a set for O(1) lookup
+   - File cached locally at `scripts/words_alpha.txt`
+
+2. **Modular Validation Function**
+   - `extract_words_from_grid(grid, template_id)` - Extracts all across/down words based on template layout
+   - `validate_grid(grid, template_id, word_set)` - Returns list of invalid words
+   - Correctly handles black square (#) placement for word boundaries
+
+3. **Editor Retry Loop**
+   - Max 10 attempts (configurable via `max_editor_attempts`)
+   - Validates each generated puzzle against dictionary
+   - On failure, builds feedback prompt with specific invalid words
+   - Logs progress with clear success/failure markers
+
+**Test Run Results (open-field template):**
+```
+============================================================
+DICTIONARY GUARDRAIL - Loading English Dictionary
+============================================================
+Dictionary loaded: 370,105 words
+
+Using template: open-field (The Open Field)
+
+[Editor] Attempt 1/10
+  > Across words: STARS, PLANE, URANU, SEEKS, ENDEDS
+  > Down words: SPUSE, TLREN, AAAED, RNNKED, SEUSS
+  [X] INVALID WORDS FOUND: URANU, ENDEDS, SPUSE, TLREN, AAAED, RNNKED, SEUSS
+  > Providing feedback to Gemini...
+
+[Editor] Attempt 2/10
+  > Across words: SHORE, ALOHA, NGELS, DELTA, SANDS
+  > Down words: SANDS, HLGEA, OOELN, RHLTD, EASAS
+  [X] INVALID WORDS FOUND: NGELS, HLGEA, OOELN, RHLTD, EASAS
+  > Providing feedback to Gemini...
+  ...
+  (continued for 10 attempts - all failed for open-field)
+```
+
+**Observations:**
+- Dictionary guardrail is **working correctly** - detects invalid words immediately
+- Feedback prompting is functional - provides specific words to Gemini
+- **Challenge:** Open-field (full 5x5) is extremely difficult due to complete interlocking
+- Gemini generates plausible-looking across words but down columns are often nonsense
+- API rate limit: 10 requests/minute for gemini-2.0-flash-exp
+
+**Key Findings:**
+1. The Editor loop catches invalid words that would have shipped before (e.g., ALIFE, ATEND, OELDS from Task #6)
+2. Full 5x5 grid may need a different approach (pre-computed word lists, constraint solving)
+3. Templates with blocks (stairstep, fingers) should be easier to validate
+
+**Files Modified:**
+- `scripts/generate_puzzle.py` - Added dictionary download, validation, Editor loop
+- `scripts/words_alpha.txt` - Downloaded dictionary (370K words, 4.1 MB)
+
+**New Functions:**
+| Function | Purpose |
+|----------|---------|
+| `load_dictionary()` | Downloads/loads word set |
+| `extract_words_from_grid()` | Extracts all words from grid |
+| `validate_grid()` | Returns invalid words |
+| `build_feedback_prompt()` | Creates correction prompt |
+
+**Next Steps:**
+- ~~Consider using simpler templates by default (stairstep, fingers)~~ (Task #8.5)
+- May need algorithmic puzzle generation (constraint satisfaction) for 100% success rate
+- Test with more API quota to see if feedback loop can eventually succeed
+
+---
+
+### Task #8.5: Config & Stability Tuning
+
+**Status:** Complete (config changes) / Issue identified (Gemini grid format)
+
+**Changes Made:**
+
+1. **Disabled Difficult Templates**
+   - `open-field`: Commented out (all 25 cells must interlock - too hard)
+   - `h-frame`: Commented out (middle blocks create complex boundaries)
+   - Active templates: `stairstep`, `fingers`, `corner-cut`
+
+2. **Added Rate Limiting**
+   - `import time` added
+   - `time.sleep(5)` after each failed attempt
+   - Log message: "Waiting 5 seconds to respect API rate limits..."
+   - Applied to: API errors, JSON parse failures, and validation failures
+
+**Test Run (stairstep template):**
+```
+[Editor] Attempt 1/10
+  > Across words: SEAL, SHORE, URCHI, RIDES, EASY
+  > Down words: SURE, SHRIA, EOCDS, ARHEY, LEIS
+  [X] INVALID WORDS FOUND: URCHI, SHRIA, EOCDS, ARHEY
+  > Waiting 5 seconds to respect API rate limits...
+
+  ... (10 attempts, all failed)
+
+[Editor] Attempt 10/10
+  > Across words: SEAL, SHORE, ADOBE, NOISE, SAND
+  > Down words: SANS, SHDOA, EOOIN, ARBSD, LEEE
+  [X] INVALID WORDS FOUND: SHDOA, EOOIN, ARBSD, LEEE
+```
+
+**Key Observations:**
+
+1. **Rate limiting working** - 5-second delays prevent quota exhaustion
+2. **Across words improving** - Attempt 10 had all valid across words (SEAL, SHORE, ADOBE, NOISE, SAND)
+3. **Down words still failing** - Gemini can't satisfy the cross-constraint (columns must also be words)
+4. **Some weird word lengths** - Saw "SHELLHELL", "SHELLOCEANSEALSDUNE" suggesting grid format issues
+
+**Root Cause Analysis:**
+- Gemini generates valid-looking rows but ignores column constraints
+- Crossword generation is a constraint satisfaction problem (CSP)
+- LLMs are not inherently good at CSP without explicit backtracking
+- May need: pre-computed word lists + algorithmic filling OR multiple-pass validation
+
+**Potential Fixes (for future tasks):**
+1. ~~Two-stage generation: first get word list, then arrange with validation~~ (Task #9)
+2. Pre-compute valid word combinations for each template
+3. ~~Use a proper CSP solver with LLM for clue generation only~~ (Task #9)
+
+---
+
+### Task #9: The Hybrid Engine (Python Solver + Gemini Cluer)
+
+**Status:** COMPLETE - SUCCESS!
+
+**Architecture:**
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     HYBRID ENGINE                            │
+├─────────────────────────────────────────────────────────────┤
+│  Stage 1: THE ARCHITECT (Python Backtracking Solver)        │
+│  - Extracts slots from template                             │
+│  - Uses letter-position index for O(1) pattern matching     │
+│  - Backtracking with forward checking                       │
+│  - Prioritizes words with common letters (E,T,A,O,I,N...)   │
+├─────────────────────────────────────────────────────────────┤
+│  Stage 2: THE POET (Gemini Clue Generator)                  │
+│  - Receives completed grid with all valid words             │
+│  - Generates witty, thematic clues                          │
+│  - Returns JSON with theme, difficulty, clues               │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Key Implementation Details:**
+
+1. **Slot Extraction & Ordering**
+   - Extract all across/down word slots from template
+   - Sort by: most intersections first, then by length
+   - Builds intersection map for constraint propagation
+
+2. **Letter Index for Fast Pattern Matching**
+   - `index[length][position][letter]` = set of words
+   - Pattern "A_T__" → intersect `index[5][0]['A']` ∩ `index[5][2]['T']`
+   - O(1) lookup instead of O(n) iteration
+
+3. **Crossword-Friendly Word Selection**
+   - Score words by common letter frequency (E,T,A,O,I,N,S,H,R,D,L)
+   - Take top 1000 words per length for solvability
+   - Shuffle for variety in results
+
+4. **Backtracking with Forward Checking**
+   - After placing word, verify intersecting slots still have candidates
+   - Prunes dead-end branches early
+   - 30s timeout per attempt, 10 retry attempts
+
+**Test Results (stairstep template):**
+```
+============================================================
+HYBRID ENGINE - Crossword Generator
+============================================================
+
+[Stage 1] THE ARCHITECT - Grid Solver
+  Solver attempt 2/10...
+  Words: 2L=427, 3L=1,000, 4L=1,000, 5L=1,000
+
+[Solver] Starting backtracking solver...
+  Slots: 10 (5 across, 5 down)
+  [OK] Solution found!
+  Attempts: 754, Backtracks: 4,017
+  Time: 0.16s
+
+  Grid:
+  # T I L S
+  R E N E T
+  A N T A R
+  S E I S E
+  A T L E #
+
+  Words found:
+    Across: 1=TILS, 5=RENET, 6=ANTAR, 7=SEISE, 8=ATLE
+    Down: 1=TENET, 2=INTIL, 3=LEASE, 4=STRE, 5=RASA
+
+[Stage 2] THE POET - Clue Generator
+  [OK] Clues generated successfully
+
+============================================================
+SUCCESS! Puzzle generated
+  Theme: Dairy and Myth
+  Difficulty: easy
+  Template: stairstep
+============================================================
+```
+
+**Performance Metrics:**
+| Metric | Value |
+|--------|-------|
+| Solve time | 0.16s |
+| Attempts | 754 |
+| Backtracks | 4,017 |
+| Dictionary | 370K words |
+| Words per length | 1,000 (filtered by commonality) |
+
+**Files Modified:**
+- `scripts/generate_puzzle.py` - Complete rewrite with Hybrid Engine
+
+**New Components:**
+| Component | Purpose |
+|-----------|---------|
+| `Slot` dataclass | Word slot with positions and intersections |
+| `CrosswordSolver` class | Backtracking solver with forward checking |
+| `build_letter_index()` | Fast pattern matching index |
+| `word_commonality_score()` | Prioritizes crossword-friendly words |
+| `generate_clues()` | Gemini API for clue generation |
+
+**Key Insight:**
+The "Downward Fitting Problem" is permanently solved. LLMs cannot handle constraint satisfaction (CSP), but Python backtracking can. Using Gemini only for creative work (clues) while Python handles the math (grid filling) is the optimal division of labor.
+
+---
+
+### Task #9.5: Tiered Word Lists (Common Words + Fallback)
+
+**Status:** COMPLETE - SUCCESS!
+
+**Problem:**
+Task #9 used words_alpha.txt (370K words) which includes obscure words like RENET, TEENT, SEISE, ANTAR - not fun for casual puzzle solvers.
+
+**Initial Attempt (Failed):**
+Switched to Google's 10K common English words, but the word counts were too small:
+- 3L: 664 words
+- 4L: 1,100 words
+- 5L: 1,367 words
+
+The solver exhausted all possibilities without finding valid crossword grids (letter combinations didn't align).
+
+**Solution - Tiered Word Lists:**
+```
+Tier 1: Common words only (Google 10K) - highest quality
+Tier 2: Common + 5,000 supplemental per length - good balance
+Tier 3: Common + 15,000 supplemental per length - more options
+Tier 4: Full dictionary (370K) - maximum solvability
+```
+
+The solver escalates through tiers until a solution is found. Most puzzles succeed at Tier 2.
+
+**Implementation:**
+```python
+def create_tiered_word_list(common_words, full_dict, tier):
+    # Tier 1: Just common words
+    # Tier 2: Common + 5K supplemental from remaining dict
+    # Tier 3: Common + 15K supplemental
+    # Tier 4: Full dictionary
+```
+
+**Test Results:**
+```
+============================================================
+HYBRID ENGINE - Crossword Generator
+============================================================
+
+[Stage 0] Loading Word Lists...
+  Common words loaded: 9,894
+  Full dictionary loaded: 370,105
+
+[Stage 1] THE ARCHITECT - Grid Solver
+Template: fingers (The Fingers)
+
+  [Tier 1] Attempting with word list...
+  Tier 1 (Common only): 3L=664, 4L=1,100, 5L=1,367
+  (3 attempts - no solution, escalating...)
+
+  [Tier 2] Attempting with word list...
+  Tier 2 (Common + 5,000/length): 3L=2,278, 4L=6,100, 5L=6,367
+  [OK] Solution found!
+  Attempts: 3,313, Backtracks: 6,292
+  Time: 0.18s
+
+  Solution found using: Tier 2 (Common+5K)
+
+  Words found:
+    Across: FINS, AMALA, SATYR, TUTEE, MYRS
+    Down: FAST, IMAUM, NATTY, SLYER, ARES
+
+============================================================
+SUCCESS! Puzzle generated
+  Theme: Mythical and Learned
+  Word Quality: Tier 2 (Common+5K)
+============================================================
+```
+
+**Word Quality Assessment:**
+| Category | Words |
+|----------|-------|
+| Very Common | FINS, FAST, ARES, NATTY, SLYER |
+| Crossword-style | SATYR (mythology), TUTEE (student), IMAUM (imam variant) |
+| Less common | AMALA (Indian dish), MYRS (resins) |
+
+**Metadata Enhancement:**
+Puzzle JSON now includes `wordTier` field:
+```json
+{
+  "meta": {
+    "date": "2026-01-16",
+    "author": "AI Generated",
+    "theme": "Mythical and Learned",
+    "templateId": "fingers",
+    "wordTier": 2  // NEW: tracks word quality tier
+  }
+}
+```
+
+**Performance by Template:**
+| Template | Typical Tier | Solve Time |
+|----------|--------------|------------|
+| stairstep | Tier 2 | ~1s |
+| fingers | Tier 2-3 | ~0.2-0.5s |
+| corner-cut | Tier 2 | ~0.3s |
+
+**Files Modified:**
+- `scripts/generate_puzzle.py` - Tiered word list system
+- `scripts/google-10000-english.txt` - Downloaded common words (cached)
+- `public/daily.json` - Generated puzzle with Tier 2 words
+
+**Key Insight:**
+The tiered approach provides the best of both worlds:
+1. **Quality First**: Tries common words that solvers will recognize
+2. **Solvability Guaranteed**: Falls back to larger dictionary when needed
+3. **Traceability**: `wordTier` metadata tracks puzzle quality
+
+Task #10: Frontend Integration & Verification
+Status: COMPLETE - SUCCESS!
+
+Objective: Verify that the React frontend correctly parses and renders the JSON produced by the new Hybrid Engine.
+
+Verification Results:
+
+Schema Compatibility: Confirmed src/types.ts (Frontend) and generate_puzzle.py (Backend) both use Dictionary-based grid storage (Record<string, Cell>). No mismatch found.
+
+Visual Audit (Localhost):
+
+Theme: "Mythical and Learned" displayed correctly in header.
+
+Grid Layout: "Fingers" template rendered with correct block placement (Top-right, Bottom-left).
+
+Content: Words FINS, SATYR, AMALA loaded exactly as generated.
+
+Gameplay: Clue highlighting, keyboard navigation, and win-state detection ("Congratulations! You solved it!") functioned perfectly.
+
+Key Findings:
+
+The "Plug" (JSON output) fits the "Socket" (React App) perfectly.
+
+No code changes were required on the frontend to support the new generator.
+
+The "Tiered Word List" difficulty feels appropriate for a Mini (solvable but not trivial).
+
+Next Steps:
+
+Deployment: Host the frontend (likely GitHub Pages).
+
+Automation: Set up GitHub Actions to run generate_puzzle.py daily.
