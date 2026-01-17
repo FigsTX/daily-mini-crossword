@@ -4,5 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/daily-mini-crossword/",
   plugins: [react(), tailwindcss()],
 })
