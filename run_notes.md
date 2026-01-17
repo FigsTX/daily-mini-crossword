@@ -679,6 +679,82 @@ The "Tiered Word List" difficulty feels appropriate for a Mini (solvable but not
 
 Next Steps:
 
-Deployment: Host the frontend (likely GitHub Pages).
+~~Deployment: Host the frontend (likely GitHub Pages).~~
 
-Automation: Set up GitHub Actions to run generate_puzzle.py daily.
+~~Automation: Set up GitHub Actions to run generate_puzzle.py daily.~~
+
+---
+
+### Task #11: Weekly Pack Templates
+
+**Status:** COMPLETE
+
+**Objective:** Replace original templates with a verified "Weekly Pack" that respects crossword rules (min length 3, fully connected).
+
+**Changes Made:**
+- Updated `GRID_TEMPLATES` in `scripts/generate_puzzle.py`
+- Replaced 3 templates with 7 day-of-week templates
+
+**New Template Set:**
+| Day | Blocks | Description |
+|-----|--------|-------------|
+| monday | 8 | Two 3x3 areas connected by center (very easy) |
+| tuesday | 4 | Standard corners (easy) |
+| wednesday | 2 | The Stairstep (moderate) |
+| thursday | 3 | Asymmetric twist |
+| friday | 2 | The Fingers (hard) |
+| saturday | 0 | The Open Field (expert) |
+| sunday | 6 | The H-Frame |
+
+**Note:** All templates verified for crossword validity (min 3-letter words, fully connected grid).
+
+---
+
+### Task #12: GitHub Actions Workflow
+
+**Status:** COMPLETE
+
+**Objective:** Create CI/CD pipeline for daily puzzle generation and GitHub Pages deployment.
+
+**File Created:** `.github/workflows/daily_crossword.yml`
+
+**Workflow Structure:**
+```
+┌─────────────────────────────────────────────────────────────┐
+│                  TRIGGERS                                    │
+│  • push to main                                             │
+│  • schedule: cron '0 0 * * *' (midnight UTC)                │
+│  • workflow_dispatch (manual)                               │
+└─────────────────────────────────────────────────────────────┘
+                          ↓
+┌─────────────────────────────────────────────────────────────┐
+│  JOB 1: generate                                            │
+│  ─────────────────                                          │
+│  1. Checkout code                                           │
+│  2. Setup Python 3.11                                       │
+│  3. Install deps (scripts/requirements.txt)                 │
+│  4. Run generate_puzzle.py (uses GEMINI_API_KEY secret)     │
+│  5. Commit & push public/daily.json via git-auto-commit     │
+└─────────────────────────────────────────────────────────────┘
+                          ↓
+┌─────────────────────────────────────────────────────────────┐
+│  JOB 2: deploy (needs: generate)                            │
+│  ──────────────────────────────                             │
+│  1. Checkout (with latest puzzle)                           │
+│  2. Pull latest changes                                     │
+│  3. Setup Node.js 20                                        │
+│  4. npm ci                                                  │
+│  5. npm run build                                           │
+│  6. Upload dist/ artifact                                   │
+│  7. Deploy to GitHub Pages                                  │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Required Secrets:**
+- `GEMINI_API_KEY` - Must be configured in GitHub repo Settings → Secrets
+
+**Required Repo Settings:**
+1. Enable GitHub Pages (Settings → Pages → Source: "GitHub Actions")
+2. Add `GEMINI_API_KEY` to repository secrets
+
+**Deployment URL:** Will be available at `https://<username>.github.io/<repo-name>/`

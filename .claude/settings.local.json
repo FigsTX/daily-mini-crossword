@@ -10,7 +10,10 @@
       "Bash(timeout:*)",
       "Bash(pip install:*)",
       "Bash(python scripts/generate_puzzle.py:*)",
-      "Bash(python -m pip install:*)"
+      "Bash(python -m pip install:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)"
     ]
   }
 }

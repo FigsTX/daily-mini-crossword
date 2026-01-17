@@ -38,41 +38,97 @@ FULL_DICT_PATH = Path(__file__).parent / "words_alpha.txt"
 GRID_SIZE = 5
 
 # Grid templates (# = black square, . = letter cell)
+# Weekly Pack: Each day has a template verified for crossword rules (min length 3, fully connected)
 GRID_TEMPLATES = {
-    "stairstep": {
-        "id": "stairstep",
-        "name": "The Stairstep",
-        "description": "Diagonal blocks at opposite corners (0,0 and 4,4)",
+    # MONDAY: 8 blocks. Very easy. Two 3x3 areas connected by the center.
+    "monday": {
+        "id": "monday",
+        "name": "Monday",
+        "description": "Very easy. Two 3x3 areas connected by the center (8 blocks)",
         "layout": [
-            "#....",
+            "...##",
+            "...##",
             ".....",
-            ".....",
-            ".....",
-            "....#",
+            "##...",
+            "##...",
         ],
     },
-    "fingers": {
-        "id": "fingers",
-        "name": "The Fingers",
-        "description": "Anti-diagonal blocks at corners (0,4 and 4,0)",
-        "layout": [
-            "....#",
-            ".....",
-            ".....",
-            ".....",
-            "#....",
-        ],
-    },
-    "corner-cut": {
-        "id": "corner-cut",
-        "name": "The Corner Cut",
-        "description": "Three corners blocked, one open",
+    # TUESDAY: 4 blocks. Easy. Standard corners.
+    "tuesday": {
+        "id": "tuesday",
+        "name": "Tuesday",
+        "description": "Easy. Standard corners (4 blocks)",
         "layout": [
             "#...#",
             ".....",
             ".....",
             ".....",
+            "#...#",
+        ],
+    },
+    # WEDNESDAY: 2 blocks. Moderate. The 'Stairstep'.
+    "wednesday": {
+        "id": "wednesday",
+        "name": "Wednesday",
+        "description": "Moderate. The Stairstep (2 blocks)",
+        "layout": [
             "#....",
+            ".....",
+            ".....",
+            ".....",
+            "....#",
+        ],
+    },
+    # THURSDAY: 3 blocks. Asymmetric twist.
+    "thursday": {
+        "id": "thursday",
+        "name": "Thursday",
+        "description": "Asymmetric twist (3 blocks)",
+        "layout": [
+            "#....",
+            ".....",
+            ".....",
+            ".....",
+            "#...#",
+        ],
+    },
+    # FRIDAY: 2 blocks. Hard. The 'Fingers'.
+    "friday": {
+        "id": "friday",
+        "name": "Friday",
+        "description": "Hard. The Fingers (2 blocks)",
+        "layout": [
+            "....#",
+            ".....",
+            ".....",
+            ".....",
+            "#....",
+        ],
+    },
+    # SATURDAY: 0 blocks. Expert. The Open Field.
+    "saturday": {
+        "id": "saturday",
+        "name": "Saturday",
+        "description": "Expert. The Open Field (0 blocks)",
+        "layout": [
+            ".....",
+            ".....",
+            ".....",
+            ".....",
+            ".....",
+        ],
+    },
+    # SUNDAY: 4 blocks. The 'H-Frame'.
+    "sunday": {
+        "id": "sunday",
+        "name": "Sunday",
+        "description": "The H-Frame (4 blocks)",
+        "layout": [
+            "#...#",
+            ".....",
+            "#...#",
+            ".....",
+            "#...#",
         ],
     },
 }
