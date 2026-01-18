@@ -32,7 +32,7 @@ function App() {
   useEffect(() => {
     async function loadPuzzle() {
       try {
-        const response = await fetch('/daily.json');
+        const response = await fetch('./daily.json');
         const data = await response.json();
         const parsed = DailyPuzzleSchema.parse(data);
         setPuzzle(parsed);
