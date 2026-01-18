@@ -789,3 +789,56 @@ GitHub Pages deploys to `https://<user>.github.io/<repo>/` (subfolder), but Vite
 **Verification:**
 - Workflow will rebuild on next push/schedule
 - Site should load correctly at `https://figstx.github.io/daily-mini-crossword/`
+
+---
+
+### Task #14: Fix Data Fetching Path
+
+**Status:** COMPLETE
+
+**Issue:** App stuck on "Loading puzzle..." because fetch request failed on GitHub Pages.
+
+**Root Cause:**
+The fetch URL `/daily.json` is an absolute path from the domain root. On GitHub Pages (`https://user.github.io/repo/`), this resolves to `https://user.github.io/daily.json` instead of `https://user.github.io/repo/daily.json`.
+
+**Fix Applied:** (`src/App.tsx:35`)
+```diff
+- const response = await fetch('/daily.json');
++ const response = await fetch('./daily.json');
+```
+
+The relative path `./daily.json` correctly resolves relative to the current page location.
+
+**Commit:** 500c349
+
+---
+
+### Task #15: Make Workflow Robust for Empty Commits
+
+**Status:** COMPLETE
+
+**Issue:** GitHub Actions workflow failed on push when the daily puzzle was already generated (no changes to commit).
+
+**Fixes Applied:** (`.github/workflows/daily_crossword.yml`)
+
+1. **Skip dirty check on commit action:**
+   ```yaml
+   - name: Commit and push puzzle
+     uses: stefanzweifel/git-auto-commit-action@v5
+     with:
+       ...
+       skip_dirty_check: true  # Added - prevents failure on clean tree
+   ```
+
+2. **Ensure deploy runs regardless of generate outcome:**
+   ```yaml
+   deploy:
+     runs-on: ubuntu-latest
+     needs: generate
+     if: ${{ !cancelled() }}  # Added - runs unless workflow cancelled
+   ```
+
+**Result:**
+- Push-triggered workflows deploy even when puzzle unchanged
+- Scheduled runs still generate and commit new puzzles
+- Manual triggers work for both scenarios

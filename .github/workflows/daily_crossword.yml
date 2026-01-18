@@ -56,6 +56,7 @@ jobs:
           file_pattern: public/daily.json
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "actions@github.com"
+          skip_dirty_check: true
 
   # =============================================================================
   # Job 2: Build & Deploy to GitHub Pages
@@ -63,6 +64,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: generate
+    if: ${{ !cancelled() }}
 
     environment:
       name: github-pages
