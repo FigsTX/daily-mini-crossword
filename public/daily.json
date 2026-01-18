@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-01-17",
+    "date": "2026-01-18",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Alphabet Soup",
-    "templateId": "monday",
-    "wordTier": 2
+    "theme": "Small Wonders",
+    "templateId": "thursday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "K",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "I",
-      "clueIndex": 2
+      "char": "T",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "E",
-      "clueIndex": 3
+      "char": "A",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "G",
+      "clueIndex": 3
     },
     "0,4": {
-      "char": null
-    },
-    "1,0": {
-      "char": "U",
+      "char": "S",
       "clueIndex": 4
     },
+    "1,0": {
+      "char": "V",
+      "clueIndex": 5
+    },
     "1,1": {
-      "char": "N"
+      "char": "I"
     },
     "1,2": {
-      "char": "C"
+      "char": "L"
     },
     "1,3": {
-      "char": null
+      "char": "L"
     },
     "1,4": {
-      "char": null
+      "char": "A"
     },
     "2,0": {
       "char": "A",
-      "clueIndex": 5
-    },
-    "2,1": {
-      "char": "O"
-    },
-    "2,2": {
-      "char": "T"
-    },
-    "2,3": {
-      "char": "E",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "L"
+    },
+    "2,2": {
+      "char": "L"
+    },
+    "2,3": {
+      "char": "O"
+    },
     "2,4": {
-      "char": "S",
-      "clueIndex": 7
+      "char": "Y"
     },
     "3,0": {
-      "char": null
+      "char": "T",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "A",
-      "clueIndex": 8
+      "char": "A"
     },
     "3,3": {
-      "char": "N"
+      "char": "R"
     },
     "3,4": {
-      "char": "A"
+      "char": "S"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "S",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "L",
-      "clueIndex": 9
+      "char": "N"
     },
     "4,3": {
-      "char": "L"
+      "char": "Y"
     },
     "4,4": {
-      "char": "P"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Ukrainian capital's initial?",
-      "4": "Tar Heel initials",
-      "5": "Genus of night monkeys",
-      "8": "Santa ___, California city",
-      "9": "Legal partnership, briefly"
+      "1": "Labels attached",
+      "5": "Luxury rental abroad",
+      "6": "Metal mix",
+      "7": "Sad drips",
+      "8": "Short for Sonny"
     },
     "down": {
-      "1": "Hawaiian altar",
-      "2": "Like some printers' cartridges",
-      "3": "Outer; superficial",
-      "6": "Brit. ranking: abbr.",
-      "7": "Lifeblood of a tree"
+      "1": "Bathroom squares",
+      "2": "Poe of literature",
+      "3": "Great renown",
+      "4": "Declares, aloud",
+      "5": "Big beer holder"
     }
   }
 }
