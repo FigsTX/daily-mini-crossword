@@ -3,7 +3,7 @@
     "date": "2026-01-19",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Literary Miscellany",
+    "theme": "Things That Are Paired",
     "templateId": "friday",
     "wordTier": 3
   },
@@ -13,104 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": "R",
+      "char": "J",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "A",
+      "char": "U",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "N",
+      "char": "J",
       "clueIndex": 3
     },
     "0,3": {
-      "char": "T",
+      "char": "U",
       "clueIndex": 4
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "O",
+      "char": "A",
       "clueIndex": 5
     },
     "1,1": {
-      "char": "R"
+      "char": "N"
     },
     "1,2": {
-      "char": "G"
+      "char": "A"
     },
     "1,3": {
-      "char": "U"
+      "char": "N"
     },
     "1,4": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 6
     },
     "2,0": {
-      "char": "O",
+      "char": "W",
       "clueIndex": 7
     },
     "2,1": {
-      "char": "T"
+      "char": "H"
     },
     "2,2": {
-      "char": "A"
+      "char": "I"
     },
     "2,3": {
       "char": "R"
     },
     "2,4": {
-      "char": "Y"
+      "char": "R"
     },
     "3,0": {
-      "char": "K",
+      "char": "Y",
       "clueIndex": 8
     },
     "3,1": {
-      "char": "A"
+      "char": "O"
     },
     "3,2": {
-      "char": "P"
+      "char": "M"
     },
     "3,3": {
-      "char": "P"
+      "char": "I"
     },
     "3,4": {
-      "char": "A"
+      "char": "M"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "R",
+      "char": "T",
       "clueIndex": 9
     },
     "4,2": {
-      "char": "I"
+      "char": "E"
     },
     "4,3": {
-      "char": "S"
+      "char": "P"
     },
     "4,4": {
-      "char": "S"
+      "char": "Y"
     }
   },
   "clues": {
     "across": {
-      "1": "Tirade; vent one's spleen",
-      "5": "Monster in Rabelais's works",
-      "7": "Rotating machine with a T!",
-      "8": "Fraternity letter",
-      "9": "Weathered surface"
+      "1": "Charm against bad luck",
+      "5": "Pineapple, in slang",
+      "7": "Buzzing sound",
+      "8": "Days, in Hebrew",
+      "9": "Like a wigwam"
     },
     "down": {
-      "1": "Castle piece",
-      "2": "Cream of ___, baking ingredient",
-      "3": "Fermented fish sauce",
-      "4": "Painter's solvent, briefly",
-      "6": "Young hawk"
+      "1": "Like a toothy fish",
+      "2": "Not sizzling, say",
+      "3": "Game of Thrones slayer",
+      "4": "Ravage a seam",
+      "6": "Group of soldiers"
     }
   }
 }
