@@ -1057,3 +1057,112 @@ Date: 2026-01-18 (Sunday in Central Time)
 ```
 
 **Note:** The original H-Frame design was too constrained. Future template designs should be tested for solvability before deployment.
+
+---
+
+### Task #20: Strict Word Quality & Crossability Heuristic
+
+**Status:** COMPLETE
+
+**Objective:** Enforce strict word quality by removing dictionary fallback and implementing crossability-based candidate selection.
+
+**User Requirements:**
+1. Kill the dictionary fallback - ONLY use `google-10000-english.txt`
+2. Tier 0: Top 5,000 words ("Middle School")
+3. Tier 1: All 10,000 common words
+4. If Tier 1 fails, FAIL generation (no fallback)
+5. Replace "fun score" with "crossability score" (grid-friendly words)
+
+**Changes Implemented:**
+
+1. **Removed Full Dictionary Fallback**
+   - Deleted all references to `words_alpha.txt` (370K word dictionary)
+   - New `load_word_list()` function only loads `google-10000-english.txt`
+   - Tiers reduced from 5 (0-4) to 2 (0-1)
+
+2. **Crossability Score Heuristic** (`calculate_crossability_score()`)
+   ```python
+   LETTER_FREQUENCY = {
+       'E': 12, 'T': 9, 'A': 8, 'O': 7, 'I': 7, 'N': 6, 'S': 6, 'H': 5, 'R': 5,
+       'D': 4, 'L': 4, 'C': 3, 'U': 3, 'M': 3, 'W': 2, 'F': 2, 'G': 2, 'Y': 2,
+       'P': 2, 'B': 2, 'V': 1, 'K': 1, 'J': 1, 'X': 1, 'Q': 1, 'Z': 1,
+   }
+   ```
+   - Higher scores = more common letters = easier to cross with other words
+   - Words like STARE, LANES, TONES score high (grid-friendly)
+   - Words like JAZZ, QUIZZ score low (blocking letters)
+   - **Opposite of old "fun score"** - now prioritizes solvability over rare letters
+
+3. **Weighted Random Candidate Selection** (`get_candidates()`)
+   ```python
+   # Weighted shuffle with random factor for variety
+   scored.sort(key=lambda x: x[1] + random.uniform(0, 2), reverse=True)
+   ```
+   - Crossability score influences ordering but doesn't strictly limit
+   - Random factor prevents identical orderings between attempts
+   - ALL candidates can be tried (not just top N)
+
+4. **Improved Slot Ordering** (`sort_slots_by_difficulty()`)
+   ```python
+   # Fill most constrained slots first
+   return sorted(slots, key=lambda s: (-len(s.intersections), -s.length))
+   ```
+   - Changed from "shortest first" to "most intersections first"
+   - Better pruning = faster convergence to solutions
+
+5. **Increased Solver Limits**
+   ```python
+   MAX_ATTEMPTS = 500000    # (was 100,000)
+   TIMEOUT_SECONDS = 60     # (was 30)
+   ```
+
+**Test Results:**
+```
+[Stage 0] Loading Word List...
+  Word list loaded: 9,894 words (google-10000-english)
+
+[Tier 0] Strict 5K (Middle School): 3L=353, 4L=646, 5L=749
+  (5 attempts - exhausted, escalating...)
+
+[Tier 1] Standard 10K: 3L=664, 4L=1,100, 5L=1,367
+  [OK] Solution found!
+  Attempts: 84,308, Backtracks: 236,799
+  Time: 8.60s
+
+Grid:
+  # O F F #
+  A T L A S
+  S H O R E
+  N E W E R
+  # R S S #
+
+Words: OFF, ATLAS, SHORE, NEWER, RSS, OTHER, FLOWS, FARES, ASN, SER
+Theme: "Navigation"
+Word Quality: Tier 1 (Standard 10K)
+```
+
+**Word Quality Assessment:**
+| Category | Words |
+|----------|-------|
+| Very Common | ATLAS, SHORE, NEWER, OFF |
+| Common | OTHER, FLOWS, FARES |
+| Abbreviations | RSS, ASN, SER |
+
+**Files Modified:**
+- `scripts/generate_puzzle.py` - Complete refactoring
+
+**New/Modified Functions:**
+| Function | Change |
+|----------|--------|
+| `load_word_list()` | NEW - replaces `load_word_lists()`, no dictionary |
+| `calculate_crossability_score()` | NEW - letter frequency scoring |
+| `create_tiered_word_list()` | Modified - only tiers 0 and 1 |
+| `get_candidates()` | Modified - weighted random selection |
+| `sort_slots_by_difficulty()` | Modified - constrained slots first |
+| `generate_puzzle()` | Modified - strict tier escalation (0→1→FAIL) |
+
+**Key Insights:**
+1. **Crossability > Fun** - Grid-friendly words enable solvability with smaller word lists
+2. **Weighted randomness** - Better than strict top-N selection for variety
+3. **Constraint ordering** - Filling most-intersected slots first prunes dead ends faster
+4. **No fallback = discipline** - Forces word list quality improvements instead of hiding problems

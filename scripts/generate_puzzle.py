@@ -32,20 +32,21 @@ load_dotenv()
 # Configuration
 # =============================================================================
 
-# Tiered word lists for quality + solvability
-# Tier 0: Top 5,000 most common words ("Middle School" mode)
-# Tier 1: Google's 10,000 most common English words (no swears)
-# Tier 2+: Progressively larger word pools for solvability
+# Strict word list - ONLY use google-10000-english.txt (no dictionary fallback)
+# Tier 0: Top 5,000 words ("Middle School" level)
+# Tier 1: Top 10,000 words (Standard)
 COMMON_WORDS_URL = "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt"
 COMMON_WORDS_PATH = Path(__file__).parent / "google-10000-english.txt"
-FULL_DICT_URL = "https://raw.githubusercontent.com/dwyl/english-words/master/words_alpha.txt"
-FULL_DICT_PATH = Path(__file__).parent / "words_alpha.txt"
 GRID_SIZE = 5
 
-# Fun score configuration
-RARE_LETTERS = set('JQXZ')       # +2.0 points each
-SEMI_RARE_LETTERS = set('KVWY')  # +1.0 point each
-FUN_SCORE_TOP_N = 25             # Select randomly from top N candidates
+# Crossability score configuration - letter frequency weights (higher = more common/flexible)
+# Based on English letter frequency: E T A O I N S H R D L C U M W F G Y P B V K J X Q Z
+LETTER_FREQUENCY = {
+    'E': 12, 'T': 9, 'A': 8, 'O': 7, 'I': 7, 'N': 6, 'S': 6, 'H': 5, 'R': 5,
+    'D': 4, 'L': 4, 'C': 3, 'U': 3, 'M': 3, 'W': 2, 'F': 2, 'G': 2, 'Y': 2,
+    'P': 2, 'B': 2, 'V': 1, 'K': 1, 'J': 1, 'X': 1, 'Q': 1, 'Z': 1,
+}
+CROSSABILITY_TOP_N = 50          # Select randomly from top N candidates (or top 25% if fewer)
 
 # Grid templates (# = black square, . = letter cell)
 # Weekly Pack: Each day has a template verified for crossword rules (min length 3, fully connected)
@@ -181,37 +182,30 @@ def download_file(url: str, path: Path) -> bool:
         return False
 
 
-def load_word_lists() -> tuple[set[str], set[str], list[str]]:
+def load_word_list() -> tuple[set[str], list[str]]:
     """
-    Load both common words and full dictionary.
-    Returns: (common_words_set, full_dictionary_set, common_words_ordered_list)
+    Load the curated word list (google-10000-english.txt only).
+    Returns: (words_set, words_ordered_list)
 
     The ordered list preserves frequency ordering for Tier 0 selection.
+    NO dictionary fallback - only quality words allowed.
     """
-    # Download files if needed
+    # Download file if needed
     download_file(COMMON_WORDS_URL, COMMON_WORDS_PATH)
-    download_file(FULL_DICT_URL, FULL_DICT_PATH)
 
-    # Load common words (high quality) - preserve order for Tier 0
-    common_words_ordered = []
-    common_words = set()
+    # Load common words - preserve order for tier selection
+    words_ordered = []
+    words_set = set()
     if COMMON_WORDS_PATH.exists():
         with open(COMMON_WORDS_PATH, "r", encoding="utf-8") as f:
             for line in f:
                 word = line.strip().lower()
                 if word:
-                    common_words_ordered.append(word)
-                    common_words.add(word)
-        print(f"  Common words loaded: {len(common_words):,}")
+                    words_ordered.append(word)
+                    words_set.add(word)
+        print(f"  Word list loaded: {len(words_set):,} words (google-10000-english)")
 
-    # Load full dictionary (fallback)
-    full_dict = set()
-    if FULL_DICT_PATH.exists():
-        with open(FULL_DICT_PATH, "r", encoding="utf-8") as f:
-            full_dict = {line.strip().lower() for line in f if line.strip()}
-        print(f"  Full dictionary loaded: {len(full_dict):,}")
-
-    return common_words, full_dict, common_words_ordered
+    return words_set, words_ordered
 
 
 def organize_by_length(word_set: set[str], min_len: int = 3, max_len: int = 5) -> dict[int, list[str]]:
@@ -231,85 +225,51 @@ def organize_by_length(word_set: set[str], min_len: int = 3, max_len: int = 5) -
     return by_length
 
 
-def calculate_word_score(word: str) -> float:
+def calculate_crossability_score(word: str) -> float:
     """
-    Calculate a 'fun score' for a word based on letter rarity.
+    Calculate a 'crossability score' for a word based on letter frequency.
 
-    Scoring:
-    - Base score: 1.0
-    - Rare letters (J, Q, X, Z): +2.0 each
-    - Semi-rare letters (K, V, W, Y): +1.0 each
+    Higher scores = more common letters = easier to cross with other words.
+    Words like STARE, LANES, TONES score high (flexible).
+    Words like JAZZ, VIVID score low (blocking).
 
-    Higher scores = more "fun" crossword words.
+    This is the OPPOSITE of the old "fun score" - we now prioritize
+    grid-friendly words to improve solvability with the smaller word list.
     """
-    score = 1.0
+    score = 0.0
     word_upper = word.upper()
 
     for letter in word_upper:
-        if letter in RARE_LETTERS:
-            score += 2.0
-        elif letter in SEMI_RARE_LETTERS:
-            score += 1.0
+        score += LETTER_FREQUENCY.get(letter, 1)
 
-    return score
+    # Normalize by word length to avoid bias toward longer words
+    return score / len(word) if word else 0.0
 
 
 def create_tiered_word_list(
-    common_words: set[str],
-    full_dict: set[str],
+    words_ordered: list[str],
     tier: int = 0,
     min_len: int = 3,
     max_len: int = 5,
-    common_words_ordered: list[str] = None
 ) -> dict[int, list[str]]:
     """
-    Create word list based on tier level:
-    - Tier 0: Top 5,000 most common words ("Middle School" mode)
-    - Tier 1: All 10,000 common words (highest quality)
-    - Tier 2: Common words + 5K supplemental words per length
-    - Tier 3: Common words + 15K supplemental words per length
-    - Tier 4: Full dictionary (maximum solvability)
+    Create word list based on tier level (STRICT - no dictionary fallback):
+    - Tier 0: Top 5,000 most common words ("Middle School" level)
+    - Tier 1: All 10,000 common words (Standard)
 
     Args:
-        common_words_ordered: Ordered list of common words (for Tier 0 selection)
+        words_ordered: Ordered list of words by frequency
     """
     if tier == 0:
-        # Tier 0: "Middle School" mode - only top 5,000 words
-        if common_words_ordered:
-            top_5k = set(common_words_ordered[:5000])
-        else:
-            # Fallback: just take first 5000 from the set (less ideal)
-            top_5k = set(list(common_words)[:5000])
-        words = organize_by_length(top_5k, min_len, max_len)
-        tier_name = "Middle School (Top 5K)"
-    elif tier == 1:
-        words = organize_by_length(common_words, min_len, max_len)
-        tier_name = "Common only (10K)"
-    elif tier == 4:
-        words = organize_by_length(full_dict, min_len, max_len)
-        tier_name = "Full dictionary"
+        # Tier 0: "Middle School" level - only top 5,000 words
+        word_set = set(words_ordered[:5000])
+        tier_name = "Strict 5K (Middle School)"
     else:
-        # Tiered: common words + sample from remaining dictionary
-        supplement_per_length = 5000 if tier == 2 else 15000
-        combined = set()
+        # Tier 1: All 10,000 common words
+        word_set = set(words_ordered)
+        tier_name = "Standard 10K"
 
-        # Start with all common words
-        for word in common_words:
-            if min_len <= len(word) <= max_len:
-                combined.add(word)
-
-        # Add supplemental words from full dictionary (not in common)
-        remaining = full_dict - common_words
-        remaining_by_length = organize_by_length(remaining, min_len, max_len)
-
-        for length in range(min_len, max_len + 1):
-            sample_size = min(supplement_per_length, len(remaining_by_length[length]))
-            sample = remaining_by_length[length][:sample_size]
-            combined.update(w.lower() for w in sample)
-
-        words = organize_by_length(combined, min_len, max_len)
-        tier_name = f"Common + {supplement_per_length:,}/length"
-
+    words = organize_by_length(word_set, min_len, max_len)
     print(f"  Tier {tier} ({tier_name}): {', '.join(f'{k}L={len(v):,}' for k, v in sorted(words.items()))}")
     return words
 
@@ -434,10 +394,10 @@ def extract_slots(template_id: str) -> list[Slot]:
 def sort_slots_by_difficulty(slots: list[Slot]) -> list[Slot]:
     """
     Sort slots for optimal solving order.
-    Strategy: Fill shorter slots first (more candidate options in common word list),
-    then by fewer intersections (less constrained).
+    Strategy: Fill slots with more intersections first (more constrained = better pruning),
+    then by length (longer slots are harder to fill later).
     """
-    return sorted(slots, key=lambda s: (s.length, len(s.intersections)))
+    return sorted(slots, key=lambda s: (-len(s.intersections), -s.length))
 
 
 # =============================================================================
@@ -453,8 +413,8 @@ class CrosswordSolver:
 
     # Solver configuration (tuned for Google 10K common words)
     MAX_CANDIDATES = 5000     # Smaller word list = fewer candidates
-    MAX_ATTEMPTS = 100000     # Give up after this many attempts
-    TIMEOUT_SECONDS = 30      # Per-attempt timeout
+    MAX_ATTEMPTS = 500000     # Increased for strict word lists
+    TIMEOUT_SECONDS = 60      # Increased timeout per attempt
 
     def __init__(self, template_id: str, words_by_length: dict[int, list[str]], letter_index: dict):
         self.template_id = template_id
@@ -494,32 +454,26 @@ class CrosswordSolver:
         """
         Get candidate words that match the current pattern using fast index.
 
-        Uses fun score heuristic to prioritize interesting words:
-        - Calculates score based on rare/semi-rare letters
-        - Sorts candidates by score (descending)
-        - Randomly selects from top N for variety
+        Uses weighted random selection based on crossability scores:
+        - Words with common letters (E,T,A,O,I,N,S) are more likely to be selected
+        - But ALL candidates can be tried, not just top N
+        - This provides variety while still favoring grid-friendly words
         """
         matching = self.get_matching_words_fast(slot)
 
         if not matching:
             return []
 
-        # Calculate fun scores for all candidates
-        scored_candidates = [(word, calculate_word_score(word)) for word in matching]
+        candidates = list(matching)
 
-        # Sort by score descending
-        scored_candidates.sort(key=lambda x: x[1], reverse=True)
+        # Weighted shuffle: words with higher crossability scores
+        # are more likely to appear earlier in the list
+        scored = [(word, calculate_crossability_score(word)) for word in candidates]
 
-        # Take top N candidates for variety, then shuffle
-        top_n = min(FUN_SCORE_TOP_N, len(scored_candidates))
-        top_candidates = [word for word, score in scored_candidates[:top_n]]
-        random.shuffle(top_candidates)
-
-        # Add remaining candidates (shuffled) after top picks
-        remaining = [word for word, score in scored_candidates[top_n:]]
-        random.shuffle(remaining)
-
-        candidates = top_candidates + remaining
+        # Use weighted sampling to create ordering
+        # Add small random factor to prevent identical orderings
+        scored.sort(key=lambda x: x[1] + random.uniform(0, 2), reverse=True)
+        candidates = [word for word, _ in scored]
 
         # Limit total size
         if len(candidates) > self.MAX_CANDIDATES:
@@ -875,9 +829,9 @@ def generate_puzzle(template_id: str | None = None, max_solver_retries: int = 10
     print("HYBRID ENGINE - Crossword Generator")
     print("=" * 60)
 
-    # Load word lists
-    print("\n[Stage 0] Loading Word Lists...")
-    common_words, full_dict, common_words_ordered = load_word_lists()
+    # Load word list (STRICT - no dictionary fallback)
+    print("\n[Stage 0] Loading Word List...")
+    words_set, words_ordered = load_word_list()
 
     # Select template based on day of week in Central Time (or use specified template)
     # Use Central Time to ensure correct day for US-based users
@@ -907,20 +861,18 @@ def generate_puzzle(template_id: str | None = None, max_solver_retries: int = 10
     print("-" * 40)
     print(f"Template: {template_id} ({GRID_TEMPLATES[template_id]['name']})")
 
-    # Tiered solving: start with Tier 0 (Middle School), escalate if needed
-    tier_attempts = {0: 3, 1: 3, 2: 3, 3: 3, 4: 5}  # attempts per tier
+    # STRICT tiered solving: Tier 0 (5K) → Tier 1 (10K) → FAIL
+    # NO dictionary fallback - only quality words allowed
+    tier_attempts = {0: 5, 1: 5}  # More attempts per tier since we only have 2 tiers
     grid = None
     solver = None
     final_tier = 0
 
-    for tier in [0, 1, 2, 3, 4]:
+    for tier in [0, 1]:
         attempts_for_tier = tier_attempts[tier]
         print(f"\n  [Tier {tier}] Attempting with word list...")
 
-        words_by_length = create_tiered_word_list(
-            common_words, full_dict, tier,
-            common_words_ordered=common_words_ordered
-        )
+        words_by_length = create_tiered_word_list(words_ordered, tier)
         letter_index = build_letter_index(words_by_length)
 
         for attempt in range(1, attempts_for_tier + 1):
@@ -938,13 +890,14 @@ def generate_puzzle(template_id: str | None = None, max_solver_retries: int = 10
         print(f"  [Tier {tier}] No solution found, escalating...")
 
     if not grid:
-        print("\n[X] Failed to generate valid grid after all attempts")
+        print("\n[X] Failed to generate valid grid with quality words only")
+        print("    (No dictionary fallback - strict word quality enforced)")
         return None
 
     solver.print_grid()
     words = solver.get_words()
 
-    tier_names = {0: "Middle School", 1: "Common 10K", 2: "Common+5K", 3: "Common+15K", 4: "Full dictionary"}
+    tier_names = {0: "Strict 5K", 1: "Standard 10K"}
     print(f"\n  Solution found using: Tier {final_tier} ({tier_names[final_tier]})")
     print(f"\n  Words found:")
     print(f"    Across: {', '.join(f'{k}={v}' for k, v in sorted(words['across'].items()))}")
