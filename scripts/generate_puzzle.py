@@ -128,15 +128,15 @@ GRID_TEMPLATES = {
             ".....",
         ],
     },
-    # SUNDAY: 4 blocks. The 'H-Frame'.
+    # SUNDAY: 4 blocks. Corner blocks (same as Tuesday but different day).
     "sunday": {
         "id": "sunday",
         "name": "Sunday",
-        "description": "The H-Frame (4 blocks)",
+        "description": "Corner blocks (4 blocks)",
         "layout": [
             "#...#",
             ".....",
-            "#...#",
+            ".....",
             ".....",
             "#...#",
         ],

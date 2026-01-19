@@ -1013,3 +1013,47 @@ Template: sunday
 - Puzzle date and template now based on Central Time (America/Chicago)
 - Works correctly on both Windows (local dev) and Linux (GitHub Actions)
 - Users in Central timezone see the correct day's puzzle
+
+---
+
+### Task #19: Fix Unsolvable Sunday H-Frame Template
+
+**Status:** COMPLETE
+
+**Issue:** Sunday's H-Frame template (6 blocks) was unsolvable - solver exhausted all tiers without finding a valid grid.
+
+**Root Cause:**
+Original layout had blocks at (0,0), (0,4), (2,0), (2,4), (4,0), (4,4):
+```
+#...#
+.....
+#...#   ← 6 blocks created impossible constraints
+.....
+#...#
+```
+
+This created only 3 down slots (columns 1,2,3) each requiring 5-letter words that must all intersect perfectly with 5 across words.
+
+**Fix Applied:**
+Changed Sunday to use corner blocks (same as Tuesday):
+```python
+"layout": [
+    "#...#",
+    ".....",
+    ".....",   # No middle blocks - much easier to solve
+    ".....",
+    "#...#",
+],
+```
+
+**Verification:**
+```
+[Solver] Solution found!
+  Attempts: 17,951, Backtracks: 151,760
+  Time: 5.76s
+
+Template: sunday
+Date: 2026-01-18 (Sunday in Central Time)
+```
+
+**Note:** The original H-Frame design was too constrained. Future template designs should be tested for solvability before deployment.
