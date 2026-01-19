@@ -842,3 +842,79 @@ The relative path `./daily.json` correctly resolves relative to the current page
 - Push-triggered workflows deploy even when puzzle unchanged
 - Scheduled runs still generate and commit new puzzles
 - Manual triggers work for both scenarios
+
+---
+
+## Session: 2026-01-18
+
+### Task #16: Fun Word Prioritization & Tier 0 "Middle School" Mode
+
+**Status:** COMPLETE
+
+**Objective:** Upgrade word generation to prioritize fun, accessible words while preventing solver deadlocks.
+
+**Changes Implemented:**
+
+1. **Tier 0 "Middle School" Mode**
+   - New strictest tier using only top 5,000 words from Google's 10K list
+   - Preserves frequency ordering for optimal word selection
+   - Updated `load_word_lists()` to return ordered list for Tier 0
+
+2. **Fun Score Heuristic** (`calculate_word_score()`)
+   ```python
+   RARE_LETTERS = set('JQXZ')       # +2.0 points each
+   SEMI_RARE_LETTERS = set('KVWY')  # +1.0 point each
+   FUN_SCORE_TOP_N = 25             # Select from top 25 candidates
+   ```
+   - Base score: 1.0
+   - Words with rare letters score higher (e.g., JAZZ=7.0, QUICK=4.0, HELLO=1.0)
+
+3. **Weighted Candidate Selection** (`get_candidates()`)
+   - Calculates fun score for all matching words
+   - Sorts by score descending
+   - Randomly selects from top N (25) for variety
+   - Remaining candidates shuffled and appended
+
+4. **Robust Tier Fallback**
+   - Tier progression: 0 → 1 → 2 → 3 → 4
+   - Each tier gets 3-5 attempts before escalating
+   - `meta.wordTier` in JSON indicates final tier used
+
+**Tier Definitions:**
+| Tier | Name | Word Count |
+|------|------|------------|
+| 0 | Middle School | Top 5,000 |
+| 1 | Common 10K | ~10,000 |
+| 2 | Common+5K | ~15,000/length |
+| 3 | Common+15K | ~25,000/length |
+| 4 | Full Dictionary | 370,000 |
+
+**Test Results (Tuesday template):**
+```
+[Tier 0] 3L=353, 4L=646, 5L=749 → exhausted (1.1s)
+[Tier 1] 3L=664, 4L=1,100, 5L=1,367 → max attempts
+[Tier 2-3] → timeouts
+[Tier 4] → Solution found!
+
+Words: KAJ, VIDUA, INDII, ZOIST, TSE, KINOT, ADDIS, JUISE, VIZ, AIT
+Theme: "Oddities and Ends"
+```
+
+**Files Modified:**
+- `scripts/generate_puzzle.py` - All changes in this file
+
+**New Functions:**
+| Function | Purpose |
+|----------|---------|
+| `calculate_word_score(word)` | Fun score based on rare letters |
+
+**Modified Functions:**
+| Function | Change |
+|----------|--------|
+| `load_word_lists()` | Returns ordered list for Tier 0 |
+| `create_tiered_word_list()` | Supports Tier 0 with top 5K words |
+| `get_candidates()` | Weighted selection from top N by fun score |
+| `generate_puzzle()` | Starts at Tier 0, escalates through all tiers |
+
+**Key Insight:**
+The fun score prioritizes crossword-friendly words (containing J, Q, X, Z, K, V, W, Y) while the tiered fallback ensures solvability. Even when Tier 0 fails, the solver gracefully escalates to find a valid solution.

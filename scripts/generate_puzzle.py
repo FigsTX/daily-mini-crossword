@@ -29,13 +29,19 @@ load_dotenv()
 # =============================================================================
 
 # Tiered word lists for quality + solvability
+# Tier 0: Top 5,000 most common words ("Middle School" mode)
 # Tier 1: Google's 10,000 most common English words (no swears)
-# Tier 2: Full dictionary as fallback for letter combinations
+# Tier 2+: Progressively larger word pools for solvability
 COMMON_WORDS_URL = "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt"
 COMMON_WORDS_PATH = Path(__file__).parent / "google-10000-english.txt"
 FULL_DICT_URL = "https://raw.githubusercontent.com/dwyl/english-words/master/words_alpha.txt"
 FULL_DICT_PATH = Path(__file__).parent / "words_alpha.txt"
 GRID_SIZE = 5
+
+# Fun score configuration
+RARE_LETTERS = set('JQXZ')       # +2.0 points each
+SEMI_RARE_LETTERS = set('KVWY')  # +1.0 point each
+FUN_SCORE_TOP_N = 25             # Select randomly from top N candidates
 
 # Grid templates (# = black square, . = letter cell)
 # Weekly Pack: Each day has a template verified for crossword rules (min length 3, fully connected)
@@ -171,20 +177,27 @@ def download_file(url: str, path: Path) -> bool:
         return False
 
 
-def load_word_lists() -> tuple[set[str], set[str]]:
+def load_word_lists() -> tuple[set[str], set[str], list[str]]:
     """
     Load both common words and full dictionary.
-    Returns: (common_words, full_dictionary)
+    Returns: (common_words_set, full_dictionary_set, common_words_ordered_list)
+
+    The ordered list preserves frequency ordering for Tier 0 selection.
     """
     # Download files if needed
     download_file(COMMON_WORDS_URL, COMMON_WORDS_PATH)
     download_file(FULL_DICT_URL, FULL_DICT_PATH)
 
-    # Load common words (high quality)
+    # Load common words (high quality) - preserve order for Tier 0
+    common_words_ordered = []
     common_words = set()
     if COMMON_WORDS_PATH.exists():
         with open(COMMON_WORDS_PATH, "r", encoding="utf-8") as f:
-            common_words = {line.strip().lower() for line in f if line.strip()}
+            for line in f:
+                word = line.strip().lower()
+                if word:
+                    common_words_ordered.append(word)
+                    common_words.add(word)
         print(f"  Common words loaded: {len(common_words):,}")
 
     # Load full dictionary (fallback)
@@ -194,7 +207,7 @@ def load_word_lists() -> tuple[set[str], set[str]]:
             full_dict = {line.strip().lower() for line in f if line.strip()}
         print(f"  Full dictionary loaded: {len(full_dict):,}")
 
-    return common_words, full_dict
+    return common_words, full_dict, common_words_ordered
 
 
 def organize_by_length(word_set: set[str], min_len: int = 3, max_len: int = 5) -> dict[int, list[str]]:
@@ -214,23 +227,60 @@ def organize_by_length(word_set: set[str], min_len: int = 3, max_len: int = 5) -
     return by_length
 
 
+def calculate_word_score(word: str) -> float:
+    """
+    Calculate a 'fun score' for a word based on letter rarity.
+
+    Scoring:
+    - Base score: 1.0
+    - Rare letters (J, Q, X, Z): +2.0 each
+    - Semi-rare letters (K, V, W, Y): +1.0 each
+
+    Higher scores = more "fun" crossword words.
+    """
+    score = 1.0
+    word_upper = word.upper()
+
+    for letter in word_upper:
+        if letter in RARE_LETTERS:
+            score += 2.0
+        elif letter in SEMI_RARE_LETTERS:
+            score += 1.0
+
+    return score
+
+
 def create_tiered_word_list(
     common_words: set[str],
     full_dict: set[str],
-    tier: int = 1,
+    tier: int = 0,
     min_len: int = 3,
-    max_len: int = 5
+    max_len: int = 5,
+    common_words_ordered: list[str] = None
 ) -> dict[int, list[str]]:
     """
     Create word list based on tier level:
-    - Tier 1: Common words only (highest quality)
+    - Tier 0: Top 5,000 most common words ("Middle School" mode)
+    - Tier 1: All 10,000 common words (highest quality)
     - Tier 2: Common words + 5K supplemental words per length
     - Tier 3: Common words + 15K supplemental words per length
     - Tier 4: Full dictionary (maximum solvability)
+
+    Args:
+        common_words_ordered: Ordered list of common words (for Tier 0 selection)
     """
-    if tier == 1:
+    if tier == 0:
+        # Tier 0: "Middle School" mode - only top 5,000 words
+        if common_words_ordered:
+            top_5k = set(common_words_ordered[:5000])
+        else:
+            # Fallback: just take first 5000 from the set (less ideal)
+            top_5k = set(list(common_words)[:5000])
+        words = organize_by_length(top_5k, min_len, max_len)
+        tier_name = "Middle School (Top 5K)"
+    elif tier == 1:
         words = organize_by_length(common_words, min_len, max_len)
-        tier_name = "Common only"
+        tier_name = "Common only (10K)"
     elif tier == 4:
         words = organize_by_length(full_dict, min_len, max_len)
         tier_name = "Full dictionary"
@@ -437,12 +487,37 @@ class CrosswordSolver:
         return "".join(pattern)
 
     def get_candidates(self, slot: Slot) -> list[str]:
-        """Get candidate words that match the current pattern using fast index."""
+        """
+        Get candidate words that match the current pattern using fast index.
+
+        Uses fun score heuristic to prioritize interesting words:
+        - Calculates score based on rare/semi-rare letters
+        - Sorts candidates by score (descending)
+        - Randomly selects from top N for variety
+        """
         matching = self.get_matching_words_fast(slot)
 
-        # Convert to list, shuffle for variety, and limit size
-        candidates = list(matching)
-        random.shuffle(candidates)  # Critical: randomize search order
+        if not matching:
+            return []
+
+        # Calculate fun scores for all candidates
+        scored_candidates = [(word, calculate_word_score(word)) for word in matching]
+
+        # Sort by score descending
+        scored_candidates.sort(key=lambda x: x[1], reverse=True)
+
+        # Take top N candidates for variety, then shuffle
+        top_n = min(FUN_SCORE_TOP_N, len(scored_candidates))
+        top_candidates = [word for word, score in scored_candidates[:top_n]]
+        random.shuffle(top_candidates)
+
+        # Add remaining candidates (shuffled) after top picks
+        remaining = [word for word, score in scored_candidates[top_n:]]
+        random.shuffle(remaining)
+
+        candidates = top_candidates + remaining
+
+        # Limit total size
         if len(candidates) > self.MAX_CANDIDATES:
             candidates = candidates[:self.MAX_CANDIDATES]
 
@@ -793,7 +868,7 @@ def generate_puzzle(template_id: str | None = None, max_solver_retries: int = 10
 
     # Load word lists
     print("\n[Stage 0] Loading Word Lists...")
-    common_words, full_dict = load_word_lists()
+    common_words, full_dict, common_words_ordered = load_word_lists()
 
     # Select template
     if template_id is None:
@@ -807,17 +882,20 @@ def generate_puzzle(template_id: str | None = None, max_solver_retries: int = 10
     print("-" * 40)
     print(f"Template: {template_id} ({GRID_TEMPLATES[template_id]['name']})")
 
-    # Tiered solving: try common words first, escalate if needed
-    tier_attempts = {1: 3, 2: 3, 3: 3, 4: 5}  # attempts per tier
+    # Tiered solving: start with Tier 0 (Middle School), escalate if needed
+    tier_attempts = {0: 3, 1: 3, 2: 3, 3: 3, 4: 5}  # attempts per tier
     grid = None
     solver = None
-    final_tier = 1
+    final_tier = 0
 
-    for tier in [1, 2, 3, 4]:
+    for tier in [0, 1, 2, 3, 4]:
         attempts_for_tier = tier_attempts[tier]
         print(f"\n  [Tier {tier}] Attempting with word list...")
 
-        words_by_length = create_tiered_word_list(common_words, full_dict, tier)
+        words_by_length = create_tiered_word_list(
+            common_words, full_dict, tier,
+            common_words_ordered=common_words_ordered
+        )
         letter_index = build_letter_index(words_by_length)
 
         for attempt in range(1, attempts_for_tier + 1):
@@ -841,7 +919,7 @@ def generate_puzzle(template_id: str | None = None, max_solver_retries: int = 10
     solver.print_grid()
     words = solver.get_words()
 
-    tier_names = {1: "Common words", 2: "Common+5K", 3: "Common+15K", 4: "Full dictionary"}
+    tier_names = {0: "Middle School", 1: "Common 10K", 2: "Common+5K", 3: "Common+15K", 4: "Full dictionary"}
     print(f"\n  Solution found using: Tier {final_tier} ({tier_names[final_tier]})")
     print(f"\n  Words found:")
     print(f"    Across: {', '.join(f'{k}={v}' for k, v in sorted(words['across'].items()))}")
