@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-01-18",
+    "date": "2026-01-19",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Things that Cause Reactions",
-    "templateId": "saturday",
-    "wordTier": 2
+    "theme": "Literary Miscellany",
+    "templateId": "friday",
+    "wordTier": 3
   },
   "dimensions": {
     "rows": 5,
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "N",
+      "char": "R",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,77 +21,77 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "B",
+      "char": "N",
       "clueIndex": 3
     },
     "0,3": {
-      "char": "B",
+      "char": "T",
       "clueIndex": 4
     },
     "0,4": {
-      "char": "Y",
-      "clueIndex": 5
+      "char": null
     },
     "1,0": {
-      "char": "A",
-      "clueIndex": 6
+      "char": "O",
+      "clueIndex": 5
     },
     "1,1": {
-      "char": "S"
+      "char": "R"
     },
     "1,2": {
-      "char": "A"
+      "char": "G"
     },
     "1,3": {
-      "char": "L"
+      "char": "U"
     },
     "1,4": {
-      "char": "E"
+      "char": "E",
+      "clueIndex": 6
     },
     "2,0": {
-      "char": "S",
+      "char": "O",
       "clueIndex": 7
     },
     "2,1": {
       "char": "T"
     },
     "2,2": {
-      "char": "R"
+      "char": "A"
     },
     "2,3": {
-      "char": "U"
+      "char": "R"
     },
     "2,4": {
-      "char": "T"
+      "char": "Y"
     },
     "3,0": {
-      "char": "T",
+      "char": "K",
       "clueIndex": 8
     },
     "3,1": {
-      "char": "R"
+      "char": "A"
     },
     "3,2": {
-      "char": "I"
+      "char": "P"
     },
     "3,3": {
-      "char": "S"
+      "char": "P"
     },
     "3,4": {
-      "char": "T"
+      "char": "A"
     },
     "4,0": {
-      "char": "Y",
-      "clueIndex": 9
+      "char": null
     },
     "4,1": {
-      "char": "E"
+      "char": "R",
+      "clueIndex": 9
     },
     "4,2": {
-      "char": "C"
+      "char": "I"
     },
     "4,3": {
-      "char": "H"
+      "char": "S"
     },
     "4,4": {
       "char": "S"
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "1": "Seize roughly, like a prize",
-      "6": "Brewery offering, perhaps",
-      "7": "Show off like a peacock",
-      "8": "Sad meeting, archaic style",
-      "9": "Sounds of disgust"
+      "1": "Tirade; vent one's spleen",
+      "5": "Monster in Rabelais's works",
+      "7": "Rotating machine with a T!",
+      "8": "Fraternity letter",
+      "9": "Weathered surface"
     },
     "down": {
-      "1": "Really unpleasant",
-      "2": "French for star",
-      "3": "Of high pressure",
-      "4": "Show embarrassment",
-      "5": "Grates, old style"
+      "1": "Castle piece",
+      "2": "Cream of ___, baking ingredient",
+      "3": "Fermented fish sauce",
+      "4": "Painter's solvent, briefly",
+      "6": "Young hawk"
     }
   }
 }
