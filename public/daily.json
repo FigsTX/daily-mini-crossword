@@ -3,7 +3,7 @@
     "date": "2026-01-18",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short & Sweet Miscellany",
+    "theme": "Science Class",
     "templateId": "sunday",
     "wordTier": 3
   },
@@ -16,81 +16,81 @@
       "char": null
     },
     "0,1": {
-      "char": "W",
+      "char": "J",
       "clueIndex": 1
     },
     "0,2": {
-      "char": "I",
+      "char": "U",
       "clueIndex": 2
     },
     "0,3": {
-      "char": "Z",
+      "char": "V",
       "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "V",
+      "char": "Y",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
+      "char": "O"
     },
     "1,2": {
-      "char": "D"
+      "char": "N"
     },
     "1,3": {
       "char": "I"
     },
     "1,4": {
-      "char": "M",
+      "char": "S",
       "clueIndex": 5
     },
     "2,0": {
-      "char": "I",
+      "char": "O",
       "clueIndex": 6
     },
     "2,1": {
-      "char": "S"
+      "char": "L"
     },
     "2,2": {
       "char": "O"
     },
     "2,3": {
-      "char": "L"
+      "char": "G"
     },
     "2,4": {
-      "char": "N"
+      "char": "Y"
     },
     "3,0": {
-      "char": "Z",
+      "char": "X",
       "clueIndex": 7
     },
     "3,1": {
-      "char": "I"
+      "char": "E"
     },
     "3,2": {
-      "char": "L"
+      "char": "N"
     },
     "3,3": {
-      "char": "L"
+      "char": "O"
     },
     "3,4": {
-      "char": "A"
+      "char": "N"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "R",
+      "char": "S",
       "clueIndex": 8
     },
     "4,2": {
       "char": "A"
     },
     "4,3": {
-      "char": "S"
+      "char": "R"
     },
     "4,4": {
       "char": null
@@ -98,18 +98,18 @@
   },
   "clues": {
     "across": {
-      "1": "Computer expert, informally",
-      "4": "Roger who directed Barbarella",
-      "6": "Math problem's solution, short",
-      "7": "Giant lizard of film fame",
-      "8": "Ethiopian noble title"
+      "1": "Young one; short for juvenile",
+      "4": "Vulvas, in slang",
+      "6": "Suffix for a field of study",
+      "7": "Noble gas, symbol Xe",
+      "8": "Ancient Russian ruler"
     },
     "down": {
-      "1": "Historical high official",
-      "2": "Objects of worship",
-      "3": "Belly dancer's instruments",
-      "4": "Namely, in brief",
-      "5": "Canadian politician: Abbr."
+      "1": "Red shades",
+      "2": "Climbing shrub genus",
+      "3": "Lively strength or energy",
+      "4": "River near the Cam",
+      "5": "Prefix for similar"
     }
   }
 }
