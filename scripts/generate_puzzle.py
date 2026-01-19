@@ -870,9 +870,21 @@ def generate_puzzle(template_id: str | None = None, max_solver_retries: int = 10
     print("\n[Stage 0] Loading Word Lists...")
     common_words, full_dict, common_words_ordered = load_word_lists()
 
-    # Select template
+    # Select template based on day of week (or use specified template)
     if template_id is None:
-        template_id = random.choice(list(GRID_TEMPLATES.keys()))
+        # Map day of week (0=Monday, 6=Sunday) to template
+        day_to_template = {
+            0: "monday",
+            1: "tuesday",
+            2: "wednesday",
+            3: "thursday",
+            4: "friday",
+            5: "saturday",
+            6: "sunday",
+        }
+        today = date.today().weekday()
+        template_id = day_to_template[today]
+        print(f"  Auto-selected template for {date.today().strftime('%A')}: {template_id}")
     elif template_id not in GRID_TEMPLATES:
         print(f"Error: Unknown template '{template_id}'")
         print(f"Available: {', '.join(GRID_TEMPLATES.keys())}")

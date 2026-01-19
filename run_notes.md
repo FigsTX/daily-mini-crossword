@@ -918,3 +918,38 @@ Theme: "Oddities and Ends"
 
 **Key Insight:**
 The fun score prioritizes crossword-friendly words (containing J, Q, X, Z, K, V, W, Y) while the tiered fallback ensures solvability. Even when Tier 0 fails, the solver gracefully escalates to find a valid solution.
+
+---
+
+### Task #17: Fix Day-Based Template Selection
+
+**Status:** COMPLETE
+
+**Issue:** Templates were being selected randomly instead of based on the day of the week.
+
+**Root Cause:**
+```python
+# OLD - random selection
+template_id = random.choice(list(GRID_TEMPLATES.keys()))
+```
+
+**Fix Applied:** (`scripts/generate_puzzle.py`)
+```python
+# NEW - day-based selection
+day_to_template = {
+    0: "monday",    # Very easy (8 blocks)
+    1: "tuesday",   # Easy (4 blocks)
+    2: "wednesday", # Moderate (2 blocks)
+    3: "thursday",  # Asymmetric (3 blocks)
+    4: "friday",    # Hard (2 blocks)
+    5: "saturday",  # Expert (0 blocks)
+    6: "sunday",    # H-Frame (4 blocks)
+}
+today = date.today().weekday()
+template_id = day_to_template[today]
+```
+
+**Result:**
+- Sunday → H-Frame template (as intended)
+- Each day of the week now uses its designated difficulty template
+- Manual override still available via `--template` flag
