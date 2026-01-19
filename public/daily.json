@@ -3,7 +3,7 @@
     "date": "2026-01-18",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short and Sweet",
+    "theme": "Brief Takes",
     "templateId": "sunday",
     "wordTier": 1
   },
@@ -98,18 +98,18 @@
   },
   "clues": {
     "across": {
-      "1": "File extension for a temporary doc",
-      "4": "Dough's destination after baking",
-      "6": "Beauty's companion, perhaps",
-      "7": "Change jingling in your pocket",
-      "8": "French for summer"
+      "1": "Temp. measurement, briefly",
+      "4": "Baker's staple, or informal money",
+      "6": "Beauty's companion in a tale",
+      "7": "100 of these make a dollar",
+      "8": "French holy woman, briefly"
     },
     "down": {
-      "1": "Arborists' domain",
-      "2": "What the fortune teller said, maybe",
-      "3": "Sticky craft supply",
-      "4": "British broadcaster initials",
-      "5": "Withdrawal woes, in short"
+      "1": "Maples and oaks, for example",
+      "2": "Had in mind, as a purpose",
+      "3": "Copy's partner on a computer",
+      "4": "UK's public broadcaster, briefly",
+      "5": "Delirium tremens, briefly"
     }
   }
 }
