@@ -953,3 +953,18 @@ template_id = day_to_template[today]
 - Sunday → H-Frame template (as intended)
 - Each day of the week now uses its designated difficulty template
 - Manual override still available via `--template` flag
+
+**Weekly Template Schedule:**
+| Day | Template | Blocks | Difficulty | Description |
+|-----|----------|--------|------------|-------------|
+| Monday | `monday` | 8 | Very Easy | Two 3x3 areas connected by center |
+| Tuesday | `tuesday` | 4 | Easy | Standard corners |
+| Wednesday | `wednesday` | 2 | Moderate | The Stairstep |
+| Thursday | `thursday` | 3 | Medium | Asymmetric twist |
+| Friday | `friday` | 2 | Hard | The Fingers |
+| Saturday | `saturday` | 0 | Expert | The Open Field (full 5x5) |
+| Sunday | `sunday` | 4 | Medium | The H-Frame |
+
+**Commit:** 20c04ec
+
+**Note:** The GitHub Actions workflow runs daily at midnight UTC. After this fix, each day's puzzle will automatically use the correct template based on the day of the week.
