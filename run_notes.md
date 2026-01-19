@@ -1166,3 +1166,40 @@ Word Quality: Tier 1 (Standard 10K)
 2. **Weighted randomness** - Better than strict top-N selection for variety
 3. **Constraint ordering** - Filling most-intersected slots first prunes dead ends faster
 4. **No fallback = discipline** - Forces word list quality improvements instead of hiding problems
+
+---
+
+### Task #21: Upgrade Gemini Model to 2.5 Flash
+
+**Status:** COMPLETE
+
+**Issue:** The clue generator was using `gemini-1.5-pro` which is **retired** and returns 404 errors.
+
+**Research Findings:**
+
+| Model | Status | Notes |
+|-------|--------|-------|
+| `gemini-1.5-pro` | **RETIRED** | Returns 404 errors |
+| `gemini-2.0-flash` | Retiring March 3, 2026 | Don't use |
+| `gemini-2.5-flash` | **Stable** | Has thinking capabilities |
+| `gemini-2.5-pro` | Stable | Deep reasoning, higher cost |
+| `gemini-3-flash/pro` | Preview | Not production-ready |
+
+**Decision:** Use `gemini-2.5-flash` because:
+- Stable (not preview, not retiring)
+- Has dynamic thinking capabilities (adjusts reasoning based on complexity)
+- Good balance of speed, cost, and quality for clue generation
+- Supports JSON output mode
+
+**Fix Applied:** (`scripts/generate_puzzle.py:715`)
+```python
+# OLD (broken)
+model="gemini-1.5-pro"
+
+# NEW
+model="gemini-2.5-flash"
+```
+
+**Commit:** `4f51638`
+
+**Note:** For a mini crossword with ~10 clues, deep thinking models like `gemini-2.5-pro` or `gemini-3-pro` are overkill. The 2.5-flash model provides sufficient creativity for wordplay without excessive latency or cost.
