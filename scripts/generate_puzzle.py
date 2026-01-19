@@ -15,8 +15,12 @@ import random
 import time
 import urllib.request
 from dataclasses import dataclass
-from datetime import date
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
+
+# Target timezone for puzzle generation (Central Time)
+PUZZLE_TIMEZONE = ZoneInfo("America/Chicago")
 
 from dotenv import load_dotenv
 from google import genai
@@ -786,10 +790,15 @@ Generate clues now (JSON only):"""
 # =============================================================================
 
 
-def build_puzzle_json(grid: list[list[str]], clue_data: dict, template_id: str) -> dict:
+def build_puzzle_json(grid: list[list[str]], clue_data: dict, template_id: str, puzzle_date=None) -> dict:
     """
     Build the final puzzle JSON matching schema_v1.
+
+    Args:
+        puzzle_date: Date for the puzzle (defaults to Central Time today)
     """
+    if puzzle_date is None:
+        puzzle_date = datetime.now(PUZZLE_TIMEZONE).date()
     template = GRID_TEMPLATES[template_id]
     slots = extract_slots(template_id)
 
@@ -817,7 +826,7 @@ def build_puzzle_json(grid: list[list[str]], clue_data: dict, template_id: str) 
 
     puzzle = {
         "meta": {
-            "date": date.today().isoformat(),
+            "date": puzzle_date.isoformat(),
             "author": "AI Generated",
             "difficulty": clue_data.get("difficulty", "easy"),
             "theme": clue_data.get("theme", "Daily Puzzle"),
@@ -870,7 +879,11 @@ def generate_puzzle(template_id: str | None = None, max_solver_retries: int = 10
     print("\n[Stage 0] Loading Word Lists...")
     common_words, full_dict, common_words_ordered = load_word_lists()
 
-    # Select template based on day of week (or use specified template)
+    # Select template based on day of week in Central Time (or use specified template)
+    # Use Central Time to ensure correct day for US-based users
+    now_central = datetime.now(PUZZLE_TIMEZONE)
+    puzzle_date = now_central.date()
+
     if template_id is None:
         # Map day of week (0=Monday, 6=Sunday) to template
         day_to_template = {
@@ -882,9 +895,9 @@ def generate_puzzle(template_id: str | None = None, max_solver_retries: int = 10
             5: "saturday",
             6: "sunday",
         }
-        today = date.today().weekday()
-        template_id = day_to_template[today]
-        print(f"  Auto-selected template for {date.today().strftime('%A')}: {template_id}")
+        template_id = day_to_template[now_central.weekday()]
+        print(f"  Central Time: {now_central.strftime('%Y-%m-%d %H:%M %Z')}")
+        print(f"  Auto-selected template for {now_central.strftime('%A')}: {template_id}")
     elif template_id not in GRID_TEMPLATES:
         print(f"Error: Unknown template '{template_id}'")
         print(f"Available: {', '.join(GRID_TEMPLATES.keys())}")
@@ -957,7 +970,7 @@ def generate_puzzle(template_id: str | None = None, max_solver_retries: int = 10
     # Build final puzzle
     print(f"\n[Stage 3] Assembly")
     print("-" * 40)
-    puzzle = build_puzzle_json(grid, clue_data, template_id)
+    puzzle = build_puzzle_json(grid, clue_data, template_id, puzzle_date)
 
     # Add word quality tier to metadata
     puzzle["meta"]["wordTier"] = final_tier

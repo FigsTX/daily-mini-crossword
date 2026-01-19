@@ -968,3 +968,48 @@ template_id = day_to_template[today]
 **Commit:** 20c04ec
 
 **Note:** The GitHub Actions workflow runs daily at midnight UTC. After this fix, each day's puzzle will automatically use the correct template based on the day of the week.
+
+---
+
+### Task #18: Fix Timezone for Central Time Users
+
+**Status:** COMPLETE
+
+**Issue:** At 8:30 PM Central on Sunday, the puzzle showed "Monday" because GitHub Actions uses UTC (where it was already Monday 2:30 AM).
+
+**Root Cause:**
+```python
+# OLD - uses server timezone (UTC on GitHub Actions)
+today = date.today().weekday()
+```
+
+**Fix Applied:**
+
+1. **Added Central Time support** (`scripts/generate_puzzle.py`)
+   ```python
+   from zoneinfo import ZoneInfo
+   PUZZLE_TIMEZONE = ZoneInfo("America/Chicago")
+
+   now_central = datetime.now(PUZZLE_TIMEZONE)
+   puzzle_date = now_central.date()
+   template_id = day_to_template[now_central.weekday()]
+   ```
+
+2. **Updated puzzle metadata date** to use Central Time date
+
+3. **Added tzdata dependency** (`requirements.txt`)
+   ```
+   tzdata>=2024.1  # Required for zoneinfo on Windows
+   ```
+
+**Verification:**
+```
+Central Time: 2026-01-18 20:35:06 CST
+Day of week: Sunday
+Template: sunday
+```
+
+**Result:**
+- Puzzle date and template now based on Central Time (America/Chicago)
+- Works correctly on both Windows (local dev) and Linux (GitHub Actions)
+- Users in Central timezone see the correct day's puzzle
