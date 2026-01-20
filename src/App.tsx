@@ -3,6 +3,7 @@ import { useGameStore } from './store/gameStore';
 import { DailyPuzzleSchema } from './types';
 import { Grid } from './components/Grid';
 import { ClueList } from './components/ClueList';
+import { Keyboard } from './components/Keyboard';
 
 /**
  * Parse YYYY-MM-DD string to local Date (avoids timezone shift issues)
@@ -123,6 +124,26 @@ function App() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [handleKeyDown]);
 
+  // On-screen keyboard handlers
+  const handleVirtualKeyPress = useCallback(
+    (key: string) => {
+      if (!puzzle) return;
+      setCell(cursor.row, cursor.col, key);
+      moveToNextCell();
+    },
+    [puzzle, cursor, setCell, moveToNextCell]
+  );
+
+  const handleVirtualBackspace = useCallback(() => {
+    if (!puzzle) return;
+    const currentValue = userGrid[`${cursor.row},${cursor.col}`];
+    if (currentValue) {
+      clearCell(cursor.row, cursor.col);
+    } else {
+      moveToPrevCell();
+    }
+  }, [puzzle, cursor, userGrid, clearCell, moveToPrevCell]);
+
   const solved = isSolved();
 
   return (
@@ -164,8 +185,16 @@ function App() {
       </div>
 
       {/* Grid */}
-      <div className="mb-8">
+      <div className="mb-6">
         <Grid />
+      </div>
+
+      {/* On-screen keyboard (mobile only) */}
+      <div className="mb-6 w-full md:hidden">
+        <Keyboard
+          onKeyPress={handleVirtualKeyPress}
+          onBackspace={handleVirtualBackspace}
+        />
       </div>
 
       {/* Clues */}
