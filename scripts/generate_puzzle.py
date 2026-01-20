@@ -208,15 +208,79 @@ def load_word_list() -> tuple[set[str], list[str]]:
     return words_set, words_ordered
 
 
-def organize_by_length(word_set: set[str], min_len: int = 3, max_len: int = 5) -> dict[int, list[str]]:
+def load_recent_puzzle_words(log_dir: Path = None, max_age_days: int = 30) -> set[str]:
+    """
+    Load all words used in puzzles from the past N days.
+    Returns set of uppercase words to exclude for variety.
+    """
+    if log_dir is None:
+        log_dir = Path(__file__).parent.parent / "logs" / "puzzles"
+
+    recent_words = set()
+
+    if not log_dir.exists():
+        return recent_words
+
+    now = datetime.now(PUZZLE_TIMEZONE)
+
+    for log_file in log_dir.glob("puzzle_*.json"):
+        try:
+            # Extract date from filename
+            date_str = log_file.stem.replace("puzzle_", "")
+            file_date = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=PUZZLE_TIMEZONE)
+            age_days = (now - file_date).days
+
+            if age_days <= max_age_days:
+                with open(log_file, "r", encoding="utf-8") as f:
+                    log_data = json.load(f)
+
+                # Extract words from the log
+                words_for_clues = log_data.get("words_for_clues", {})
+                for direction in ["across", "down"]:
+                    for word in words_for_clues.get(direction, {}).values():
+                        recent_words.add(word.upper())
+
+        except (ValueError, json.JSONDecodeError, OSError) as e:
+            continue  # Skip invalid log files
+
+    if recent_words:
+        print(f"  Recent words to exclude: {len(recent_words)} (from past {max_age_days} days)")
+
+    return recent_words
+
+
+def organize_by_length(
+    word_set: set[str],
+    min_len: int = 3,
+    max_len: int = 5,
+    excluded_words: set[str] = None,
+) -> dict[int, list[str]]:
     """
     Organize dictionary words by length for efficient lookup.
+    Excludes recently used words for variety.
+
+    If exclusion leaves a length category empty, relaxes the ban for that length
+    and logs a warning.
     """
+    if excluded_words is None:
+        excluded_words = set()
+
     by_length = {i: [] for i in range(min_len, max_len + 1)}
+    excluded_by_length = {i: [] for i in range(min_len, max_len + 1)}
 
     for word in word_set:
         if min_len <= len(word) <= max_len:
-            by_length[len(word)].append(word.upper())
+            word_upper = word.upper()
+            if word_upper in excluded_words:
+                excluded_by_length[len(word)].append(word_upper)
+            else:
+                by_length[len(word)].append(word_upper)
+
+    # Check for empty categories and relax ban if needed
+    for length in by_length:
+        if len(by_length[length]) == 0 and len(excluded_by_length[length]) > 0:
+            print(f"  [WARNING] No {length}-letter words after exclusion, relaxing ban for this length")
+            by_length[length] = excluded_by_length[length]
 
     # Shuffle for variety in puzzle generation
     for length in by_length:
@@ -251,6 +315,7 @@ def create_tiered_word_list(
     tier: int = 0,
     min_len: int = 3,
     max_len: int = 5,
+    excluded_words: set[str] = None,
 ) -> dict[int, list[str]]:
     """
     Create word list based on tier level (STRICT - no dictionary fallback):
@@ -259,6 +324,7 @@ def create_tiered_word_list(
 
     Args:
         words_ordered: Ordered list of words by frequency
+        excluded_words: Words to exclude for variety (from recent puzzles)
     """
     if tier == 0:
         # Tier 0: "Middle School" level - only top 5,000 words
@@ -269,7 +335,7 @@ def create_tiered_word_list(
         word_set = set(words_ordered)
         tier_name = "Standard 10K"
 
-    words = organize_by_length(word_set, min_len, max_len)
+    words = organize_by_length(word_set, min_len, max_len, excluded_words)
     print(f"  Tier {tier} ({tier_name}): {', '.join(f'{k}L={len(v):,}' for k, v in sorted(words.items()))}")
     return words
 
@@ -902,6 +968,9 @@ def generate_puzzle(template_id: str | None = None, max_solver_retries: int = 10
     print("\n[Stage 0] Loading Word List...")
     words_set, words_ordered = load_word_list()
 
+    # Load recent puzzle words to exclude for variety
+    recent_words = load_recent_puzzle_words()
+
     # Select template based on day of week in Central Time (or use specified template)
     # Use Central Time to ensure correct day for US-based users
     now_central = datetime.now(PUZZLE_TIMEZONE)
@@ -941,7 +1010,7 @@ def generate_puzzle(template_id: str | None = None, max_solver_retries: int = 10
         attempts_for_tier = tier_attempts[tier]
         print(f"\n  [Tier {tier}] Attempting with word list...")
 
-        words_by_length = create_tiered_word_list(words_ordered, tier)
+        words_by_length = create_tiered_word_list(words_ordered, tier, excluded_words=recent_words)
         letter_index = build_letter_index(words_by_length)
 
         for attempt in range(1, attempts_for_tier + 1):

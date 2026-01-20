@@ -1203,3 +1203,108 @@ model="gemini-2.5-flash"
 **Commit:** `4f51638`
 
 **Note:** For a mini crossword with ~10 clues, deep thinking models like `gemini-2.5-pro` or `gemini-3-pro` are overkill. The 2.5-flash model provides sufficient creativity for wordplay without excessive latency or cost.
+
+---
+
+### Task #22: Puzzle Logging for Debugging
+
+**Status:** COMPLETE
+
+**Issue:** A puzzle had mismatched clues (DEL/INTER conflict) but by the time we investigated, the puzzle was replaced and we couldn't debug the issue.
+
+**Solution:** Add puzzle logging with 30-day retention.
+
+**Implementation:**
+
+1. **New function `log_puzzle()`** - Saves each puzzle to `logs/puzzles/puzzle_YYYY-MM-DD.json`
+2. **Log contents:**
+   ```json
+   {
+     "generated_at": "2026-01-20T15:13:04-06:00",
+     "puzzle": { ... full puzzle JSON ... },
+     "words_for_clues": {
+       "across": {"1": "NFL", "4": "SERUM", ...},
+       "down": {"1": "NEEDS", "2": "FRAME", ...}
+     }
+   }
+   ```
+3. **Auto-cleanup** - `cleanup_old_logs()` removes logs older than 30 days
+4. **Git configuration** - Logs ignored but directory structure preserved via `.gitkeep`
+
+**Files Modified:**
+- `scripts/generate_puzzle.py` - Added `log_puzzle()` and `cleanup_old_logs()` functions
+- `.gitignore` - Ignore `logs/puzzles/*.json` but keep `.gitkeep`
+- `logs/puzzles/.gitkeep` - Created directory structure
+
+**Commit:** `715ab01`
+
+**Benefit:** When a clue/word mismatch occurs, we can now check the log to see exactly what words were generated and sent to Gemini.
+
+---
+
+### Task #23: Word Variety - Exclude Recent Puzzle Words
+
+**Status:** COMPLETE
+
+**Objective:** Prevent word repetition across puzzles by excluding words used in the past 30 days.
+
+**Implementation:**
+
+1. **New function `load_recent_puzzle_words()`**
+   - Scans `logs/puzzles/puzzle_*.json` files
+   - Extracts all words from puzzles within the past 30 days
+   - Returns set of uppercase words to exclude
+
+2. **Updated `organize_by_length()`**
+   - Accepts `excluded_words` parameter
+   - Filters out recently used words
+   - **Safety valve:** If exclusion leaves a length category empty, relaxes the ban for that length and logs a warning
+
+3. **Updated `create_tiered_word_list()`**
+   - Passes `excluded_words` through to `organize_by_length()`
+
+4. **Updated `generate_puzzle()`**
+   - Loads recent words after loading the word list
+   - Passes exclusion set to tier creation
+
+**Example Output:**
+```
+[Stage 0] Loading Word List...
+  Word list loaded: 9,894 words (google-10000-english)
+  Recent words to exclude: 10 (from past 30 days)
+  ...
+  Tier 0 (Strict 5K): 3L=349, 4L=646, 5L=746  (slightly reduced)
+```
+
+**Edge Case Handling:**
+```python
+# If all 3-letter words were used in past 30 days (unlikely):
+if len(by_length[length]) == 0 and len(excluded_by_length[length]) > 0:
+    print(f"  [WARNING] No {length}-letter words after exclusion, relaxing ban")
+    by_length[length] = excluded_by_length[length]
+```
+
+**Files Modified:**
+- `scripts/generate_puzzle.py` - All changes in this file
+
+**Key Insight:** With ~10 words per puzzle and 30 days of history, we exclude ~300 words max. The 10K word list has plenty of variety, but this ensures solvers won't see the same words repeatedly within a month.
+
+---
+
+### Task #24: Schedule Change - 2 AM Central
+
+**Status:** COMPLETE
+
+**Issue:** Workflow was running at midnight UTC (6 PM Central), not 2 AM Central as intended.
+
+**Fix Applied:** (`.github/workflows/daily_crossword.yml`)
+```yaml
+schedule:
+  # OLD: Run at midnight UTC (6 PM Central)
+  - cron: '0 0 * * *'
+
+  # NEW: Run at 2 AM Central (8 AM UTC)
+  - cron: '0 8 * * *'
+```
+
+**Commit:** `8e75769`
