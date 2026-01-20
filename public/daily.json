@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-01-19",
+    "date": "2026-01-20",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short & Sweet",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Finding Your Zen",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "D",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "N",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "L",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "L",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "I",
+      "char": "S",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
+      "char": "E"
     },
     "1,2": {
-      "char": "N"
-    },
-    "1,3": {
-      "char": null
-    },
-    "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "E",
-      "clueIndex": 5
-    },
-    "2,1": {
-      "char": "T"
-    },
-    "2,2": {
-      "char": "T"
-    },
-    "2,3": {
-      "char": "A",
-      "clueIndex": 6
-    },
-    "2,4": {
-      "char": "L",
-      "clueIndex": 7
-    },
-    "3,0": {
-      "char": null
-    },
-    "3,1": {
-      "char": null
-    },
-    "3,2": {
-      "char": "E",
-      "clueIndex": 8
-    },
-    "3,3": {
       "char": "R"
     },
-    "3,4": {
+    "1,3": {
+      "char": "U"
+    },
+    "1,4": {
+      "char": "M",
+      "clueIndex": 5
+    },
+    "2,0": {
+      "char": "P",
+      "clueIndex": 6
+    },
+    "2,1": {
+      "char": "E"
+    },
+    "2,2": {
       "char": "A"
+    },
+    "2,3": {
+      "char": "C"
+    },
+    "2,4": {
+      "char": "E"
+    },
+    "3,0": {
+      "char": "A",
+      "clueIndex": 7
+    },
+    "3,1": {
+      "char": "D"
+    },
+    "3,2": {
+      "char": "M"
+    },
+    "3,3": {
+      "char": "I"
+    },
+    "3,4": {
+      "char": "N"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "S",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "R",
-      "clueIndex": 9
-    },
-    "4,3": {
       "char": "E"
     },
+    "4,3": {
+      "char": "A"
+    },
     "4,4": {
-      "char": "S"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "___ Taco or ___ Rio",
-      "4": "McKellen or Fleming",
-      "5": "Bavarian abbey town",
-      "8": "A long historic period",
-      "9": "Latin for \"thing\""
+      "1": "Super Bowl org.",
+      "4": "Facial glow enhancer",
+      "6": "Tranquility and harmony",
+      "7": "Workplace helper, for short",
+      "8": "Vast salty expanse"
     },
     "down": {
-      "1": "Game night cube",
-      "2": "Consume some food",
-      "3": "Prefix for \"national\" or \"net\"",
-      "6": "\"You ___ kidding me!\"",
-      "7": "___ Vegas's first word"
+      "1": "Wants, desires, and necessities",
+      "2": "Structure for a painting",
+      "3": "\"Santa ___\" song name",
+      "4": "Place to get pampered",
+      "5": "Half of humanity"
     }
   }
 }
