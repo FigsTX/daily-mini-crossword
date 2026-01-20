@@ -14,8 +14,9 @@ __pycache__/
 *.pyc
 
 # Logs
-logs/
 *.log
+logs/puzzles/*.json
+!logs/puzzles/.gitkeep
 npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*

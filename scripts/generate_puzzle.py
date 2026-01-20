@@ -813,6 +813,75 @@ def save_puzzle(puzzle: dict, output_path: str | Path) -> bool:
         return False
 
 
+def log_puzzle(puzzle: dict, words: dict[str, dict[int, str]], log_dir: str | Path = None) -> bool:
+    """
+    Save puzzle to dated log file for debugging. Retains 30 days of history.
+
+    Log format includes:
+    - Full puzzle JSON
+    - Words sent to Gemini for clue generation
+    - Generation timestamp
+    """
+    try:
+        if log_dir is None:
+            log_dir = Path(__file__).parent.parent / "logs" / "puzzles"
+        else:
+            log_dir = Path(log_dir)
+
+        log_dir.mkdir(parents=True, exist_ok=True)
+
+        # Create log entry with metadata
+        now_central = datetime.now(PUZZLE_TIMEZONE)
+        log_entry = {
+            "generated_at": now_central.isoformat(),
+            "puzzle": puzzle,
+            "words_for_clues": words,
+        }
+
+        # Save to dated file
+        date_str = puzzle.get("meta", {}).get("date", now_central.strftime("%Y-%m-%d"))
+        log_file = log_dir / f"puzzle_{date_str}.json"
+
+        with open(log_file, "w", encoding="utf-8") as f:
+            json.dump(log_entry, f, indent=2)
+
+        print(f"  Puzzle logged to: {log_file}")
+
+        # Clean up old logs (older than 30 days)
+        cleanup_old_logs(log_dir, max_age_days=30)
+
+        return True
+    except Exception as e:
+        print(f"  Warning: Failed to log puzzle: {e}")
+        return False
+
+
+def cleanup_old_logs(log_dir: Path, max_age_days: int = 30) -> int:
+    """Remove log files older than max_age_days. Returns count of deleted files."""
+    deleted = 0
+    try:
+        now = datetime.now(PUZZLE_TIMEZONE)
+        for log_file in log_dir.glob("puzzle_*.json"):
+            # Extract date from filename (puzzle_YYYY-MM-DD.json)
+            try:
+                date_str = log_file.stem.replace("puzzle_", "")
+                file_date = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=PUZZLE_TIMEZONE)
+                age_days = (now - file_date).days
+
+                if age_days > max_age_days:
+                    log_file.unlink()
+                    deleted += 1
+            except (ValueError, OSError):
+                continue  # Skip files with invalid names
+
+        if deleted > 0:
+            print(f"  Cleaned up {deleted} old log file(s)")
+    except Exception as e:
+        print(f"  Warning: Log cleanup failed: {e}")
+
+    return deleted
+
+
 # =============================================================================
 # Main Pipeline
 # =============================================================================
@@ -927,6 +996,9 @@ def generate_puzzle(template_id: str | None = None, max_solver_retries: int = 10
 
     # Add word quality tier to metadata
     puzzle["meta"]["wordTier"] = final_tier
+
+    # Log puzzle for debugging (retains 30 days of history)
+    log_puzzle(puzzle, words)
 
     print("\n" + "=" * 60)
     print("SUCCESS! Puzzle generated")
