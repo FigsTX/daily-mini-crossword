@@ -997,39 +997,60 @@ def generate_puzzle(template_id: str | None = None, max_solver_retries: int = 10
 
     print(f"\n[Stage 1] THE ARCHITECT - Grid Solver")
     print("-" * 40)
-    print(f"Template: {template_id} ({GRID_TEMPLATES[template_id]['name']})")
 
-    # STRICT tiered solving: Tier 0 (5K) → Tier 1 (10K) → FAIL
+    # Template fallback order: try day's template first, then easier ones
+    # Ordered from easiest to hardest for fallback
+    fallback_templates = ["monday", "tuesday", "sunday", "thursday", "wednesday", "friday", "saturday"]
+
+    # Build template attempt order: primary template first, then fallbacks (excluding primary)
+    templates_to_try = [template_id] + [t for t in fallback_templates if t != template_id]
+
+    # STRICT tiered solving: Tier 0 (5K) → Tier 1 (10K) per template
     # NO dictionary fallback - only quality words allowed
-    tier_attempts = {0: 5, 1: 5}  # More attempts per tier since we only have 2 tiers
+    tier_attempts = {0: 10, 1: 10}  # Doubled retries for reliability
     grid = None
     solver = None
     final_tier = 0
+    final_template = template_id
 
-    for tier in [0, 1]:
-        attempts_for_tier = tier_attempts[tier]
-        print(f"\n  [Tier {tier}] Attempting with word list...")
+    for current_template in templates_to_try:
+        print(f"\nTemplate: {current_template} ({GRID_TEMPLATES[current_template]['name']})")
 
-        words_by_length = create_tiered_word_list(words_ordered, tier, excluded_words=recent_words)
-        letter_index = build_letter_index(words_by_length)
+        for tier in [0, 1]:
+            attempts_for_tier = tier_attempts[tier]
+            print(f"\n  [Tier {tier}] Attempting with word list...")
 
-        for attempt in range(1, attempts_for_tier + 1):
-            print(f"\n    Attempt {attempt}/{attempts_for_tier}...")
+            words_by_length = create_tiered_word_list(words_ordered, tier, excluded_words=recent_words)
+            letter_index = build_letter_index(words_by_length)
 
-            solver = CrosswordSolver(template_id, words_by_length, letter_index)
-            grid = solver.get_solution()
+            for attempt in range(1, attempts_for_tier + 1):
+                print(f"\n    Attempt {attempt}/{attempts_for_tier}...")
+
+                solver = CrosswordSolver(current_template, words_by_length, letter_index)
+                grid = solver.get_solution()
+
+                if grid:
+                    final_tier = tier
+                    final_template = current_template
+                    break
 
             if grid:
-                final_tier = tier
                 break
+            print(f"  [Tier {tier}] No solution found, escalating...")
 
         if grid:
             break
-        print(f"  [Tier {tier}] No solution found, escalating...")
+
+        if current_template != templates_to_try[-1]:
+            print(f"\n  [!] Template '{current_template}' failed, trying fallback template...")
+
+    # Update template_id to the one that actually succeeded
+    template_id = final_template
 
     if not grid:
         print("\n[X] Failed to generate valid grid with quality words only")
         print("    (No dictionary fallback - strict word quality enforced)")
+        print("    (All template fallbacks exhausted)")
         return None
 
     solver.print_grid()
@@ -1037,6 +1058,8 @@ def generate_puzzle(template_id: str | None = None, max_solver_retries: int = 10
 
     tier_names = {0: "Strict 5K", 1: "Standard 10K"}
     print(f"\n  Solution found using: Tier {final_tier} ({tier_names[final_tier]})")
+    if final_template != templates_to_try[0]:
+        print(f"  [Note] Used fallback template '{final_template}' (original: '{templates_to_try[0]}')")
     print(f"\n  Words found:")
     print(f"    Across: {', '.join(f'{k}={v}' for k, v in sorted(words['across'].items()))}")
     print(f"    Down: {', '.join(f'{k}={v}' for k, v in sorted(words['down'].items()))}")

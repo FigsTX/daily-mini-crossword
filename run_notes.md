@@ -1308,3 +1308,228 @@ schedule:
 ```
 
 **Commit:** `8e75769`
+
+---
+
+## Session: 2026-01-21
+
+### Task #25: Replace Custom Keyboard with Native Mobile Keyboard
+
+**Status:** COMPLETE
+
+**Objective:** Replace the custom on-screen QWERTY keyboard with native iOS/Android keyboard input, similar to NYT Mini Crossword.
+
+**Problem with Previous Approach:**
+- Custom QWERTY keyboard (`src/components/Keyboard.tsx`) was displayed on mobile devices
+- Less familiar UX than native keyboard
+- Missing features like swipe typing, autocorrect hints, etc.
+- NYT Mini uses native keyboard for better mobile experience
+
+**Solution - Hidden Input Pattern:**
+Instead of rendering a custom keyboard, use a hidden `<input>` element that:
+1. Is focused when user taps a grid cell
+2. Triggers the native iOS/Android keyboard
+3. Captures keystrokes and forwards them to the game state
+
+**Changes Made:**
+
+1. **Removed Keyboard import** (`src/App.tsx`)
+   - Deleted import of `Keyboard` component
+   - Removed the `<Keyboard>` JSX from mobile view
+
+2. **Added hidden input element** (`src/App.tsx`)
+   ```tsx
+   <input
+     ref={hiddenInputRef}
+     type="text"
+     inputMode="text"
+     autoCapitalize="characters"
+     autoComplete="off"
+     autoCorrect="off"
+     spellCheck={false}
+     className="absolute opacity-0 w-0 h-0 pointer-events-none"
+     style={{ position: 'absolute', left: '-9999px' }}
+     onChange={handleHiddenInput}
+     onKeyDown={handleHiddenInputKeyDown}
+     aria-label="Crossword input"
+   />
+   ```
+
+3. **Added input handlers** (`src/App.tsx`)
+   - `handleHiddenInput()` - Captures letter input, updates cell, advances cursor
+   - `handleHiddenInputKeyDown()` - Handles backspace key
+   - `focusHiddenInput()` - Focuses the hidden input when grid is tapped
+
+4. **Updated Grid component** (`src/components/Grid.tsx`)
+   - Added `onCellInteraction` prop
+   - Calls `onCellInteraction?.()` when a cell is clicked
+   - This triggers focus on the hidden input, bringing up native keyboard
+
+**Key Attributes on Hidden Input:**
+| Attribute | Purpose |
+|-----------|---------|
+| `inputMode="text"` | Shows standard text keyboard |
+| `autoCapitalize="characters"` | Auto-capitalizes all input |
+| `autoComplete="off"` | Prevents autocomplete suggestions |
+| `autoCorrect="off"` | Disables autocorrect |
+| `spellCheck={false}` | Disables spell checking |
+
+**Files Modified:**
+- `src/App.tsx` - Removed Keyboard, added hidden input and handlers
+- `src/components/Grid.tsx` - Added `onCellInteraction` prop
+
+**Files NOT Deleted:**
+- `src/components/Keyboard.tsx` - Left in place (could be removed later or used for desktop fallback)
+
+**Build:** Verified passing
+
+**Note:** Not pushed to remote as other updates are pending
+
+---
+
+### Task #26: App Enhancements - Timer, Streak, and Tools
+
+**Status:** COMPLETE
+
+**Objective:** Add three major features to enhance the crossword experience.
+
+**Features Implemented:**
+
+#### 1. Speed Timer
+- **Logic:** Timer starts on first keystroke (via `setCell`), stops when `isSolved()` becomes true
+- **Display:** MM:SS format in header, updates every second
+- **Storage:** `solveTimeSeconds` saved when puzzle is solved
+- **State:** `timerStarted`, `timerStartTime`, `solveTimeSeconds` in store
+- **Not persisted:** Timer resets on page refresh (fresh start each session)
+
+#### 2. Daily Streak
+- **Logic:** Tracks `currentStreak` (consecutive days) and `lastSolvedDate`
+- **Rules:**
+  - If `lastSolvedDate` was yesterday → increment streak
+  - If `lastSolvedDate` was today → keep current streak
+  - If gap > 1 day → reset to 1
+- **Display:** "🔥 5" shown in header next to date when streak > 0
+- **Persisted:** Yes, via Zustand persist middleware
+
+#### 3. Check & Reveal Tools
+- **`cheated` flag:** Set to `true` when any tool is used
+- **Tools:**
+  - `checkSquare()` - Highlights current cell red if wrong (2s auto-clear)
+  - `checkWord()` - Highlights all wrong cells in current word (2s auto-clear)
+  - `revealSquare()` - Fills current cell with correct letter
+- **UI:** Three buttons below grid, hidden when puzzle is solved
+- **Win message:** Shows "(used hints)" if `cheated` is true
+
+**Store Changes (`src/store/gameStore.ts`):**
+
+New State:
+```typescript
+// Timer
+timerStarted: boolean;
+timerStartTime: number | null;
+solveTimeSeconds: number | null;
+
+// Streak
+currentStreak: number;
+lastSolvedDate: string | null;
+
+// Tools
+cheated: boolean;
+errorCells: string[];
+```
+
+New Actions:
+```typescript
+// Timer
+startTimer(): void;
+stopTimer(): void;
+getElapsedSeconds(): number;
+
+// Tools
+checkSquare(): void;
+checkWord(): void;
+revealSquare(): void;
+clearErrors(): void;
+getCurrentWordCells(): string[];
+```
+
+Helper Functions:
+- `getTodayDateString()` - Returns YYYY-MM-DD for today
+- `isYesterday(dateStr)` - Checks if date was yesterday
+
+**Component Changes:**
+
+1. **`src/components/Cell.tsx`**
+   - Added `isError: boolean` prop
+   - Error styling: red border, red text
+
+2. **`src/components/Grid.tsx`**
+   - Added `errorCells` from store
+   - Passes `isError={errorCells.includes(key)}` to Cell
+
+3. **`src/App.tsx`**
+   - Added `formatTime(seconds)` helper
+   - Added timer tick effect (1s interval)
+   - Added solve detection effect (stops timer on completion)
+   - Updated header with streak display and timer
+   - Added tools buttons below grid
+   - Enhanced win message with time and hint status
+
+**Persistence:**
+```typescript
+partialize: (state) => ({
+  userGrid: state.userGrid,
+  cursor: state.cursor,
+  direction: state.direction,
+  currentStreak: state.currentStreak,
+  lastSolvedDate: state.lastSolvedDate,
+  cheated: state.cheated,
+})
+```
+
+**Build:** Verified passing
+
+**Note:** Not pushed to remote as other updates are pending
+
+---
+
+### Task #27: Fix Puzzle Generation Failure - Template Fallback
+
+**Status:** COMPLETE
+
+**Issue:** Daily puzzle generation failed on 2026-01-21 because the "wednesday" (Stairstep) template couldn't be solved with the strict 10K word list.
+
+**Root Cause:** Task #20 removed the dictionary fallback to enforce word quality. Some templates (especially wednesday/stairstep with its tight interlocking constraints) are too difficult to solve with only ~10K common words.
+
+**Solution:** Implemented two improvements:
+
+1. **Doubled retry attempts** (5 → 10 per tier)
+   ```python
+   tier_attempts = {0: 10, 1: 10}  # Doubled retries for reliability
+   ```
+
+2. **Template rotation fallback** - If day's template fails, try easier templates
+   ```python
+   fallback_templates = ["monday", "tuesday", "sunday", "thursday", "wednesday", "friday", "saturday"]
+   templates_to_try = [template_id] + [t for t in fallback_templates if t != template_id]
+   ```
+
+**Fallback Logic:**
+- Try day's template first with 10 attempts per tier (Tier 0: 5K words, Tier 1: 10K words)
+- If all attempts fail, move to next template in fallback order
+- Reset attempts for each new template
+- Log when fallback was used: `[Note] Used fallback template 'monday' (original: 'wednesday')`
+
+**Test Results:**
+```
+Template: wednesday → 20 attempts all failed
+Template: monday (fallback) → SUCCESS on attempt 1, Tier 0
+  Words: GAS, NBA, TIE, EPA, GNU, ABC, SEA (all common)
+```
+
+**Files Modified:**
+- `scripts/generate_puzzle.py` - Added template fallback loop, doubled attempts
+
+**Build:** Verified passing locally
+
+**Note:** Not pushed to remote yet

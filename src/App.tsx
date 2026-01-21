@@ -1,9 +1,15 @@
-import { useEffect, useCallback } from 'react';
+import { useEffect, useCallback, useRef, useState } from 'react';
 import { useGameStore } from './store/gameStore';
 import { DailyPuzzleSchema } from './types';
 import { Grid } from './components/Grid';
 import { ClueList } from './components/ClueList';
-import { Keyboard } from './components/Keyboard';
+
+// Format seconds as MM:SS
+function formatTime(seconds: number): string {
+  const mins = Math.floor(seconds / 60);
+  const secs = seconds % 60;
+  return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+}
 
 /**
  * Parse YYYY-MM-DD string to local Date (avoids timezone shift issues)
@@ -27,7 +33,23 @@ function App() {
     toggleDirection,
     isSolved,
     userGrid,
+    // Timer
+    timerStarted,
+    solveTimeSeconds,
+    getElapsedSeconds,
+    stopTimer,
+    // Streak
+    currentStreak,
+    // Tools
+    cheated,
+    checkSquare,
+    checkWord,
+    revealSquare,
+    clearErrors,
   } = useGameStore();
+
+  // Local state for live timer display
+  const [displayTime, setDisplayTime] = useState(0);
 
   // Load puzzle on mount
   useEffect(() => {
@@ -43,6 +65,37 @@ function App() {
     }
     loadPuzzle();
   }, [setPuzzle]);
+
+  // Timer tick effect - updates display every second while timer is running
+  useEffect(() => {
+    if (!timerStarted) {
+      // If timer stopped, show final time
+      setDisplayTime(getElapsedSeconds());
+      return;
+    }
+
+    // Update immediately
+    setDisplayTime(getElapsedSeconds());
+
+    // Then update every second
+    const interval = setInterval(() => {
+      setDisplayTime(getElapsedSeconds());
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [timerStarted, getElapsedSeconds]);
+
+  // Check for puzzle completion and stop timer
+  const solved = isSolved();
+  const prevSolvedRef = useRef(false);
+
+  useEffect(() => {
+    // Only stop timer on transition from unsolved to solved
+    if (solved && !prevSolvedRef.current && timerStarted) {
+      stopTimer();
+    }
+    prevSolvedRef.current = solved;
+  }, [solved, timerStarted, stopTimer]);
 
   // Keyboard event handler
   const handleKeyDown = useCallback(
@@ -124,27 +177,48 @@ function App() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [handleKeyDown]);
 
-  // On-screen keyboard handlers
-  const handleVirtualKeyPress = useCallback(
-    (key: string) => {
+  // Hidden input ref for mobile native keyboard
+  const hiddenInputRef = useRef<HTMLInputElement>(null);
+
+  // Focus the hidden input when grid is interacted with (for mobile)
+  const focusHiddenInput = useCallback(() => {
+    if (hiddenInputRef.current) {
+      hiddenInputRef.current.focus();
+    }
+  }, []);
+
+  // Handle input from the hidden input (mobile native keyboard)
+  const handleHiddenInput = useCallback(
+    (e: React.ChangeEvent<HTMLInputElement>) => {
       if (!puzzle) return;
-      setCell(cursor.row, cursor.col, key);
-      moveToNextCell();
+      const value = e.target.value;
+      if (value && /^[a-zA-Z]$/.test(value)) {
+        setCell(cursor.row, cursor.col, value.toUpperCase());
+        moveToNextCell();
+      }
+      // Clear the input for the next character
+      e.target.value = '';
     },
     [puzzle, cursor, setCell, moveToNextCell]
   );
 
-  const handleVirtualBackspace = useCallback(() => {
-    if (!puzzle) return;
-    const currentValue = userGrid[`${cursor.row},${cursor.col}`];
-    if (currentValue) {
-      clearCell(cursor.row, cursor.col);
-    } else {
-      moveToPrevCell();
-    }
-  }, [puzzle, cursor, userGrid, clearCell, moveToPrevCell]);
+  // Handle special keys from hidden input (backspace, etc.)
+  const handleHiddenInputKeyDown = useCallback(
+    (e: React.KeyboardEvent<HTMLInputElement>) => {
+      if (!puzzle) return;
 
-  const solved = isSolved();
+      if (e.key === 'Backspace') {
+        e.preventDefault();
+        const currentValue = userGrid[`${cursor.row},${cursor.col}`];
+        if (currentValue) {
+          clearCell(cursor.row, cursor.col);
+        } else {
+          moveToPrevCell();
+        }
+      }
+    },
+    [puzzle, cursor, userGrid, clearCell, moveToPrevCell]
+  );
 
   return (
     <div className="min-h-screen flex flex-col items-center px-4 py-8">
@@ -153,16 +227,30 @@ function App() {
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-gray-100">
           Mini Crossword
         </h1>
-        {puzzle?.meta.date && (
-          <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-            {parseLocalDate(puzzle.meta.date).toLocaleDateString('en-US', {
-              weekday: 'long',
-              year: 'numeric',
-              month: 'long',
-              day: 'numeric',
-            })}
-          </p>
-        )}
+
+        {/* Date and Streak Row */}
+        <div className="flex items-center justify-center gap-3 mt-1">
+          {puzzle?.meta.date && (
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              {parseLocalDate(puzzle.meta.date).toLocaleDateString('en-US', {
+                weekday: 'long',
+                month: 'long',
+                day: 'numeric',
+              })}
+            </p>
+          )}
+          {currentStreak > 0 && (
+            <span className="text-sm font-medium text-orange-500" title={`${currentStreak} day streak`}>
+              🔥 {currentStreak}
+            </span>
+          )}
+        </div>
+
+        {/* Timer */}
+        <div className="mt-2 text-2xl font-mono text-gray-700 dark:text-gray-300">
+          {formatTime(displayTime)}
+        </div>
+
         {puzzle?.meta.theme && (
           <p className="text-xs text-gray-400 dark:text-gray-500 mt-1">
             Theme: {puzzle.meta.theme}
@@ -172,8 +260,12 @@ function App() {
 
       {/* Win message */}
       {solved && (
-        <div className="mb-4 px-4 py-2 bg-green-100 dark:bg-green-800 text-green-800 dark:text-green-100 rounded-lg font-medium">
-          Congratulations! You solved it!
+        <div className="mb-4 px-4 py-2 bg-green-100 dark:bg-green-800 text-green-800 dark:text-green-100 rounded-lg font-medium text-center">
+          <p>Congratulations! You solved it!</p>
+          <p className="text-sm mt-1">
+            Time: {formatTime(solveTimeSeconds || displayTime)}
+            {cheated && <span className="ml-2 text-yellow-600 dark:text-yellow-400">(used hints)</span>}
+          </p>
         </div>
       )}
 
@@ -184,18 +276,58 @@ function App() {
         <span className="text-xs ml-2">(Tab to switch)</span>
       </div>
 
+      {/* Hidden input for mobile native keyboard */}
+      <input
+        ref={hiddenInputRef}
+        type="text"
+        inputMode="text"
+        autoCapitalize="characters"
+        autoComplete="off"
+        autoCorrect="off"
+        spellCheck={false}
+        className="absolute opacity-0 w-0 h-0 pointer-events-none"
+        style={{ position: 'absolute', left: '-9999px' }}
+        onChange={handleHiddenInput}
+        onKeyDown={handleHiddenInputKeyDown}
+        aria-label="Crossword input"
+      />
+
       {/* Grid */}
-      <div className="mb-6">
-        <Grid />
+      <div className="mb-4">
+        <Grid onCellInteraction={focusHiddenInput} />
       </div>
 
-      {/* On-screen keyboard (mobile only) */}
-      <div className="mb-6 w-full md:hidden">
-        <Keyboard
-          onKeyPress={handleVirtualKeyPress}
-          onBackspace={handleVirtualBackspace}
-        />
-      </div>
+      {/* Tools - Check & Reveal (hidden when solved) */}
+      {!solved && (
+        <div className="mb-6 flex flex-wrap justify-center gap-2">
+          <button
+            onClick={() => {
+              checkSquare();
+              // Auto-clear errors after 2 seconds
+              setTimeout(clearErrors, 2000);
+            }}
+            className="px-3 py-1.5 text-sm bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+          >
+            Check Square
+          </button>
+          <button
+            onClick={() => {
+              checkWord();
+              // Auto-clear errors after 2 seconds
+              setTimeout(clearErrors, 2000);
+            }}
+            className="px-3 py-1.5 text-sm bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+          >
+            Check Word
+          </button>
+          <button
+            onClick={revealSquare}
+            className="px-3 py-1.5 text-sm bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+          >
+            Reveal Square
+          </button>
+        </div>
+      )}
 
       {/* Clues */}
       <ClueList />

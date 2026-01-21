@@ -9,6 +9,7 @@ interface CellProps {
   clueIndex?: number;
   status: CellStatus;
   isBlack: boolean;
+  isError: boolean;
   onClick: () => void;
 }
 
@@ -17,6 +18,7 @@ export const Cell = memo(function Cell({
   clueIndex,
   status,
   isBlack,
+  isError,
   onClick,
 }: CellProps) {
   if (isBlack) {
@@ -31,12 +33,17 @@ export const Cell = memo(function Cell({
     none: 'bg-white dark:bg-gray-700',
   };
 
+  // Error styling takes precedence for the border
+  const borderClass = isError
+    ? 'border-2 border-red-500'
+    : 'border border-gray-400 dark:border-gray-600';
+
   return (
     <div
       onClick={onClick}
       className={`
         relative w-12 h-12 sm:w-14 sm:h-14
-        border border-gray-400 dark:border-gray-600
+        ${borderClass}
         ${statusClasses[status]}
         cursor-pointer
         flex items-center justify-center
@@ -52,7 +59,7 @@ export const Cell = memo(function Cell({
       )}
 
       {/* Letter value */}
-      <span className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-gray-100 uppercase">
+      <span className={`text-xl sm:text-2xl font-bold uppercase ${isError ? 'text-red-600 dark:text-red-400' : 'text-gray-900 dark:text-gray-100'}`}>
         {value}
       </span>
     </div>

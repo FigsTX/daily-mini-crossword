@@ -19,6 +19,19 @@ interface GameState {
   clues: Clues | null;
   grid: Grid | null;
 
+  // Timer state
+  timerStarted: boolean;
+  timerStartTime: number | null;
+  solveTimeSeconds: number | null;
+
+  // Streak state (persisted)
+  currentStreak: number;
+  lastSolvedDate: string | null;
+
+  // Check/Reveal tools
+  cheated: boolean;
+  errorCells: string[]; // Array of "row,col" keys for error highlighting
+
   // Actions
   setPuzzle: (puzzle: DailyPuzzle) => void;
   setCursor: (cursor: Cursor) => void;
@@ -33,17 +46,44 @@ interface GameState {
   moveToPrevCell: () => void;
   moveInDirection: (deltaRow: number, deltaCol: number) => void;
 
+  // Timer actions
+  startTimer: () => void;
+  stopTimer: () => void;
+  getElapsedSeconds: () => number;
+
+  // Check/Reveal tools
+  checkSquare: () => void;
+  checkWord: () => void;
+  revealSquare: () => void;
+  clearErrors: () => void;
+
   // Helpers
   isBlackSquare: (row: number, col: number) => boolean;
   isValidCell: (row: number, col: number) => boolean;
   findFirstValidCell: () => Cursor;
   isSolved: () => boolean;
+  getCurrentWordCells: () => string[];
 }
 
 const GRID_SIZE = 5;
 
 const initialCursor: Cursor = { row: 0, col: 0 };
 const initialDirection: Direction = 'across';
+
+// Helper to get today's date in YYYY-MM-DD format
+function getTodayDateString(): string {
+  const now = new Date();
+  return now.toISOString().split('T')[0];
+}
+
+// Helper to check if a date string is yesterday
+function isYesterday(dateStr: string): boolean {
+  const date = new Date(dateStr);
+  const today = new Date();
+  const yesterday = new Date(today);
+  yesterday.setDate(yesterday.getDate() - 1);
+  return date.toISOString().split('T')[0] === yesterday.toISOString().split('T')[0];
+}
 
 export const useGameStore = create<GameState>()(
   persist(
@@ -55,15 +95,38 @@ export const useGameStore = create<GameState>()(
       clues: null,
       grid: null,
 
+      // Timer state (not persisted - resets on page load)
+      timerStarted: false,
+      timerStartTime: null,
+      solveTimeSeconds: null,
+
+      // Streak state (persisted)
+      currentStreak: 0,
+      lastSolvedDate: null,
+
+      // Check/Reveal tools
+      cheated: false,
+      errorCells: [],
+
       setPuzzle: (puzzle) => {
         const firstValid = findFirstValidCellInGrid(puzzle.grid);
+        const currentState = get();
+        const isNewPuzzle = currentState.puzzle?.meta.date !== puzzle.meta.date;
+
         set({
           puzzle,
           clues: puzzle.clues,
           grid: puzzle.grid,
           cursor: firstValid,
-          // Don't reset userGrid if we have persisted progress for this date
-          userGrid: get().puzzle?.meta.date === puzzle.meta.date ? get().userGrid : {},
+          // Reset state for new puzzle, preserve for same puzzle
+          userGrid: isNewPuzzle ? {} : currentState.userGrid,
+          // Reset timer for new puzzle
+          timerStarted: isNewPuzzle ? false : currentState.timerStarted,
+          timerStartTime: isNewPuzzle ? null : currentState.timerStartTime,
+          solveTimeSeconds: isNewPuzzle ? null : currentState.solveTimeSeconds,
+          // Reset cheated flag for new puzzle
+          cheated: isNewPuzzle ? false : currentState.cheated,
+          errorCells: [],
         });
       },
 
@@ -84,8 +147,13 @@ export const useGameStore = create<GameState>()(
       },
 
       setCell: (row, col, value) => {
-        const { isBlackSquare } = get();
+        const { isBlackSquare, timerStarted, solveTimeSeconds, startTimer } = get();
         if (isBlackSquare(row, col)) return;
+
+        // Start timer on first move (if not already started and not already solved)
+        if (!timerStarted && solveTimeSeconds === null) {
+          startTimer();
+        }
 
         const key = `${row},${col}`;
         set((state) => ({
@@ -93,6 +161,8 @@ export const useGameStore = create<GameState>()(
             ...state.userGrid,
             [key]: value.toUpperCase().slice(0, 1),
           },
+          // Clear error highlighting when user types
+          errorCells: state.errorCells.filter((k) => k !== key),
         }));
       },
 
@@ -207,6 +277,151 @@ export const useGameStore = create<GameState>()(
         return findFirstValidCellInGrid(grid);
       },
 
+      // Timer actions
+      startTimer: () => {
+        set({
+          timerStarted: true,
+          timerStartTime: Date.now(),
+        });
+      },
+
+      stopTimer: () => {
+        const { timerStartTime, lastSolvedDate, currentStreak, puzzle } = get();
+        if (!timerStartTime) return;
+
+        const elapsed = Math.floor((Date.now() - timerStartTime) / 1000);
+        const today = getTodayDateString();
+
+        // Calculate new streak
+        let newStreak = 1;
+        if (lastSolvedDate) {
+          if (isYesterday(lastSolvedDate)) {
+            // Continue streak
+            newStreak = currentStreak + 1;
+          } else if (lastSolvedDate === today) {
+            // Already solved today, keep current streak
+            newStreak = currentStreak;
+          }
+          // Otherwise reset to 1 (gap in days)
+        }
+
+        set({
+          timerStarted: false,
+          solveTimeSeconds: elapsed,
+          lastSolvedDate: puzzle?.meta.date || today,
+          currentStreak: newStreak,
+        });
+      },
+
+      getElapsedSeconds: () => {
+        const { timerStartTime, solveTimeSeconds } = get();
+        if (solveTimeSeconds !== null) return solveTimeSeconds;
+        if (!timerStartTime) return 0;
+        return Math.floor((Date.now() - timerStartTime) / 1000);
+      },
+
+      // Check/Reveal tools
+      checkSquare: () => {
+        const { puzzle, userGrid, cursor } = get();
+        if (!puzzle) return;
+
+        const key = `${cursor.row},${cursor.col}`;
+        const cell = puzzle.grid[key];
+        const userAnswer = userGrid[key] || '';
+
+        // Mark as cheated
+        set({ cheated: true });
+
+        // If wrong or empty, add to error cells
+        if (userAnswer.toUpperCase() !== cell?.char?.toUpperCase()) {
+          set((state) => ({
+            errorCells: state.errorCells.includes(key)
+              ? state.errorCells
+              : [...state.errorCells, key],
+          }));
+        }
+      },
+
+      checkWord: () => {
+        const { puzzle, userGrid, getCurrentWordCells } = get();
+        if (!puzzle) return;
+
+        const wordCells = getCurrentWordCells();
+        const errors: string[] = [];
+
+        for (const key of wordCells) {
+          const cell = puzzle.grid[key];
+          const userAnswer = userGrid[key] || '';
+          if (userAnswer.toUpperCase() !== cell?.char?.toUpperCase()) {
+            errors.push(key);
+          }
+        }
+
+        // Mark as cheated
+        set((state) => ({
+          cheated: true,
+          errorCells: [...new Set([...state.errorCells, ...errors])],
+        }));
+      },
+
+      revealSquare: () => {
+        const { puzzle, cursor } = get();
+        if (!puzzle) return;
+
+        const key = `${cursor.row},${cursor.col}`;
+        const cell = puzzle.grid[key];
+        if (!cell?.char) return;
+
+        // Mark as cheated and set the correct letter
+        set((state) => ({
+          cheated: true,
+          userGrid: {
+            ...state.userGrid,
+            [key]: cell.char!.toUpperCase(),
+          },
+          errorCells: state.errorCells.filter((k) => k !== key),
+        }));
+      },
+
+      clearErrors: () => {
+        set({ errorCells: [] });
+      },
+
+      // Get all cells in the current word
+      getCurrentWordCells: () => {
+        const { cursor, direction, isBlackSquare } = get();
+        const cells: string[] = [];
+        const { row, col } = cursor;
+
+        if (direction === 'across') {
+          // Find start of word
+          let startCol = col;
+          while (startCol > 0 && !isBlackSquare(row, startCol - 1)) {
+            startCol--;
+          }
+          // Find end and collect cells
+          let c = startCol;
+          while (c < GRID_SIZE && !isBlackSquare(row, c)) {
+            cells.push(`${row},${c}`);
+            c++;
+          }
+        } else {
+          // Find start of word
+          let startRow = row;
+          while (startRow > 0 && !isBlackSquare(startRow - 1, col)) {
+            startRow--;
+          }
+          // Find end and collect cells
+          let r = startRow;
+          while (r < GRID_SIZE && !isBlackSquare(r, col)) {
+            cells.push(`${r},${col}`);
+            r++;
+          }
+        }
+
+        return cells;
+      },
+
       isSolved: () => {
         const { puzzle, userGrid } = get();
         if (!puzzle) return false;
@@ -235,6 +450,11 @@ export const useGameStore = create<GameState>()(
         userGrid: state.userGrid,
         cursor: state.cursor,
         direction: state.direction,
+        // Persist streak data
+        currentStreak: state.currentStreak,
+        lastSolvedDate: state.lastSolvedDate,
+        // Persist cheated flag (per session, resets with new puzzle)
+        cheated: state.cheated,
       }),
     }
   )

@@ -5,7 +5,11 @@ import type { CellStatus } from './Cell';
 
 const GRID_SIZE = 5;
 
-export function Grid() {
+interface GridProps {
+  onCellInteraction?: () => void;
+}
+
+export function Grid({ onCellInteraction }: GridProps) {
   const {
     grid,
     userGrid,
@@ -14,6 +18,7 @@ export function Grid() {
     setCursor,
     toggleDirection,
     isBlackSquare,
+    errorCells,
   } = useGameStore();
 
   // Find all cells that are part of the same word as the cursor
@@ -73,8 +78,11 @@ export function Grid() {
       } else {
         setCursor({ row, col });
       }
+
+      // Trigger mobile keyboard focus
+      onCellInteraction?.();
     },
-    [cursor, setCursor, toggleDirection, isBlackSquare]
+    [cursor, setCursor, toggleDirection, isBlackSquare, onCellInteraction]
   );
 
   const getCellStatus = useCallback(
@@ -119,6 +127,7 @@ export function Grid() {
               clueIndex={cell?.clueIndex}
               status={getCellStatus(row, col)}
               isBlack={isBlack}
+              isError={errorCells.includes(key)}
               onClick={() => handleCellClick(row, col)}
             />
           );
