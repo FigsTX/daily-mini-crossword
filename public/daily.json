@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-01-20",
+    "date": "2026-01-21",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Setting Off",
-    "templateId": "tuesday",
-    "wordTier": 1
+    "theme": "Letter Play",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,19 +13,19 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "O",
+      "char": "P",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "N",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
@@ -35,81 +35,82 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
-    },
-    "1,2": {
-      "char": "L"
-    },
-    "1,3": {
-      "char": "A"
-    },
-    "1,4": {
-      "char": "S",
-      "clueIndex": 5
-    },
-    "2,0": {
-      "char": "S",
-      "clueIndex": 6
-    },
-    "2,1": {
-      "char": "H"
-    },
-    "2,2": {
-      "char": "O"
-    },
-    "2,3": {
       "char": "R"
     },
-    "2,4": {
+    "1,2": {
       "char": "E"
     },
-    "3,0": {
-      "char": "N",
+    "1,3": {
+      "char": null
+    },
+    "1,4": {
+      "char": null
+    },
+    "2,0": {
+      "char": "T",
+      "clueIndex": 5
+    },
+    "2,1": {
+      "char": "A"
+    },
+    "2,2": {
+      "char": "E"
+    },
+    "2,3": {
+      "char": "D",
+      "clueIndex": 6
+    },
+    "2,4": {
+      "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "W"
+      "char": "N",
+      "clueIndex": 8
     },
     "3,3": {
       "char": "E"
     },
     "3,4": {
-      "char": "R"
+      "char": "C"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "R",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "R"
     },
     "4,4": {
-      "char": null
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Set ___ (depart)",
-      "4": "Book of maps",
-      "6": "Land by the sea",
-      "7": "More recently introduced",
-      "8": "What travel blogs might use"
+      "1": "Farm enclosure or writing tool",
+      "4": "The two of us ____",
+      "5": "Calendar entries, jumbled?",
+      "8": "___ and crop (abbrev.)",
+      "9": "Indian title of respect"
     },
     "down": {
-      "1": "A different one",
-      "2": "Moves like water",
-      "3": "Travel ticket prices",
-      "4": "Internet address group letters",
-      "5": "Spanish \"to be\""
+      "1": "Butter square or a gentle tap",
+      "2": "Distinctive time period",
+      "3": "Has observed, scrambled?",
+      "6": "German definite article",
+      "7": "Lab subject, for short"
     }
   }
 }
