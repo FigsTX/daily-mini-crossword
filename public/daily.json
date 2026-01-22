@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-01-21",
+    "date": "2026-01-22",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Letter Play",
+    "theme": "Short & Sweet",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -17,11 +17,11 @@
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "N",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,11 +31,11 @@
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "V"
     },
     "1,2": {
       "char": "E"
@@ -51,7 +51,7 @@
       "clueIndex": 5
     },
     "2,1": {
-      "char": "A"
+      "char": "E"
     },
     "2,2": {
       "char": "E"
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "1": "Farm enclosure or writing tool",
-      "4": "The two of us ____",
-      "5": "Calendar entries, jumbled?",
-      "8": "___ and crop (abbrev.)",
-      "9": "Indian title of respect"
+      "1": "A gentle reassuring touch",
+      "4": "Biblical first woman",
+      "5": "Sets up a shot, golf-wise",
+      "8": "Big name in tech (abbr.)",
+      "9": "Mr. in India"
     },
     "down": {
-      "1": "Butter square or a gentle tap",
-      "2": "Distinctive time period",
-      "3": "Has observed, scrambled?",
-      "6": "German definite article",
-      "7": "Lab subject, for short"
+      "1": "Fido or Fifi, e.g.",
+      "2": "Fifth, in NYC (abbr.)",
+      "3": "Ages 13-19, say",
+      "6": "The, in Deutschland",
+      "7": "Part of STEM (abbr.)"
     }
   }
 }
