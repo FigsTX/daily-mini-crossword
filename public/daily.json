@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-01-22",
+    "date": "2026-01-23",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short & Sweet",
+    "theme": "Leisure Day",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
+      "char": "B",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "N",
       "clueIndex": 3
     },
     "0,3": {
@@ -35,10 +35,10 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "V"
+      "char": "A"
     },
     "1,2": {
-      "char": "E"
+      "char": "R"
     },
     "1,3": {
       "char": null
@@ -51,17 +51,17 @@
       "clueIndex": 5
     },
     "2,1": {
-      "char": "E"
+      "char": "T"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "D",
+      "char": "A",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "N",
+      "char": "E",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "V"
     },
     "3,4": {
-      "char": "C"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -91,26 +91,26 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "E"
     },
     "4,4": {
-      "char": "I"
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "A gentle reassuring touch",
-      "4": "Biblical first woman",
-      "5": "Sets up a shot, golf-wise",
-      "8": "Big name in tech (abbr.)",
-      "9": "Mr. in India"
+      "1": "London's Big ___.",
+      "4": "What you hear with.",
+      "5": "A pleasant surprise.",
+      "8": "Adam's garden companion.",
+      "9": "Where ships sail."
     },
     "down": {
-      "1": "Fido or Fifi, e.g.",
-      "2": "Fifth, in NYC (abbr.)",
-      "3": "Ages 13-19, say",
-      "6": "The, in Deutschland",
-      "7": "Part of STEM (abbr.)"
+      "1": "Poker table action.",
+      "2": "Have a meal.",
+      "3": "Maple and oak, for example.",
+      "6": "Mary's Latin greeting.",
+      "7": "Earl Grey or green."
     }
   }
 }
