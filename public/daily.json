@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-01-23",
+    "date": "2026-01-24",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Leisure Day",
+    "theme": "A Glimpse and a Taste",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -17,11 +17,11 @@
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "I",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "N",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "E",
+      "char": "U",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
+      "char": "S"
     },
     "1,2": {
-      "char": "R"
+      "char": "A"
     },
     "1,3": {
       "char": null
@@ -51,17 +51,17 @@
       "clueIndex": 5
     },
     "2,1": {
-      "char": "T"
+      "char": "O"
     },
     "2,2": {
-      "char": "E"
+      "char": "S"
     },
     "2,3": {
-      "char": "A",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,11 +71,11 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "V"
+      "char": "O"
     },
     "3,4": {
       "char": "E"
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "Y"
     },
     "4,4": {
-      "char": "A"
+      "char": "E"
     }
   },
   "clues": {
     "across": {
-      "1": "London's Big ___.",
-      "4": "What you hear with.",
-      "5": "A pleasant surprise.",
-      "8": "Adam's garden companion.",
-      "9": "Where ships sail."
+      "1": "A morsel, or a data unit.",
+      "4": "Home of Lady Liberty, abbr.",
+      "5": "Crispy tortilla portions.",
+      "8": "Smallest foot part.",
+      "9": "Needle opening or storm center."
     },
     "down": {
-      "1": "Poker table action.",
-      "2": "Have a meal.",
-      "3": "Maple and oak, for example.",
-      "6": "Mary's Latin greeting.",
-      "7": "Earl Grey or green."
+      "1": "\"However,\" or \"except for.\"",
+      "2": "\"Equal\" prefix or standard org.",
+      "3": "A brief sample or a sense.",
+      "6": "Child's plaything.",
+      "7": "Behold or comprehend."
     }
   }
 }
