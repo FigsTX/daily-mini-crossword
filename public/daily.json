@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-01-26",
+    "date": "2026-01-27",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "A Day of Simple Pleasures",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Globetrotter's Guide",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
+      "char": "T"
     },
     "1,2": {
-      "char": "T"
+      "char": "L"
     },
     "1,3": {
-      "char": null
+      "char": "A"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "T"
-    },
-    "2,2": {
-      "char": "E"
-    },
-    "2,3": {
-      "char": "A",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
-    "2,4": {
-      "char": "T",
-      "clueIndex": 7
+    "2,1": {
+      "char": "H"
     },
-    "3,0": {
-      "char": null
+    "2,2": {
+      "char": "O"
     },
-    "3,1": {
-      "char": null
-    },
-    "3,2": {
-      "char": "E",
-      "clueIndex": 8
-    },
-    "3,3": {
+    "2,3": {
       "char": "R"
     },
+    "2,4": {
+      "char": "E"
+    },
+    "3,0": {
+      "char": "N",
+      "clueIndex": 7
+    },
+    "3,1": {
+      "char": "E"
+    },
+    "3,2": {
+      "char": "W"
+    },
+    "3,3": {
+      "char": "E"
+    },
     "3,4": {
-      "char": "A"
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "L",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "E"
+      "char": "S"
     },
     "4,4": {
-      "char": "G"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Beloved household animal.",
-      "4": "Took a comfortable seat.",
-      "5": "Pleasant surprise, often sweet.",
-      "8": "A distinct historical period.",
-      "9": "A section of a journey."
+      "1": "Start of a journey, perhaps",
+      "4": "Titan's world guide",
+      "6": "Ocean's sandy edge",
+      "7": "More up-to-date",
+      "8": "Web feed letters"
     },
     "down": {
-      "1": "West Coast time zone, briefly.",
-      "2": "Consume some delicious food.",
-      "3": "Strong, common metal.",
-      "6": "Plural present tense of \"be\".",
-      "7": "Follow closely, or a game."
+      "1": "A different one",
+      "2": "Goes with the current",
+      "3": "Cab ride costs",
+      "4": "Autonomous System letters",
+      "5": "Mr., in Madrid"
     }
   }
 }
