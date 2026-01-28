@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-01-27",
+    "date": "2026-01-28",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Globetrotter's Guide",
-    "templateId": "tuesday",
-    "wordTier": 1
+    "theme": "Initial Impressions",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,68 +13,69 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "O",
+      "char": "C",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "A",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "O",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
+      "char": "U"
     },
     "1,2": {
-      "char": "L"
-    },
-    "1,3": {
-      "char": "A"
-    },
-    "1,4": {
-      "char": "S",
-      "clueIndex": 5
-    },
-    "2,0": {
-      "char": "S",
-      "clueIndex": 6
-    },
-    "2,1": {
-      "char": "H"
-    },
-    "2,2": {
-      "char": "O"
-    },
-    "2,3": {
       "char": "R"
     },
-    "2,4": {
+    "1,3": {
+      "char": null
+    },
+    "1,4": {
+      "char": null
+    },
+    "2,0": {
+      "char": "M",
+      "clueIndex": 5
+    },
+    "2,1": {
+      "char": "D"
+    },
+    "2,2": {
       "char": "E"
     },
-    "3,0": {
-      "char": "N",
+    "2,3": {
+      "char": "T",
+      "clueIndex": 6
+    },
+    "2,4": {
+      "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "W"
+      "char": "E",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "U"
     },
     "3,4": {
       "char": "R"
@@ -83,33 +84,33 @@
       "char": null
     },
     "4,1": {
-      "char": "R",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "E"
     },
     "4,4": {
-      "char": null
+      "char": "C"
     }
   },
   "clues": {
     "across": {
-      "1": "Start of a journey, perhaps",
-      "4": "Titan's world guide",
-      "6": "Ocean's sandy edge",
-      "7": "More up-to-date",
-      "8": "Web feed letters"
+      "1": "Furry household companion.",
+      "4": "Pronoun for all of us.",
+      "5": "Letters in an official agency.",
+      "8": "European currency, briefly.",
+      "9": "Quick moment, for short."
     },
     "down": {
-      "1": "A different one",
-      "2": "Goes with the current",
-      "3": "Cab ride costs",
-      "4": "Autonomous System letters",
-      "5": "Mr., in Madrid"
+      "1": "Popular internet domain suffix.",
+      "2": "Sound prefix, briefly.",
+      "3": "Large forest dwellers.",
+      "6": "Day before Wednesday, briefly.",
+      "7": "Where info comes from, briefly."
     }
   }
 }
