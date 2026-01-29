@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-01-28",
+    "date": "2026-01-29",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Initial Impressions",
+    "theme": "Short & Sweet",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,11 +13,11 @@
   },
   "grid": {
     "0,0": {
-      "char": "C",
+      "char": "B",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "O",
+      "char": "U",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "U"
+      "char": "S"
     },
     "1,2": {
-      "char": "R"
+      "char": "E"
     },
     "1,3": {
       "char": null
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "M",
+      "char": "S",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "D"
+      "char": "T"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "T",
+      "char": "P",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "N",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "U"
+      "char": "E"
     },
     "3,4": {
-      "char": "R"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -91,26 +91,26 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "R"
     },
     "4,4": {
-      "char": "C"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Furry household companion.",
-      "4": "Pronoun for all of us.",
-      "5": "Letters in an official agency.",
-      "8": "European currency, briefly.",
-      "9": "Quick moment, for short."
+      "1": "Take a chance",
+      "4": "Put to good purpose",
+      "5": "Dance moves, often",
+      "8": "___-and-neck race",
+      "9": "Hindu honorific"
     },
     "down": {
-      "1": "Popular internet domain suffix.",
-      "2": "Sound prefix, briefly.",
-      "3": "Large forest dwellers.",
-      "6": "Day before Wednesday, briefly.",
-      "7": "Where info comes from, briefly."
+      "1": "Public transport",
+      "2": "Time zone abbr.",
+      "3": "High schoolers, typically",
+      "6": "For each",
+      "7": "High school subject, for short"
     }
   }
 }
