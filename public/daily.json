@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-01-29",
+    "date": "2026-01-30",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short & Sweet",
+    "theme": "Brief Encounters",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,11 +13,11 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
+      "char": "E",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 2
     },
     "0,2": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "U",
+      "char": "D",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "S"
+      "char": "N"
     },
     "1,2": {
-      "char": "E"
+      "char": "A"
     },
     "1,3": {
       "char": null
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "T"
+      "char": "N"
     },
     "2,2": {
-      "char": "E"
+      "char": "S"
     },
     "2,3": {
-      "char": "P",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "N",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "O"
     },
     "3,4": {
-      "char": "C"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "Y"
     },
     "4,4": {
-      "char": "I"
+      "char": "E"
     }
   },
   "clues": {
     "across": {
-      "1": "Take a chance",
-      "4": "Put to good purpose",
-      "5": "Dance moves, often",
-      "8": "___-and-neck race",
-      "9": "Hindu honorific"
+      "1": "Have a meal.",
+      "4": "Life's genetic blueprint.",
+      "5": "Most anxious, briefly.",
+      "8": "Pinky's neighbor on a foot.",
+      "9": "What you see with."
     },
     "down": {
-      "1": "Public transport",
-      "2": "Time zone abbr.",
-      "3": "High schoolers, typically",
-      "6": "For each",
-      "7": "High school subject, for short"
+      "1": "NYC summer setting.",
+      "2": "Common feminine name.",
+      "3": "Sense of flavor.",
+      "6": "A child's plaything.",
+      "7": "Perceive with eyes."
     }
   }
 }
