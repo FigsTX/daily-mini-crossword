@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-01-31",
+    "date": "2026-02-01",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short & Sweet",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Bits and Pieces",
+    "templateId": "sunday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "A",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "P",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "P",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "C",
+      "char": "S",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
-    },
-    "1,2": {
-      "char": "R"
-    },
-    "1,3": {
-      "char": null
-    },
-    "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "S",
-      "clueIndex": 5
-    },
-    "2,1": {
       "char": "T"
     },
-    "2,2": {
-      "char": "E"
+    "1,2": {
+      "char": "O"
     },
-    "2,3": {
-      "char": "E",
+    "1,3": {
+      "char": "O"
+    },
+    "1,4": {
+      "char": "D",
+      "clueIndex": 5
+    },
+    "2,0": {
+      "char": "A",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "L"
+    },
+    "2,2": {
+      "char": "I"
+    },
+    "2,3": {
+      "char": "K"
+    },
     "2,4": {
-      "char": "L",
-      "clueIndex": 7
+      "char": "E"
     },
     "3,0": {
-      "char": null
+      "char": "P",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "A"
     },
     "3,2": {
-      "char": "A",
-      "clueIndex": 8
+      "char": "N"
     },
     "3,3": {
-      "char": "P"
+      "char": "E"
     },
     "3,4": {
-      "char": "I"
+      "char": "L"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "S",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "T",
-      "clueIndex": 9
+      "char": "T"
     },
     "4,3": {
-      "char": "A"
+      "char": "R"
     },
     "4,4": {
-      "char": "B"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "A teacher's favorite.",
-      "4": "What you drive.",
-      "5": "Superman's strong stuff.",
-      "8": "Software connector, for short.",
-      "9": "Browser window, often."
+      "1": "Program on your phone",
+      "4": "Remained upright",
+      "6": "Of the same kind",
+      "7": "Experts' discussion group",
+      "8": "Road sign abbr."
     },
     "down": {
-      "1": "Laptops and desktops, for short.",
-      "2": "Consume a meal.",
-      "3": "Reward or goodie.",
-      "6": "Green agency, briefly.",
-      "7": "Library, for short."
+      "1": "Map collection in a book",
+      "2": "Score in a game",
+      "3": "Five-card draw game",
+      "4": "Tree's lifeblood",
+      "5": "California's ____ Mar"
     }
   }
 }
