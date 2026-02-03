@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-02-02",
+    "date": "2026-02-03",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Brief Encounters",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Building Blocks",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,69 +13,68 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
+      "char": "S",
+      "clueIndex": 1
+    },
+    "0,2": {
       "char": "A",
       "clueIndex": 2
     },
-    "0,2": {
-      "char": "Y",
-      "clueIndex": 3
-    },
     "0,3": {
-      "char": null
+      "char": "P",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "M",
+      "char": "S",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "T"
     },
     "1,2": {
-      "char": "H"
+      "char": "A"
     },
     "1,3": {
-      "char": null
+      "char": "R"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
       "char": "T",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "I"
-    },
-    "2,2": {
-      "char": "E"
-    },
-    "2,3": {
-      "char": "D",
+    "2,0": {
+      "char": "M",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "A"
+    },
+    "2,2": {
+      "char": "R"
+    },
+    "2,3": {
+      "char": "I"
+    },
     "2,4": {
+      "char": "E"
+    },
+    "3,0": {
       "char": "S",
       "clueIndex": 7
     },
-    "3,0": {
-      "char": null
-    },
     "3,1": {
-      "char": null
+      "char": "T"
     },
     "3,2": {
-      "char": "S",
-      "clueIndex": 8
+      "char": "O"
     },
     "3,3": {
-      "char": "E"
+      "char": "N"
     },
     "3,4": {
       "char": "E"
@@ -84,31 +83,33 @@
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "E",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "N"
     },
     "4,3": {
-      "char": "S"
+      "char": "T"
     },
     "4,4": {
-      "char": "T"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Full of joy and cheer",
-      "4": "Speedometer display letters",
-      "5": "Finished evenly, as a game",
-      "8": "Perceive with the eyes",
-      "9": "Best's ending, or NYC's time"
+      "1": "Essential tree fluid.",
+      "4": "Get the ball rolling.",
+      "6": "Curie's first name.",
+      "7": "Gem or a peach pit.",
+      "8": "Tree folk of Middle-earth."
     },
     "down": {
-      "1": "London's famous time abbr.",
-      "2": "Coder's interface abbr.",
-      "3": "\"These\" missing its first letter"
+      "1": "Nation or a condition.",
+      "2": "Burr's duel opponent.",
+      "3": "Make an impression.",
+      "4": "Modern cell message.",
+      "5": "Golf ball holder."
     }
   }
 }
