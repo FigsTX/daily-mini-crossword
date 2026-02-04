@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-02-03",
+    "date": "2026-02-04",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Building Blocks",
-    "templateId": "tuesday",
-    "wordTier": 1
+    "theme": "Sounds Like Fun",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "S",
+      "char": "B",
       "clueIndex": 1
     },
-    "0,2": {
+    "0,1": {
       "char": "A",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "P",
+    "0,2": {
+      "char": "R",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "M",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
+      "char": "P"
     },
     "1,2": {
-      "char": "A"
+      "char": "H"
     },
     "1,3": {
-      "char": "R"
+      "char": null
     },
     "1,4": {
-      "char": "T",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "M",
-      "clueIndex": 6
+      "char": "W",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "A"
-    },
-    "2,2": {
-      "char": "R"
-    },
-    "2,3": {
       "char": "I"
     },
-    "2,4": {
+    "2,2": {
       "char": "E"
     },
-    "3,0": {
-      "char": "S",
+    "2,3": {
+      "char": "A",
+      "clueIndex": 6
+    },
+    "2,4": {
+      "char": "M",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "T"
+      "char": null
     },
     "3,2": {
-      "char": "O"
+      "char": "E",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "N"
+      "char": "R"
     },
     "3,4": {
-      "char": "E"
+      "char": "A"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "E",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "N"
+      "char": "T",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "T"
+      "char": "E"
     },
     "4,4": {
-      "char": null
+      "char": "N"
     }
   },
   "clues": {
     "across": {
-      "1": "Essential tree fluid.",
-      "4": "Get the ball rolling.",
-      "6": "Curie's first name.",
-      "7": "Gem or a peach pit.",
-      "8": "Tree folk of Middle-earth."
+      "1": "Tavern or a lawyer's association.",
+      "4": "Auto speedometer letters.",
+      "5": "Sounds like a group's objective.",
+      "8": "Historical period or a pitching stat.",
+      "9": "Perfect score on a dive."
     },
     "down": {
-      "1": "Nation or a condition.",
-      "2": "Burr's duel opponent.",
-      "3": "Make an impression.",
-      "4": "Modern cell message.",
-      "5": "Golf ball holder."
+      "1": "Luxury German car letters.",
+      "2": "Software interface, for short.",
+      "3": "Sounds like a cozy bed covering.",
+      "6": "\"You ___ what you eat.\"",
+      "7": "Fellow, guy, dude."
     }
   }
 }
