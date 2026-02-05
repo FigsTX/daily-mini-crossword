@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-02-04",
+    "date": "2026-02-05",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Sounds Like Fun",
+    "theme": "Final Thoughts",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
+      "char": "D",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "R",
+      "char": "S",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "M",
+      "char": "I",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "N"
     },
     "1,2": {
-      "char": "H"
+      "char": "T"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "W",
+      "char": "D",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "I"
+      "char": "D"
     },
     "2,2": {
-      "char": "E"
+      "char": "A"
     },
     "2,3": {
-      "char": "A",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "M",
+      "char": "H",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "R"
+      "char": "H"
     },
     "3,4": {
-      "char": "A"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "T",
+      "char": "E",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "U"
     },
     "4,4": {
-      "char": "N"
+      "char": "R"
     }
   },
   "clues": {
     "across": {
-      "1": "Tavern or a lawyer's association.",
-      "4": "Auto speedometer letters.",
-      "5": "Sounds like a group's objective.",
-      "8": "Historical period or a pitching stat.",
-      "9": "Perfect score on a dive."
+      "1": "\"Of the\" on the Seine",
+      "4": "Interest, briefly, or global prefix",
+      "5": "Grim Reaper's goal",
+      "8": "Definite article, for sure",
+      "9": "Eurozone money, for short"
     },
     "down": {
-      "1": "Luxury German car letters.",
-      "2": "Software interface, for short.",
-      "3": "Sounds like a cozy bed covering.",
-      "6": "\"You ___ what you eat.\"",
-      "7": "Fellow, guy, dude."
+      "1": "Just like that, it was ____.",
+      "2": "Movie credit location",
+      "3": "Condition or a Union member",
+      "6": "\"TGIF\" is after it, briefly",
+      "7": "She belongs to ____"
     }
   }
 }
