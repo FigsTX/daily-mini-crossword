@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-02-07",
+    "date": "2026-02-08",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Quick Takes",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Relax & Recharge",
+    "templateId": "sunday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "E",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "A",
-      "clueIndex": 2
+      "char": "N",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "L",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "D",
+      "char": "S",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "N"
+      "char": "E"
     },
     "1,2": {
-      "char": "A"
+      "char": "R"
     },
     "1,3": {
-      "char": null
+      "char": "U"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "T",
+      "char": "M",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "N"
-    },
-    "2,2": {
-      "char": "S"
-    },
-    "2,3": {
-      "char": "T",
+    "2,0": {
+      "char": "P",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "E"
+    },
+    "2,2": {
+      "char": "A"
+    },
+    "2,3": {
+      "char": "C"
+    },
     "2,4": {
-      "char": "S",
-      "clueIndex": 7
+      "char": "E"
     },
     "3,0": {
-      "char": null
+      "char": "A",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "D"
     },
     "3,2": {
-      "char": "T",
-      "clueIndex": 8
+      "char": "M"
     },
     "3,3": {
       "char": "I"
     },
     "3,4": {
-      "char": "E"
+      "char": "N"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "S",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "E"
     },
     "4,3": {
-      "char": "P"
+      "char": "A"
     },
     "4,4": {
-      "char": "A"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Grab a bite",
-      "4": "Genetic code letters",
-      "5": "T.N.'s stats, briefly",
-      "8": "Even the score",
-      "9": "Green group initials"
+      "1": "Shield for Sunday pros",
+      "4": "Facial beauty fluid",
+      "6": "Calm after a storm",
+      "7": "Office manager, for short",
+      "8": "Where the tide rolls"
     },
     "down": {
-      "1": "Time in New York",
-      "2": "Hathaway or Miller",
-      "3": "Sense of flavor",
-      "6": "Small bit of advice",
-      "7": "Expansive briny deep"
+      "1": "Things you require",
+      "2": "Picture border or body structure",
+      "3": "Caribbean island of St. ___",
+      "4": "Place for pampering",
+      "5": "Some chess pieces"
     }
   }
 }
