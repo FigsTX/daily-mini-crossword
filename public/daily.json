@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-02-08",
+    "date": "2026-02-09",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Relax & Recharge",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Outdoor Indulgences",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,19 +13,19 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "N",
+      "char": "E",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "A",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "L",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
@@ -35,81 +35,82 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "E"
+      "char": "I"
     },
     "1,2": {
       "char": "R"
     },
     "1,3": {
-      "char": "U"
+      "char": null
     },
     "1,4": {
-      "char": "M",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "P",
-      "clueIndex": 6
+      "char": "T",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "E"
+      "char": "R"
     },
     "2,2": {
-      "char": "A"
-    },
-    "2,3": {
-      "char": "C"
-    },
-    "2,4": {
       "char": "E"
     },
-    "3,0": {
+    "2,3": {
       "char": "A",
+      "clueIndex": 6
+    },
+    "2,4": {
+      "char": "T",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "D"
+      "char": null
     },
     "3,2": {
-      "char": "M"
+      "char": "E",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "I"
+      "char": "V"
     },
     "3,4": {
-      "char": "N"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "S",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "E"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "A"
+      "char": "E"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Shield for Sunday pros",
-      "4": "Facial beauty fluid",
-      "6": "Calm after a storm",
-      "7": "Office manager, for short",
-      "8": "Where the tide rolls"
+      "1": "Enjoy a meal",
+      "4": "Formal address for a man",
+      "5": "Sweet reward or special outing",
+      "8": "Night before a holiday, or Adam's mate",
+      "9": "Vast body of saltwater"
     },
     "down": {
-      "1": "Things you require",
-      "2": "Picture border or body structure",
-      "3": "Caribbean island of St. ___",
-      "4": "Place for pampering",
-      "5": "Some chess pieces"
+      "1": "Suffix for 'smallest' or 'greatest'",
+      "2": "What we breathe, everywhere",
+      "3": "Oxygen producers in a forest",
+      "6": "Greeting similar to 'Hail!'",
+      "7": "Popular afternoon beverage"
     }
   }
 }
