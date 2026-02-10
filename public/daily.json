@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-02-09",
+    "date": "2026-02-10",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Outdoor Indulgences",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Digital Journey",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "E",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "A",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "I"
+      "char": "T"
     },
     "1,2": {
-      "char": "R"
+      "char": "L"
     },
     "1,3": {
-      "char": null
+      "char": "A"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "R"
-    },
-    "2,2": {
-      "char": "E"
-    },
-    "2,3": {
-      "char": "A",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "H"
+    },
+    "2,2": {
+      "char": "O"
+    },
+    "2,3": {
+      "char": "R"
+    },
     "2,4": {
-      "char": "T",
-      "clueIndex": 7
+      "char": "T"
     },
     "3,0": {
-      "char": null
+      "char": "N",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "E",
-      "clueIndex": 8
+      "char": "W"
     },
     "3,3": {
-      "char": "V"
+      "char": "E"
     },
     "3,4": {
-      "char": "E"
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "S",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "E"
+      "char": "S"
     },
     "4,4": {
-      "char": "A"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Enjoy a meal",
-      "4": "Formal address for a man",
-      "5": "Sweet reward or special outing",
-      "8": "Night before a holiday, or Adam's mate",
-      "9": "Vast body of saltwater"
+      "1": "No longer connected.",
+      "4": "Mythological titan or map book.",
+      "6": "Brief, not extended.",
+      "7": "More up-to-date.",
+      "8": "Digital news feed initialism."
     },
     "down": {
-      "1": "Suffix for 'smallest' or 'greatest'",
-      "2": "What we breathe, everywhere",
-      "3": "Oxygen producers in a forest",
-      "6": "Greeting similar to 'Hail!'",
-      "7": "Popular afternoon beverage"
+      "1": "Different or additional.",
+      "2": "Moves smoothly, like traffic.",
+      "3": "Prices for a journey.",
+      "4": "Internet network abbr.",
+      "5": "Abbr. for Street."
     }
   }
 }
