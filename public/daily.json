@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-02-10",
+    "date": "2026-02-11",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Digital Journey",
-    "templateId": "tuesday",
-    "wordTier": 1
+    "theme": "A Pet's Life",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "O",
+      "char": "P",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "S",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
-    },
-    "1,2": {
-      "char": "L"
-    },
-    "1,3": {
       "char": "A"
     },
-    "1,4": {
-      "char": "S",
-      "clueIndex": 5
-    },
-    "2,0": {
-      "char": "S",
-      "clueIndex": 6
-    },
-    "2,1": {
-      "char": "H"
-    },
-    "2,2": {
-      "char": "O"
-    },
-    "2,3": {
-      "char": "R"
-    },
-    "2,4": {
+    "1,2": {
       "char": "T"
     },
-    "3,0": {
-      "char": "N",
+    "1,3": {
+      "char": null
+    },
+    "1,4": {
+      "char": null
+    },
+    "2,0": {
+      "char": "T",
+      "clueIndex": 5
+    },
+    "2,1": {
+      "char": "T"
+    },
+    "2,2": {
+      "char": "E"
+    },
+    "2,3": {
+      "char": "A",
+      "clueIndex": 6
+    },
+    "2,4": {
+      "char": "T",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "W"
+      "char": "E",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "R"
     },
     "3,4": {
-      "char": "R"
+      "char": "A"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "R",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "L",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "E"
     },
     "4,4": {
-      "char": null
+      "char": "G"
     }
   },
   "clues": {
     "across": {
-      "1": "No longer connected.",
-      "4": "Mythological titan or map book.",
-      "6": "Brief, not extended.",
-      "7": "More up-to-date.",
-      "8": "Digital news feed initialism."
+      "1": "A pampered pal.",
+      "4": "What Fido does on command.",
+      "5": "Reward for a good dog.",
+      "8": "Long period, like a dog's life.",
+      "9": "One of Fido's four supports."
     },
     "down": {
-      "1": "Different or additional.",
-      "2": "Moves smoothly, like traffic.",
-      "3": "Prices for a journey.",
-      "4": "Internet network abbr.",
-      "5": "Abbr. for Street."
+      "1": "West Coast zone for some dog parks.",
+      "2": "What hungry Fido will do.",
+      "3": "Strong metal for a pet's crate.",
+      "6": "\"Dogs ____ truly man's best friend.\"",
+      "7": "Pet's ID label."
     }
   }
 }
