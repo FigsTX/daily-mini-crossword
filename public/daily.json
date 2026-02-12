@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-02-11",
+    "date": "2026-02-12",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "A Pet's Life",
+    "theme": "Two T's",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -54,14 +54,14 @@
       "char": "T"
     },
     "2,2": {
-      "char": "E"
+      "char": "A"
     },
     "2,3": {
-      "char": "A",
+      "char": "M",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "R"
+      "char": "I"
     },
     "3,4": {
-      "char": "A"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "L",
+      "char": "E",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "T"
     },
     "4,4": {
-      "char": "G"
+      "char": "C"
     }
   },
   "clues": {
     "across": {
-      "1": "A pampered pal.",
-      "4": "What Fido does on command.",
-      "5": "Reward for a good dog.",
-      "8": "Long period, like a dog's life.",
-      "9": "One of Fido's four supports."
+      "1": "Beloved household animal",
+      "4": "Took a seat",
+      "5": "Double T caps for heads",
+      "8": "Formal neckwear accessory",
+      "9": "And others (abbr.)"
     },
     "down": {
-      "1": "West Coast zone for some dog parks.",
-      "2": "What hungry Fido will do.",
-      "3": "Strong metal for a pet's crate.",
-      "6": "\"Dogs ____ truly man's best friend.\"",
-      "7": "Pet's ID label."
+      "1": "West Coast time zone (abbr.)",
+      "2": "Have a meal",
+      "3": "Double T London gallery",
+      "6": "Cambridge tech school (abbr.)",
+      "7": "A brief moment (abbr.)"
     }
   }
 }
