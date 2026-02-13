@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-02-12",
+    "date": "2026-02-13",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Two T's",
+    "theme": "Short Story",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
+      "char": "C",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "O",
       "clueIndex": 3
     },
     "0,3": {
@@ -51,17 +51,17 @@
       "clueIndex": 5
     },
     "2,1": {
-      "char": "T"
+      "char": "R"
     },
     "2,2": {
       "char": "A"
     },
     "2,3": {
-      "char": "M",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 7
     },
     "3,0": {
@@ -75,10 +75,10 @@
       "clueIndex": 8
     },
     "3,3": {
-      "char": "I"
+      "char": "E"
     },
     "3,4": {
-      "char": "E"
+      "char": "A"
     },
     "4,0": {
       "char": null
@@ -91,26 +91,26 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "T"
+      "char": "S"
     },
     "4,4": {
-      "char": "C"
+      "char": "T"
     }
   },
   "clues": {
     "across": {
-      "1": "Beloved household animal",
-      "4": "Took a seat",
-      "5": "Double T caps for heads",
-      "8": "Formal neckwear accessory",
-      "9": "And others (abbr.)"
+      "1": "Company bigwig, for short.",
+      "4": "College board exam, briefly.",
+      "5": "Barter goods or services.",
+      "8": "Steeped morning brew.",
+      "9": "NYC's time zone, briefly."
     },
     "down": {
-      "1": "West Coast time zone (abbr.)",
-      "2": "Have a meal",
-      "3": "Double T London gallery",
-      "6": "Cambridge tech school (abbr.)",
-      "7": "A brief moment (abbr.)"
+      "1": "Chicago time zone, for short.",
+      "2": "Corn part or body organ.",
+      "3": "Middle of \"to rotate\".",
+      "6": "Some, in French.",
+      "7": "Consume a meal."
     }
   }
 }
