@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-02-17",
+    "date": "2026-02-18",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Daily Connections",
-    "templateId": "tuesday",
-    "wordTier": 1
+    "theme": "Clever Connections",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "T",
+      "char": "C",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "C",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "P",
+    "0,2": {
+      "char": "O",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "W",
+      "char": "V",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "H"
-    },
-    "1,2": {
       "char": "A"
     },
+    "1,2": {
+      "char": "R"
+    },
     "1,3": {
-      "char": "L"
+      "char": null
     },
     "1,4": {
-      "char": "E",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
+      "char": "S",
+      "clueIndex": 5
+    },
+    "2,1": {
+      "char": "T"
+    },
+    "2,2": {
+      "char": "E"
+    },
+    "2,3": {
       "char": "E",
       "clueIndex": 6
     },
-    "2,1": {
-      "char": "R"
-    },
-    "2,2": {
-      "char": "R"
-    },
-    "2,3": {
-      "char": "O"
-    },
     "2,4": {
-      "char": "R"
-    },
-    "3,0": {
-      "char": "D",
+      "char": "L",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "L"
+      "char": "A",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "T"
+      "char": "R"
     },
     "3,4": {
-      "char": "A"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "E",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "O"
+      "char": "T",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "A"
     },
     "4,4": {
-      "char": null
+      "char": "G"
     }
   },
   "clues": {
     "across": {
-      "1": "Internet protocol letters",
-      "4": "Moby Dick, for one",
-      "6": "Computer glitch",
-      "7": "River mouth shape",
-      "8": "Goddess of dawn"
+      "1": "Corner office exec.",
+      "4": "Soccer review tech.",
+      "5": "Strong metal alloy",
+      "8": "To be, for many",
+      "9": "Game of chase"
     },
     "down": {
-      "1": "A crowd, they say",
-      "2": "Monte ___",
-      "3": "Story lines",
-      "4": "Got hitched",
-      "5": "Historical period"
+      "1": "Pharmacy chain initials",
+      "2": "Have a meal",
+      "3": "Letters from 'Korean treat'?",
+      "6": "Period of history",
+      "7": "A journey's portion"
     }
   }
 }
