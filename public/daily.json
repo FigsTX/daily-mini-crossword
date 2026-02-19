@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-02-18",
+    "date": "2026-02-19",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Clever Connections",
+    "theme": "Campus & Common Knowledge",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "C",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "O",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "V",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
+      "char": "R"
     },
     "1,2": {
-      "char": "R"
+      "char": "E"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "S",
+      "char": "N",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "T"
+      "char": "A"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "E",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "L",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "A",
+      "char": "N",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "R"
+      "char": "E"
     },
     "3,4": {
-      "char": "E"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "A"
+      "char": "R"
     },
     "4,4": {
-      "char": "G"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Corner office exec.",
-      "4": "Soccer review tech.",
-      "5": "Strong metal alloy",
-      "8": "To be, for many",
-      "9": "Game of chase"
+      "1": "Teacher's ___",
+      "4": "You ___ kidding me!",
+      "5": "Initials for an academic group",
+      "8": "Japanese tech giant",
+      "9": "Start of Lanka"
     },
     "down": {
-      "1": "Pharmacy chain initials",
-      "2": "Have a meal",
-      "3": "Letters from 'Korean treat'?",
-      "6": "Period of history",
-      "7": "A journey's portion"
+      "1": "Fry ___",
+      "2": "A new ___ begins",
+      "3": "High schoolers",
+      "6": "German article 'the'",
+      "7": "Lab subject (abbr.)"
     }
   }
 }
