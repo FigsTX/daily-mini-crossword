@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-02-19",
+    "date": "2026-02-20",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Campus & Common Knowledge",
+    "theme": "Miniature Medley",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
+      "char": "R",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 3
     },
     "0,3": {
@@ -38,7 +38,7 @@
       "char": "R"
     },
     "1,2": {
-      "char": "E"
+      "char": "T"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "N",
+      "char": "M",
       "clueIndex": 5
     },
     "2,1": {
       "char": "A"
     },
     "2,2": {
-      "char": "E"
+      "char": "A"
     },
     "2,3": {
-      "char": "D",
+      "char": "N",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "N",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "O"
     },
     "3,4": {
-      "char": "C"
+      "char": "O"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "V"
     },
     "4,4": {
-      "char": "I"
+      "char": "E"
     }
   },
   "clues": {
     "across": {
-      "1": "Teacher's ___",
-      "4": "You ___ kidding me!",
-      "5": "Initials for an academic group",
-      "8": "Japanese tech giant",
-      "9": "Start of Lanka"
+      "1": "Latin for 'thing'",
+      "4": "Museum display",
+      "5": "Amsterdam's sky orb",
+      "8": "In addition; also",
+      "9": "Night before Christmas"
     },
     "down": {
-      "1": "Fry ___",
-      "2": "A new ___ begins",
-      "3": "High schoolers",
-      "6": "German article 'the'",
-      "7": "Lab subject (abbr.)"
+      "1": "Male bighorn sheep",
+      "2": "Distinct period of history",
+      "3": "Declare formally",
+      "6": "Abbr. for the eleventh month",
+      "7": "Foot digit or shoe tip"
     }
   }
 }
