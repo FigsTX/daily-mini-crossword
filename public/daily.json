@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-02-20",
+    "date": "2026-02-21",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Miniature Medley",
+    "theme": "Slightly Skewed Words",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "R",
+      "char": "B",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "S",
+      "char": "D",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "M",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "P"
     },
     "1,2": {
-      "char": "T"
+      "char": "H"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "M",
+      "char": "W",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "A"
+      "char": "I"
     },
     "2,2": {
-      "char": "A"
+      "char": "E"
     },
     "2,3": {
-      "char": "N",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "O"
+      "char": "E"
     },
     "3,4": {
-      "char": "O"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -91,26 +91,26 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "V"
+      "char": "S"
     },
     "4,4": {
-      "char": "E"
+      "char": "T"
     }
   },
   "clues": {
     "across": {
-      "1": "Latin for 'thing'",
-      "4": "Museum display",
-      "5": "Amsterdam's sky orb",
-      "8": "In addition; also",
-      "9": "Night before Christmas"
+      "1": "Not good, say",
+      "4": "Unit of road velocity",
+      "5": "Garden pests, nearly",
+      "8": "Perceive with eyes",
+      "9": "Time zone letters"
     },
     "down": {
-      "1": "Male bighorn sheep",
-      "2": "Distinct period of history",
-      "3": "Declare formally",
-      "6": "Abbr. for the eleventh month",
-      "7": "Foot digit or shoe tip"
+      "1": "German auto maker",
+      "2": "Programmer's interface, briefly",
+      "3": "Demonstrative pronoun, nearly",
+      "6": "French 'from the'",
+      "7": "To place or arrange"
     }
   }
 }
