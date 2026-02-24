@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-02-23",
+    "date": "2026-02-24",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short Takes",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Journey Forth",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "Z",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "I",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "P",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "U",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "S"
+      "char": "T"
     },
     "1,2": {
-      "char": "A"
+      "char": "L"
     },
     "1,3": {
-      "char": null
+      "char": "A"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "M",
+      "char": "S",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "O"
-    },
-    "2,2": {
-      "char": "R"
-    },
-    "2,3": {
-      "char": "A",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "H"
+    },
+    "2,2": {
+      "char": "O"
+    },
+    "2,3": {
+      "char": "R"
+    },
     "2,4": {
-      "char": "L",
-      "clueIndex": 7
+      "char": "E"
     },
     "3,0": {
-      "char": null
+      "char": "N",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "I",
-      "clueIndex": 8
+      "char": "W"
     },
     "3,3": {
-      "char": "I"
+      "char": "E"
     },
     "3,4": {
-      "char": "I"
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "A",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "R"
+      "char": "S"
     },
     "4,4": {
-      "char": "E"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Speedy sound effect",
-      "4": "Land of the free, briefly",
-      "5": "Lesson of a fable",
-      "8": "After II, in Rome",
-      "9": "To be, for many"
+      "1": "Begin a journey.",
+      "4": "Book for a cartophile.",
+      "6": "Coastline or beach.",
+      "7": "More up-to-date.",
+      "8": "Web feed letters."
     },
     "down": {
-      "1": "Sound of a fast pass",
-      "2": "International standard, for short",
-      "3": "One shunned by the group",
-      "6": "What we breathe",
-      "7": "Fib, or recline"
+      "1": "Not this one, but ___.",
+      "2": "Moves like ocean currents.",
+      "3": "Costs for a trip.",
+      "4": "Networking ID letters.",
+      "5": "Spanish \"to be\" verb."
     }
   }
 }
