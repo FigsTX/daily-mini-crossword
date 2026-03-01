@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-02-28",
+    "date": "2026-03-01",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Small Talk",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Digital Life",
+    "templateId": "sunday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "I",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "T",
-      "clueIndex": 2
+      "char": "S",
+      "clueIndex": 1
     },
     "0,2": {
       "char": "S",
-      "clueIndex": 3
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "L",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "L",
+      "char": "C",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "O"
+      "char": "H"
     },
     "1,2": {
-      "char": "T"
+      "char": "E"
     },
     "1,3": {
-      "char": null
+      "char": "A"
     },
     "1,4": {
-      "char": null
+      "char": "T",
+      "clueIndex": 5
     },
     "2,0": {
-      "char": "L",
-      "clueIndex": 5
+      "char": "O",
+      "clueIndex": 6
     },
     "2,1": {
       "char": "E"
     },
     "2,2": {
-      "char": "A"
+      "char": "R"
     },
     "2,3": {
-      "char": "S",
-      "clueIndex": 6
+      "char": "D"
     },
     "2,4": {
-      "char": "E",
-      "clueIndex": 7
+      "char": "E"
     },
     "3,0": {
-      "char": null
+      "char": "D",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "T",
-      "clueIndex": 8
+      "char": "V"
     },
     "3,3": {
-      "char": "I"
+      "char": "E"
     },
     "3,4": {
-      "char": "P"
+      "char": "L"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "T",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "E"
     },
     "4,3": {
-      "char": "R"
+      "char": "N"
     },
     "4,4": {
-      "char": "A"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "\"___ a Wonderful Life\" start.",
-      "4": "A whole ___ of fun.",
-      "5": "Rental agreement for property.",
-      "8": "Gratuity for good service.",
-      "9": "Significant span of time."
+      "1": "Web security initials",
+      "4": "Gain an unfair advantage",
+      "6": "Village near Ghent",
+      "7": "Code writing stage, for short",
+      "8": "What binary \"10\" represents"
     },
     "down": {
-      "1": "\"___-gotten gains.\"",
-      "2": "\"___ the line\" part.",
-      "3": "Florida or Idaho.",
-      "6": "Knight's formal address.",
-      "7": "Federal green org."
+      "1": "Excel document component",
+      "2": "Act as a web host",
+      "3": "Heavily loaded, like data",
+      "4": "Popular shooting game, briefly",
+      "5": "Phone prefix, perhaps"
     }
   }
 }
