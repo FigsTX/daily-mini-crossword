@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-03-01",
+    "date": "2026-03-02",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Digital Life",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Brief Encounters",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "S",
+      "char": "B",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "S",
+    "0,1": {
+      "char": "A",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "L",
+    "0,2": {
+      "char": "R",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "C",
+      "char": "M",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "H"
+      "char": "P"
     },
     "1,2": {
-      "char": "E"
+      "char": "H"
     },
     "1,3": {
-      "char": "A"
+      "char": null
     },
     "1,4": {
-      "char": "T",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "O",
-      "clueIndex": 6
+      "char": "W",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "E"
+      "char": "I"
     },
     "2,2": {
-      "char": "R"
+      "char": "E"
     },
     "2,3": {
-      "char": "D"
+      "char": "D",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "E"
-    },
-    "3,0": {
-      "char": "D",
+      "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "V"
+      "char": "S",
+      "clueIndex": 8
     },
     "3,3": {
       "char": "E"
     },
     "3,4": {
-      "char": "L"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "T",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "E"
+      "char": "E",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "N"
+      "char": "S"
     },
     "4,4": {
-      "char": null
+      "char": "T"
     }
   },
   "clues": {
     "across": {
-      "1": "Web security initials",
-      "4": "Gain an unfair advantage",
-      "6": "Village near Ghent",
-      "7": "Code writing stage, for short",
-      "8": "What binary \"10\" represents"
+      "1": "Legal body or tavern.",
+      "4": "Road sign initialism.",
+      "5": "Lawn nuisances, roughly speaking.",
+      "8": "Perceive with eyes.",
+      "9": "East Coast time, abbr."
     },
     "down": {
-      "1": "Excel document component",
-      "2": "Act as a web host",
-      "3": "Heavily loaded, like data",
-      "4": "Popular shooting game, briefly",
-      "5": "Phone prefix, perhaps"
+      "1": "Luxury German auto, initials.",
+      "2": "Software hookup, for short.",
+      "3": "Start of a primate's name?",
+      "6": "French article, plural.",
+      "7": "Collection or tennis unit."
     }
   }
 }
