@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-03-02",
+    "date": "2026-03-03",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Brief Encounters",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Short & Sweet",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
       "char": "A",
-      "clueIndex": 2
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "R",
-      "clueIndex": 3
+      "char": "P",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "P",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "M",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "L"
     },
     "1,2": {
-      "char": "H"
+      "char": "L"
     },
     "1,3": {
-      "char": null
+      "char": "A"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "W",
+      "char": "H",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "I"
-    },
-    "2,2": {
-      "char": "E"
-    },
-    "2,3": {
-      "char": "D",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "T"
+    },
+    "2,2": {
+      "char": "A"
+    },
+    "2,3": {
+      "char": "G"
+    },
     "2,4": {
-      "char": "S",
-      "clueIndex": 7
+      "char": "E"
     },
     "3,0": {
-      "char": null
+      "char": "P",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "S",
-      "clueIndex": 8
+      "char": "T"
     },
     "3,3": {
       "char": "E"
     },
     "3,4": {
-      "char": "E"
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "E"
     },
     "4,3": {
       "char": "S"
     },
     "4,4": {
-      "char": "T"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Legal body or tavern.",
-      "4": "Road sign initialism.",
-      "5": "Lawn nuisances, roughly speaking.",
-      "8": "Perceive with eyes.",
-      "9": "East Coast time, abbr."
+      "1": "Smartphone program",
+      "4": "God in Islam",
+      "6": "Theater platform",
+      "7": "Pan or Rabbit",
+      "8": "Image clarity, for short"
     },
     "down": {
-      "1": "Luxury German auto, initials.",
-      "2": "Software hookup, for short.",
-      "3": "Start of a primate's name?",
-      "6": "French article, plural.",
-      "7": "Collection or tennis unit."
+      "1": "Make a change",
+      "2": "Dinner serving item",
+      "3": "Book's contents",
+      "4": "Cleopatra's venomous snake",
+      "5": "Female pronoun"
     }
   }
 }
