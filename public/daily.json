@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-03-04",
+    "date": "2026-03-05",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Small Talk",
+    "theme": "Daily Puzzle",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
+      "char": "G",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "D",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,11 +31,11 @@
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "P",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "V"
+      "char": "R"
     },
     "1,2": {
       "char": "E"
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "D",
+      "char": "S",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "E"
+      "char": "A"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "D",
+      "char": "N",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 7
     },
     "3,0": {
@@ -75,10 +75,10 @@
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "O"
     },
     "3,4": {
-      "char": "C"
+      "char": "T"
     },
     "4,0": {
       "char": null
@@ -94,23 +94,23 @@
       "char": "R"
     },
     "4,4": {
-      "char": "I"
+      "char": "C"
     }
   },
   "clues": {
     "across": {
-      "1": "Spot for sleeping.",
-      "4": "Street name abbr.",
-      "5": "Notable achievements or documents.",
-      "8": "Latin conjunction for 'nor'.",
-      "9": "Respected title in Asia."
+      "5": "Clue for SAENE",
+      "1": "Clue for GET",
+      "4": "Clue for PRE",
+      "8": "Clue for NOT",
+      "9": "Clue for SRC"
     },
     "down": {
-      "1": "Opposite of excellent.",
-      "2": "Biblical garden resident.",
-      "3": "Sounds like university officials.",
-      "6": "The, in Dresden.",
-      "7": "Lab subject, briefly."
+      "3": "Clue for TEENS",
+      "1": "Clue for GPS",
+      "2": "Clue for ERA",
+      "6": "Clue for NOR",
+      "7": "Clue for ETC"
     }
   }
 }
