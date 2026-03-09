@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-03-08",
+    "date": "2026-03-09",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Pop Culture & More",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Everyday Connections",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,68 +13,69 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "T",
+      "char": "E",
       "clueIndex": 1
     },
-    "0,2": {
+    "0,1": {
       "char": "A",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "P",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "W",
+      "char": "D",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "H"
+      "char": "N"
     },
     "1,2": {
       "char": "A"
     },
     "1,3": {
-      "char": "L"
+      "char": null
     },
     "1,4": {
-      "char": "E",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "A",
-      "clueIndex": 6
+      "char": "T",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "R"
+      "char": "D"
     },
     "2,2": {
-      "char": "R"
+      "char": "S"
     },
     "2,3": {
-      "char": "A"
+      "char": "T",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "Y"
-    },
-    "3,0": {
-      "char": "L",
+      "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "O"
+      "char": "T",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "N"
+      "char": "O"
     },
     "3,4": {
       "char": "E"
@@ -83,33 +84,33 @@
       "char": null
     },
     "4,1": {
-      "char": "E",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "N"
+      "char": "E",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "T"
+      "char": "P"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "A gentle rap.",
-      "4": "Moby Dick, for one.",
-      "6": "An impressive display.",
-      "7": "Director Sergio of Westerns.",
-      "8": "Tree shepherd in Tolkien."
+      "1": "Enjoy a bite",
+      "4": "Genetic blueprint letters",
+      "5": "School quizzes or trials",
+      "8": "Foot's smallest digit",
+      "9": "Pollution control letters"
     },
     "down": {
-      "1": "Hat trick number.",
-      "2": "Rodgers of the NFL.",
-      "3": "Factory or flora.",
-      "4": "___uigi or ___mart.",
-      "5": "Center of a hurricane."
+      "1": "NYC's summer time (Abbr.)",
+      "2": "Connecting word, like 'plus'",
+      "3": "A sense, for food",
+      "6": "Summit or spinning toy",
+      "7": "Ocean or a large lake"
     }
   }
 }
