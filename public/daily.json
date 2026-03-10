@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-03-09",
+    "date": "2026-03-10",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Everyday Connections",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Briefs & Basics",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "E",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "A",
-      "clueIndex": 2
+      "char": "N",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "L",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "D",
+      "char": "R",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "N"
+      "char": "O"
     },
     "1,2": {
-      "char": "A"
+      "char": "L"
     },
     "1,3": {
-      "char": null
+      "char": "E"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "D"
-    },
-    "2,2": {
-      "char": "S"
-    },
-    "2,3": {
-      "char": "T",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "T"
+    },
+    "2,2": {
+      "char": "E"
+    },
+    "2,3": {
+      "char": "A"
+    },
     "2,4": {
+      "char": "M"
+    },
+    "3,0": {
       "char": "S",
       "clueIndex": 7
     },
-    "3,0": {
-      "char": null
-    },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "T",
-      "clueIndex": 8
+      "char": "E"
     },
     "3,3": {
-      "char": "O"
+      "char": "D"
     },
     "3,4": {
-      "char": "E"
+      "char": "S"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "D",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "T"
     },
     "4,3": {
-      "char": "P"
+      "char": "S"
     },
     "4,4": {
-      "char": "A"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Enjoy a bite",
-      "4": "Genetic blueprint letters",
-      "5": "School quizzes or trials",
-      "8": "Foot's smallest digit",
-      "9": "Pollution control letters"
+      "1": "Sunday football org.",
+      "4": "Actor's assigned parts",
+      "6": "Engine power source",
+      "7": "Garden starters",
+      "8": "Shakes, for short"
     },
     "down": {
-      "1": "NYC's summer time (Abbr.)",
-      "2": "Connecting word, like 'plus'",
-      "3": "A sense, for food",
-      "6": "Summit or spinning toy",
-      "7": "Ocean or a large lake"
+      "1": "Well-known or observed",
+      "2": "Fast-moving; group of ships",
+      "3": "Is ahead or directs",
+      "4": "News feed letters",
+      "5": "Texting method, briefly"
     }
   }
 }
