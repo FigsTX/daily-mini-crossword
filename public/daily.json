@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-03-11",
+    "date": "2026-03-12",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short & Sweet",
+    "theme": "Brief Bytes",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
+      "char": "D",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,7 +31,7 @@
       "char": null
     },
     "1,0": {
-      "char": "C",
+      "char": "S",
       "clueIndex": 4
     },
     "1,1": {
@@ -47,7 +47,7 @@
       "char": null
     },
     "2,0": {
-      "char": "S",
+      "char": "L",
       "clueIndex": 5
     },
     "2,1": {
@@ -57,11 +57,11 @@
       "char": "A"
     },
     "2,3": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 7
     },
     "3,0": {
@@ -75,10 +75,10 @@
       "clueIndex": 8
     },
     "3,3": {
-      "char": "O"
+      "char": "I"
     },
     "3,4": {
-      "char": "E"
+      "char": "P"
     },
     "4,0": {
       "char": null
@@ -91,7 +91,7 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "P"
+      "char": "R"
     },
     "4,4": {
       "char": "A"
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "1": "Beloved companion animal.",
-      "4": "Purring household mammal.",
-      "5": "Batting averages, e.g.",
-      "8": "Tip of a boot.",
-      "9": "U.S. environmental agency."
+      "1": "Some, across the pond.",
+      "4": "College prep test.",
+      "5": "Ending for enzymes.",
+      "8": "Point of advice.",
+      "9": "Distinct historical period."
     },
     "down": {
-      "1": "Desktop computers, briefly.",
-      "2": "Have a meal.",
-      "3": "Washington or New York.",
-      "6": "Peak or summit.",
-      "7": "Large body of salt water."
+      "1": "Old internet initialism.",
+      "2": "To chow down.",
+      "3": "Declare or a nation.",
+      "6": "A knightly address.",
+      "7": "The environmental watchdog."
     }
   }
 }
