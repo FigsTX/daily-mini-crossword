@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-03-12",
+    "date": "2026-03-13",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Brief Bytes",
+    "theme": "Anagram Adventures",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "D",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "S",
+      "char": "N",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
+      "char": "R"
     },
     "1,2": {
-      "char": "T"
+      "char": "E"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "L",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "T"
-    },
-    "2,2": {
       "char": "A"
     },
+    "2,2": {
+      "char": "E"
+    },
     "2,3": {
-      "char": "S",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "E",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "T",
+      "char": "N",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "I"
+      "char": "E"
     },
     "3,4": {
-      "char": "P"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "E",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
       "char": "R"
     },
     "4,4": {
-      "char": "A"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Some, across the pond.",
-      "4": "College prep test.",
-      "5": "Ending for enzymes.",
-      "8": "Point of advice.",
-      "9": "Distinct historical period."
+      "1": "Writer's implement.",
+      "4": "Second person verb.",
+      "5": "Future appointments, jumbled.",
+      "8": "Japanese electronics giant, briefly.",
+      "9": "Indian title of respect."
     },
     "down": {
-      "1": "Old internet initialism.",
-      "2": "To chow down.",
-      "3": "Declare or a nation.",
-      "6": "A knightly address.",
-      "7": "The environmental watchdog."
+      "1": "Light, reassuring tap.",
+      "2": "Time period.",
+      "3": "Good judgment, when jumbled.",
+      "6": "German definite article.",
+      "7": "Lab subject, briefly."
     }
   }
 }
