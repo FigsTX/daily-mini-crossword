@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-03-13",
+    "date": "2026-03-14",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Anagram Adventures",
+    "theme": "Small Wonders",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -17,11 +17,11 @@
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "N",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 4
     },
     "1,1": {
       "char": "R"
     },
     "1,2": {
-      "char": "E"
+      "char": "A"
     },
     "1,3": {
       "char": null
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "T",
+      "char": "R",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "A"
-    },
-    "2,2": {
       "char": "E"
     },
+    "2,2": {
+      "char": "S"
+    },
     "2,3": {
-      "char": "D",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "N",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "O"
     },
     "3,4": {
-      "char": "C"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "P"
     },
     "4,4": {
-      "char": "I"
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Writer's implement.",
-      "4": "Second person verb.",
-      "5": "Future appointments, jumbled.",
-      "8": "Japanese electronics giant, briefly.",
-      "9": "Indian title of respect."
+      "1": "Gentle tap",
+      "4": "Significant period of history",
+      "5": "Takes a break, or musical pauses",
+      "8": "Foot digit or shoe part",
+      "9": "Environmental watchdog agency (Abbr.)"
     },
     "down": {
-      "1": "Light, reassuring tap.",
-      "2": "Time period.",
-      "3": "Good judgment, when jumbled.",
-      "6": "German definite article.",
-      "7": "Lab subject, briefly."
+      "1": "For each one",
+      "2": "\"We ___ family.\"",
+      "3": "A small sample or a sense",
+      "6": "Pinnacle or spinning toy",
+      "7": "Large body of water"
     }
   }
 }
