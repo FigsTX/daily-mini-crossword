@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-03-15",
+    "date": "2026-03-16",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Story Elements",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "A Mini Wordplay Medley",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "A",
+      "char": "D",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "P",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "P",
+    "0,2": {
+      "char": "S",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "U",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "L"
+      "char": "S"
     },
     "1,2": {
-      "char": "L"
+      "char": "R"
     },
     "1,3": {
-      "char": "A"
+      "char": null
     },
     "1,4": {
-      "char": "H",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "S",
-      "clueIndex": 6
+      "char": "E",
+      "clueIndex": 5
     },
     "2,1": {
       "char": "T"
     },
     "2,2": {
-      "char": "A"
+      "char": "E"
     },
     "2,3": {
-      "char": "G"
+      "char": "A",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "E"
-    },
-    "3,0": {
-      "char": "P",
+      "char": "T",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "T"
+      "char": "E",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "V"
     },
     "3,4": {
-      "char": "R"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "R",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "E"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "E"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Storytelling program on a smartphone",
-      "4": "Islamic deity",
-      "6": "Platform for a dramatic telling",
-      "7": "Pan or Rabbit of classic tales",
-      "8": "Story's final outcome, briefly"
+      "1": "Of the, to a Parisian.",
+      "4": "Common Unix directory abbreviation.",
+      "5": "Sounds like 'eat at,' phonetically.",
+      "8": "First lady in Eden.",
+      "9": "Vast body of salt water."
     },
     "down": {
-      "1": "Make changes to a narrative",
-      "2": "Flat serving dish",
-      "3": "What you turn in a novel",
-      "4": "Cleopatra's deadly serpent",
-      "5": "Pronoun for a heroine"
+      "1": "Expected, as a payment.",
+      "2": "Is, in Paris.",
+      "3": "Predictors, when reversed.",
+      "6": "City street, for short.",
+      "7": "Earl Grey or Darjeeling."
     }
   }
 }
