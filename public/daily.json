@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-03-17",
+    "date": "2026-03-18",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Road Trip!",
-    "templateId": "tuesday",
-    "wordTier": 1
+    "theme": "Short Forms",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,19 +13,19 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "O",
+      "char": "P",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
@@ -35,46 +35,47 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
+      "char": "P"
     },
     "1,2": {
-      "char": "L"
-    },
-    "1,3": {
-      "char": "A"
-    },
-    "1,4": {
-      "char": "S",
-      "clueIndex": 5
-    },
-    "2,0": {
-      "char": "S",
-      "clueIndex": 6
-    },
-    "2,1": {
-      "char": "H"
-    },
-    "2,2": {
-      "char": "O"
-    },
-    "2,3": {
       "char": "R"
     },
-    "2,4": {
-      "char": "T"
+    "1,3": {
+      "char": null
     },
-    "3,0": {
+    "1,4": {
+      "char": null
+    },
+    "2,0": {
       "char": "N",
+      "clueIndex": 5
+    },
+    "2,1": {
+      "char": "A"
+    },
+    "2,2": {
+      "char": "E"
+    },
+    "2,3": {
+      "char": "D",
+      "clueIndex": 6
+    },
+    "2,4": {
+      "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "W"
+      "char": "E",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "U"
     },
     "3,4": {
       "char": "R"
@@ -83,33 +84,33 @@
       "char": null
     },
     "4,1": {
-      "char": "R",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "E"
     },
     "4,4": {
-      "char": null
+      "char": "C"
     }
   },
   "clues": {
     "across": {
-      "1": "Not on",
-      "4": "Book of maps",
-      "6": "Not long in duration",
-      "7": "More up-to-date",
-      "8": "News feed acronym"
+      "1": "Teacher's favorite",
+      "4": "Spring showers mo.",
+      "5": "Educational data sys. group",
+      "8": "Continent's short name",
+      "9": "Time unit, for short"
     },
     "down": {
-      "1": "A different one",
-      "2": "Moves like a river",
-      "3": "Costs for a trip",
-      "4": "Network ID letters",
-      "5": "Map abbr. for road"
+      "1": "Kitchen skillet",
+      "2": "D.C. environmental watchdog",
+      "3": "Woods' tall residents",
+      "6": "Payment expected",
+      "7": "Origin, for short"
     }
   }
 }
