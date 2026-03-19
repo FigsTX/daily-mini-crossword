@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-03-18",
+    "date": "2026-03-19",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short Forms",
+    "theme": "Daily Briefs",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,11 +13,11 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
+      "char": "E",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 2
     },
     "0,2": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "P",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "D"
     },
     "1,2": {
-      "char": "R"
+      "char": "A"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "N",
+      "char": "A",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "A"
+      "char": "S"
     },
     "2,2": {
-      "char": "E"
+      "char": "S"
     },
     "2,3": {
-      "char": "D",
+      "char": "E",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
       "char": "U"
     },
     "3,4": {
-      "char": "R"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "R"
     },
     "4,4": {
-      "char": "C"
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Teacher's favorite",
-      "4": "Spring showers mo.",
-      "5": "Educational data sys. group",
-      "8": "Continent's short name",
-      "9": "Time unit, for short"
+      "1": "Chow down",
+      "4": "Public smooching, briefly",
+      "5": "Something of value",
+      "8": "Day after Mon., briefly",
+      "9": "Historic period"
     },
     "down": {
-      "1": "Kitchen skillet",
-      "2": "D.C. environmental watchdog",
-      "3": "Woods' tall residents",
-      "6": "Payment expected",
-      "7": "Origin, for short"
+      "1": "Clean air advocate, briefly",
+      "2": "What you skip on DVR",
+      "3": "What a sommelier has",
+      "6": "Currency across the pond, for short",
+      "7": "Drink with crumpets"
     }
   }
 }
