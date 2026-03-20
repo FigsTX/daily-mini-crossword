@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-03-19",
+    "date": "2026-03-20",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Daily Briefs",
+    "theme": "Bits & Pieces",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -31,11 +31,11 @@
       "char": null
     },
     "1,0": {
-      "char": "P",
+      "char": "S",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "D"
+      "char": "P"
     },
     "1,2": {
       "char": "A"
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "A",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "S"
+      "char": "I"
     },
     "2,2": {
       "char": "S"
     },
     "2,3": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -75,7 +75,7 @@
       "clueIndex": 8
     },
     "3,3": {
-      "char": "U"
+      "char": "O"
     },
     "3,4": {
       "char": "E"
@@ -91,7 +91,7 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "P"
     },
     "4,4": {
       "char": "A"
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "1": "Chow down",
-      "4": "Public smooching, briefly",
-      "5": "Something of value",
-      "8": "Day after Mon., briefly",
-      "9": "Historic period"
+      "1": "Have a meal.",
+      "4": "Place for a mud bath.",
+      "5": "Ending for artists and dentists.",
+      "8": "A foot digit.",
+      "9": "Pollution police, briefly."
     },
     "down": {
-      "1": "Clean air advocate, briefly",
-      "2": "What you skip on DVR",
-      "3": "What a sommelier has",
-      "6": "Currency across the pond, for short",
-      "7": "Drink with crumpets"
+      "1": "Suffix for \"best\" or \"fastest\".",
+      "2": "Developer's interface, for short.",
+      "3": "What a sommelier evaluates.",
+      "6": "Summit or peak.",
+      "7": "Large body of salt water."
     }
   }
 }
