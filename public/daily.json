@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-03-21",
+    "date": "2026-03-22",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Three-Letter Treats (Mostly)",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Concert Vibe",
+    "templateId": "sunday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "A",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "D",
-      "clueIndex": 3
+      "char": "L",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "L",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "M",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "R"
     },
     "1,2": {
-      "char": "H"
+      "char": "E"
     },
     "1,3": {
-      "char": null
+      "char": "A"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "W",
+      "char": "S",
       "clueIndex": 5
     },
+    "2,0": {
+      "char": "T",
+      "clueIndex": 6
+    },
     "2,1": {
-      "char": "A"
+      "char": "E"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "S",
-      "clueIndex": 6
+      "char": "T"
     },
     "2,4": {
-      "char": "S",
-      "clueIndex": 7
+      "char": "H"
     },
     "3,0": {
-      "char": null
+      "char": "I",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "N"
     },
     "3,2": {
-      "char": "E",
-      "clueIndex": 8
+      "char": "D"
     },
     "3,3": {
-      "char": "R"
+      "char": "I"
     },
     "3,4": {
-      "char": "A"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "A",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "T",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "I"
+      "char": "N"
     },
     "4,4": {
-      "char": "M"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Place for a night's rest.",
-      "4": "Car speed abbr.",
-      "5": "Odd sound of uncertainty.",
-      "8": "Noteworthy time period.",
-      "9": "Actor Allen or Robbins."
+      "1": "The whole experience",
+      "4": "Specific venue sections",
+      "6": "Rocker's pearly whites",
+      "7": "Music genre, often unsigned",
+      "8": "Router ID, briefly"
     },
     "down": {
-      "1": "German luxury auto.",
-      "2": "Green-focused U.S. agency.",
-      "3": "Quietly warm, thin fabric?",
-      "6": "Indian respectful title.",
-      "7": "First name of Uncle."
+      "1": "A big concert hall",
+      "2": "English festival city",
+      "3": "Salsa or bachata style",
+      "4": "Former graphics card initials",
+      "5": "A female performer"
     }
   }
 }
