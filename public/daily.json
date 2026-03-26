@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-03-25",
+    "date": "2026-03-26",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short & Sweet",
+    "theme": "Time & Everyday Measures",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -17,11 +17,11 @@
       "clueIndex": 1
     },
     "0,1": {
-      "char": "O",
+      "char": "A",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "M",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "P"
     },
     "1,2": {
-      "char": "E"
+      "char": "H"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "Y",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "G"
+      "char": "R"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "D",
+      "char": "A",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "M",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "N",
+      "char": "E",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "R"
     },
     "3,4": {
-      "char": "C"
+      "char": "A"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "E"
     },
     "4,4": {
-      "char": "I"
+      "char": "N"
     }
   },
   "clues": {
     "across": {
-      "1": "Acquired or received",
-      "4": "Part of being",
-      "5": "Why get D's, indeed?",
-      "8": "Japanese electronics giant, initially",
-      "9": "Indian honorific, like Mr."
+      "1": "Fuel for the open road.",
+      "4": "Freeway speed unit.",
+      "5": "Part of a water flow.",
+      "8": "Significant period of history.",
+      "9": "A perfect score."
     },
     "down": {
-      "1": "Lively and bright",
-      "2": "Nonprofit web address ending",
-      "3": "High school age group",
-      "6": "German article 'the'",
-      "7": "Lab subject, for short"
+      "1": "Time in London, e.g.",
+      "2": "Tax month, briefly.",
+      "3": "Bed covering or paper.",
+      "6": "The plural of \"is\".",
+      "7": "\"___ overboard!\" cry."
     }
   }
 }
