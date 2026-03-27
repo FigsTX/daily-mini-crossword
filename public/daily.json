@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-03-26",
+    "date": "2026-03-27",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Time & Everyday Measures",
+    "theme": "Short & Sweet",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
+      "char": "E",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "M",
+      "char": "P",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "D"
     },
     "1,2": {
-      "char": "H"
+      "char": "A"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "T",
+      "char": "A",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "R"
+      "char": "S"
     },
     "2,2": {
-      "char": "E"
+      "char": "S"
     },
     "2,3": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "M",
+      "char": "T",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "R"
+      "char": "U"
     },
     "3,4": {
-      "char": "A"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "T",
+      "char": "E",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "R"
     },
     "4,4": {
-      "char": "N"
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Fuel for the open road.",
-      "4": "Freeway speed unit.",
-      "5": "Part of a water flow.",
-      "8": "Significant period of history.",
-      "9": "A perfect score."
+      "1": "Take sustenance",
+      "4": "Public display of affection, briefly",
+      "5": "Valuable possession or quality",
+      "8": "Day after Monday, briefly",
+      "9": "Notable period of history"
     },
     "down": {
-      "1": "Time in London, e.g.",
-      "2": "Tax month, briefly.",
-      "3": "Bed covering or paper.",
-      "6": "The plural of \"is\".",
-      "7": "\"___ overboard!\" cry."
+      "1": "U.S. environmental agency, briefly",
+      "2": "Pitches for products",
+      "3": "Sense of flavor",
+      "6": "Europe or its currency, briefly",
+      "7": "Brewed leaf beverage"
     }
   }
 }
