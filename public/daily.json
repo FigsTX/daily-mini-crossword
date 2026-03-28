@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-03-27",
+    "date": "2026-03-28",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short & Sweet",
+    "theme": "Keyboard Kinks",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "E",
+      "char": "G",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "Y",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "P",
+      "char": "M",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "D"
+      "char": "P"
     },
     "1,2": {
-      "char": "A"
+      "char": "H"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "A",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "S"
+      "char": "I"
     },
     "2,2": {
-      "char": "S"
+      "char": "R"
     },
     "2,3": {
-      "char": "E",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,11 +71,11 @@
       "char": null
     },
     "3,2": {
-      "char": "T",
+      "char": "E",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "U"
+      "char": "V"
     },
     "3,4": {
       "char": "E"
@@ -91,26 +91,26 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "D"
     },
     "4,4": {
-      "char": "A"
+      "char": "T"
     }
   },
   "clues": {
     "across": {
-      "1": "Take sustenance",
-      "4": "Public display of affection, briefly",
-      "5": "Valuable possession or quality",
-      "8": "Day after Monday, briefly",
-      "9": "Notable period of history"
+      "1": "Merry and bright.",
+      "4": "Speedometer reading (abbr.).",
+      "5": "Pieces of a pie, almost.",
+      "8": "Night before holiday.",
+      "9": "NYC summer clock setting."
     },
     "down": {
-      "1": "U.S. environmental agency, briefly",
-      "2": "Pitches for products",
-      "3": "Sense of flavor",
-      "6": "Europe or its currency, briefly",
-      "7": "Brewed leaf beverage"
+      "1": "London's prime time abbr.",
+      "2": "Tech interface or bee prefix.",
+      "3": "A trio, oddly spelled with 'Y'.",
+      "6": "Movie disc format.",
+      "7": "Group of objects or tennis part."
     }
   }
 }
