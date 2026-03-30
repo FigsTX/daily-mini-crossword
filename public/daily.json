@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-03-29",
+    "date": "2026-03-30",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Routes & Feeds",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Treat Yourself!",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "O",
+      "char": "G",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "O",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
+      "char": "U"
     },
     "1,2": {
-      "char": "L"
+      "char": "T"
     },
     "1,3": {
-      "char": "A"
+      "char": null
     },
     "1,4": {
-      "char": "S",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "S",
-      "clueIndex": 6
+      "char": "T",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "H"
+      "char": "R"
     },
     "2,2": {
-      "char": "O"
+      "char": "E"
     },
     "2,3": {
-      "char": "R"
+      "char": "A",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "E"
-    },
-    "3,0": {
-      "char": "N",
+      "char": "T",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "W"
+      "char": "E",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "R"
     },
     "3,4": {
-      "char": "R"
+      "char": "A"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "R",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "L",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "E"
     },
     "4,4": {
-      "char": null
+      "char": "G"
     }
   },
   "clues": {
     "across": {
-      "1": "Like a light, or a journey's start.",
-      "4": "Navigator's global book.",
-      "6": "Where land meets the sea.",
-      "7": "Comparatively more recent.",
-      "8": "Web news feed letters."
+      "1": "Obtain or comprehend",
+      "4": "No longer in",
+      "5": "Indulgent delight",
+      "8": "Distinct period",
+      "9": "Journey segment"
     },
     "down": {
-      "1": "An alternative option.",
-      "2": "Moves smoothly, like data or water.",
-      "3": "What riders pay for a trip.",
-      "4": "\"A\" system number, briefly.",
-      "5": "Spanish \"Mr.,\" for short."
+      "1": "Past tense of 1-Across",
+      "2": "Common currency, for short",
+      "3": "Sounds like strong metal",
+      "6": "Present tense verb",
+      "7": "\u201cYou're it!\u201d game"
     }
   }
 }
