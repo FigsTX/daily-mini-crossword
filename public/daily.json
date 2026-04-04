@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-04-03",
+    "date": "2026-04-04",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Green Initiatives",
+    "theme": "Short & Sweet",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "O",
+      "char": "P",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "U"
+      "char": "R"
     },
     "1,2": {
-      "char": "R"
+      "char": "E"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "R"
+      "char": "A"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "E",
+      "char": "N",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "A",
+      "char": "N",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "P"
+      "char": "O"
     },
     "3,4": {
-      "char": "I"
+      "char": "T"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "A"
+      "char": "R"
     },
     "4,4": {
-      "char": "X"
+      "char": "C"
     }
   },
   "clues": {
     "across": {
-      "1": "Come by, acquire.",
-      "4": "Collectively belonging to us.",
-      "5": "Forest giants providing shade.",
-      "8": "Code connection (abbr.).",
-      "9": "Government's compulsory levy."
+      "1": "Come to understand",
+      "4": "Front part of a prefix",
+      "5": "A rarely seen feminine name",
+      "8": "Opposite of 'is'",
+      "9": "Origin, briefly"
     },
     "down": {
-      "1": "Obtained, long ago.",
-      "2": "Eurozone money, briefly.",
-      "3": "Delightful surprise or candy.",
-      "6": "Pollution control agency (abbr.).",
-      "7": "Fifth plus one."
+      "1": "Car navigator's aid, briefly",
+      "2": "Distinct historical period",
+      "3": "Many high schoolers",
+      "6": "Neither's partner word",
+      "7": "And so on, for short"
     }
   }
 }
