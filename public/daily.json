@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-04-07",
+    "date": "2026-04-08",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Little Bits",
-    "templateId": "tuesday",
-    "wordTier": 1
+    "theme": "Daily Puzzle",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,19 +13,19 @@
   },
   "grid": {
     "0,0": {
-      "char": null
+      "char": "U",
+      "clueIndex": 1
     },
     "0,1": {
       "char": "S",
-      "clueIndex": 1
-    },
-    "0,2": {
-      "char": "A",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "P",
+    "0,2": {
+      "char": "E",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
@@ -35,81 +35,82 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
-    },
-    "1,2": {
-      "char": "A"
-    },
-    "1,3": {
-      "char": "R"
-    },
-    "1,4": {
-      "char": "T",
-      "clueIndex": 5
-    },
-    "2,0": {
-      "char": "M",
-      "clueIndex": 6
-    },
-    "2,1": {
-      "char": "A"
-    },
-    "2,2": {
-      "char": "R"
-    },
-    "2,3": {
       "char": "I"
     },
-    "2,4": {
+    "1,2": {
+      "char": "T"
+    },
+    "1,3": {
+      "char": null
+    },
+    "1,4": {
+      "char": null
+    },
+    "2,0": {
+      "char": "A",
+      "clueIndex": 5
+    },
+    "2,1": {
+      "char": "R"
+    },
+    "2,2": {
       "char": "E"
     },
-    "3,0": {
+    "2,3": {
+      "char": "A",
+      "clueIndex": 6
+    },
+    "2,4": {
       "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "T"
+      "char": null
     },
     "3,2": {
-      "char": "O"
+      "char": "E",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "N"
+      "char": "R"
     },
     "3,4": {
-      "char": "E"
+      "char": "A"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "E",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "N"
+      "char": "L",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "T"
+      "char": "E"
     },
     "4,4": {
-      "char": null
+      "char": "T"
     }
   },
   "clues": {
     "across": {
-      "1": "Tree's sweet fluid",
-      "4": "Get going, or jump",
-      "6": "Curie's first name",
-      "7": "Small rock, or peach pit",
-      "8": "Tolkien tree creature"
+      "5": "Clue for AREAS",
+      "1": "Clue for USE",
+      "4": "Clue for SIT",
+      "8": "Clue for ERA",
+      "9": "Clue for LET"
     },
     "down": {
-      "1": "Nevada, for example",
-      "2": "Moses's elder brother",
-      "3": "Make a hard copy",
-      "4": "Letters for a text message",
-      "5": "Small golf peg"
+      "3": "Clue for ETEEL",
+      "1": "Clue for USA",
+      "2": "Clue for SIR",
+      "6": "Clue for ARE",
+      "7": "Clue for SAT"
     }
   }
 }
