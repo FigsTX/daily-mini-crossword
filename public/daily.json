@@ -1,6 +1,6 @@
 {
   "meta": {
-    "date": "2026-04-08",
+    "date": "2026-04-09",
     "author": "AI Generated",
     "difficulty": "easy",
     "theme": "Daily Puzzle",
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "U",
+      "char": "Y",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "E",
+      "char": "S",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,11 +31,11 @@
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "I"
+      "char": "A"
     },
     "1,2": {
       "char": "T"
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "A",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
       "char": "R"
     },
     "2,2": {
-      "char": "E"
+      "char": "A"
     },
     "2,3": {
-      "char": "A",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "R"
+      "char": "I"
     },
     "3,4": {
-      "char": "A"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "L",
+      "char": "E",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "P"
     },
     "4,4": {
-      "char": "T"
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "5": "Clue for AREAS",
-      "1": "Clue for USE",
-      "4": "Clue for SIT",
-      "8": "Clue for ERA",
-      "9": "Clue for LET"
+      "5": "Clue for TRATS",
+      "1": "Clue for YES",
+      "4": "Clue for EAT",
+      "8": "Clue for TIE",
+      "9": "Clue for EPA"
     },
     "down": {
-      "3": "Clue for ETEEL",
-      "1": "Clue for USA",
-      "2": "Clue for SIR",
-      "6": "Clue for ARE",
-      "7": "Clue for SAT"
+      "3": "Clue for STATE",
+      "1": "Clue for YET",
+      "2": "Clue for EAR",
+      "6": "Clue for TIP",
+      "7": "Clue for SEA"
     }
   }
 }
