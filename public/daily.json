@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-04-14",
+    "date": "2026-04-15",
     "author": "AI Generated",
     "difficulty": "easy",
     "theme": "Daily Puzzle",
-    "templateId": "tuesday",
-    "wordTier": 1
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "A",
+      "char": "B",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "P",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "P",
+    "0,2": {
+      "char": "N",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "M",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "L"
+      "char": "P"
     },
     "1,2": {
-      "char": "L"
+      "char": "H"
     },
     "1,3": {
-      "char": "A"
+      "char": null
     },
     "1,4": {
-      "char": "H",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "S",
-      "clueIndex": 6
+      "char": "W",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "T"
-    },
-    "2,2": {
       "char": "A"
     },
+    "2,2": {
+      "char": "E"
+    },
     "2,3": {
-      "char": "G"
+      "char": "D",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "E"
-    },
-    "3,0": {
-      "char": "P",
+      "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "T"
+      "char": "S",
+      "clueIndex": 8
     },
     "3,3": {
       "char": "E"
     },
     "3,4": {
-      "char": "R"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "R",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "E"
+      "char": "E",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "R"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "4": "Clue for ALLAH",
-      "6": "Clue for STAGE",
-      "7": "Clue for PETER",
-      "1": "Clue for APP",
-      "8": "Clue for RES"
+      "5": "Clue for WAEDS",
+      "1": "Clue for BEN",
+      "4": "Clue for MPH",
+      "8": "Clue for SEE",
+      "9": "Clue for ERA"
     },
     "down": {
-      "1": "Clue for ALTER",
-      "2": "Clue for PLATE",
-      "3": "Clue for PAGES",
-      "4": "Clue for ASP",
-      "5": "Clue for HER"
+      "3": "Clue for NHESE",
+      "1": "Clue for BMW",
+      "2": "Clue for EPA",
+      "6": "Clue for DER",
+      "7": "Clue for SEA"
     }
   }
 }
