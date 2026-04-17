@@ -1,6 +1,6 @@
 {
   "meta": {
-    "date": "2026-04-16",
+    "date": "2026-04-17",
     "author": "AI Generated",
     "difficulty": "easy",
     "theme": "Daily Puzzle",
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "M",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "R"
     },
     "1,2": {
-      "char": "H"
+      "char": "E"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "T",
+      "char": "N",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "I"
+      "char": "A"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "A",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "M",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "N",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "R"
+      "char": "E"
     },
     "3,4": {
-      "char": "A"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "R"
     },
     "4,4": {
-      "char": "N"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "5": "Clue for TIEAM",
-      "1": "Clue for GAS",
-      "4": "Clue for MPH",
-      "8": "Clue for ERA",
-      "9": "Clue for TEN"
+      "5": "Clue for NAEDS",
+      "1": "Clue for PET",
+      "4": "Clue for ARE",
+      "8": "Clue for NEC",
+      "9": "Clue for SRI"
     },
     "down": {
-      "3": "Clue for SHEET",
-      "1": "Clue for GMT",
-      "2": "Clue for API",
-      "6": "Clue for ARE",
-      "7": "Clue for MAN"
+      "3": "Clue for TEENS",
+      "1": "Clue for PAN",
+      "2": "Clue for ERA",
+      "6": "Clue for DER",
+      "7": "Clue for SCI"
     }
   }
 }
