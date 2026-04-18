@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-04-17",
+    "date": "2026-04-18",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Daily Puzzle",
+    "theme": "Everyday Elements",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
+      "char": "B",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "N",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "M",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "P"
     },
     "1,2": {
-      "char": "E"
+      "char": "H"
     },
     "1,3": {
       "char": null
@@ -47,7 +47,7 @@
       "char": null
     },
     "2,0": {
-      "char": "N",
+      "char": "W",
       "clueIndex": 5
     },
     "2,1": {
@@ -57,11 +57,11 @@
       "char": "E"
     },
     "2,3": {
-      "char": "D",
+      "char": "A",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "M",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "N",
+      "char": "E",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "R"
     },
     "3,4": {
-      "char": "C"
+      "char": "A"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "E"
     },
     "4,4": {
-      "char": "I"
+      "char": "N"
     }
   },
   "clues": {
     "across": {
-      "5": "Clue for NAEDS",
-      "1": "Clue for PET",
-      "4": "Clue for ARE",
-      "8": "Clue for NEC",
-      "9": "Clue for SRI"
+      "1": "Franklin's first name",
+      "4": "Dash gauge abbr.",
+      "5": "A surprising sound, with an 'm'?",
+      "8": "Historical time period",
+      "9": "Perfect score, often"
     },
     "down": {
-      "3": "Clue for TEENS",
-      "1": "Clue for PAN",
-      "2": "Clue for ERA",
-      "6": "Clue for DER",
-      "7": "Clue for SCI"
+      "1": "Luxury German auto initials",
+      "2": "Green regulatory agency",
+      "3": "N, and a fuel system helper?",
+      "6": "Plural present tense verb",
+      "7": "Adam, for one"
     }
   }
 }
