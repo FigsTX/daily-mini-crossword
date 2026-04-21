@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-04-20",
+    "date": "2026-04-21",
     "author": "AI Generated",
     "difficulty": "easy",
     "theme": "Daily Puzzle",
-    "templateId": "monday",
-    "wordTier": 0
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,19 +13,19 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
@@ -35,82 +35,81 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "T"
     },
     "1,2": {
-      "char": "E"
+      "char": "L"
     },
     "1,3": {
-      "char": null
-    },
-    "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "T",
-      "clueIndex": 5
-    },
-    "2,1": {
       "char": "A"
     },
-    "2,2": {
-      "char": "S"
+    "1,4": {
+      "char": "S",
+      "clueIndex": 5
     },
-    "2,3": {
-      "char": "T",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
-    "2,4": {
-      "char": "E",
-      "clueIndex": 7
+    "2,1": {
+      "char": "H"
     },
-    "3,0": {
-      "char": null
-    },
-    "3,1": {
-      "char": null
-    },
-    "3,2": {
-      "char": "T",
-      "clueIndex": 8
-    },
-    "3,3": {
+    "2,2": {
       "char": "O"
     },
+    "2,3": {
+      "char": "R"
+    },
+    "2,4": {
+      "char": "E"
+    },
+    "3,0": {
+      "char": "N",
+      "clueIndex": 7
+    },
+    "3,1": {
+      "char": "E"
+    },
+    "3,2": {
+      "char": "W"
+    },
+    "3,3": {
+      "char": "E"
+    },
     "3,4": {
-      "char": "Y"
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "S",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "E"
+      "char": "S"
     },
     "4,4": {
-      "char": "E"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "5": "Clue for TASTE",
-      "1": "Clue for PET",
-      "4": "Clue for ARE",
-      "8": "Clue for TOY",
-      "9": "Clue for SEE"
+      "4": "Clue for ATLAS",
+      "6": "Clue for SHORE",
+      "7": "Clue for NEWER",
+      "1": "Clue for OFF",
+      "8": "Clue for RSS"
     },
     "down": {
-      "3": "Clue for TESTS",
-      "1": "Clue for PAT",
-      "2": "Clue for ERA",
-      "6": "Clue for TOE",
-      "7": "Clue for EYE"
+      "1": "Clue for OTHER",
+      "2": "Clue for FLOWS",
+      "3": "Clue for FARES",
+      "4": "Clue for ASN",
+      "5": "Clue for SER"
     }
   }
 }
