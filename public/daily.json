@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-04-22",
+    "date": "2026-04-23",
     "author": "AI Generated",
     "difficulty": "easy",
     "theme": "Daily Puzzle",
-    "templateId": "wednesday",
-    "wordTier": 1
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "A",
+      "char": "R",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "P",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "P",
+    "0,2": {
+      "char": "S",
       "clueIndex": 3
     },
+    "0,3": {
+      "char": null
+    },
     "0,4": {
+      "char": null
+    },
+    "1,0": {
       "char": "S",
       "clueIndex": 4
     },
-    "1,0": {
-      "char": "C",
-      "clueIndex": 5
-    },
     "1,1": {
-      "char": "L"
+      "char": "A"
     },
     "1,2": {
-      "char": "A"
+      "char": "T"
     },
     "1,3": {
-      "char": "R"
+      "char": null
     },
     "1,4": {
-      "char": "A"
+      "char": null
     },
     "2,0": {
-      "char": "A",
-      "clueIndex": 6
+      "char": "S",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "P"
+      "char": "T"
     },
     "2,2": {
-      "char": "R"
+      "char": "A"
     },
     "2,3": {
-      "char": "I"
+      "char": "T",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "L"
-    },
-    "3,0": {
       "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "H"
+      "char": null
     },
     "3,2": {
-      "char": "I"
+      "char": "T",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "N"
+      "char": "I"
     },
     "3,4": {
       "char": "E"
     },
     "4,0": {
-      "char": "E",
-      "clueIndex": 8
+      "char": null
     },
     "4,1": {
-      "char": "A"
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "E",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "T"
+      "char": "P"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "5": "Clue for CLARA",
-      "6": "Clue for APRIL",
-      "7": "Clue for SHINE",
-      "1": "Clue for APPS",
-      "8": "Clue for EAST"
+      "5": "Clue for STATS",
+      "1": "Clue for RES",
+      "4": "Clue for SAT",
+      "8": "Clue for TIE",
+      "9": "Clue for EPA"
     },
     "down": {
-      "1": "Clue for ALPHA",
-      "2": "Clue for PARIS",
-      "3": "Clue for PRINT",
-      "4": "Clue for SALE",
-      "5": "Clue for CASE"
+      "3": "Clue for STATE",
+      "1": "Clue for RSS",
+      "2": "Clue for EAT",
+      "6": "Clue for TIP",
+      "7": "Clue for SEA"
     }
   }
 }
