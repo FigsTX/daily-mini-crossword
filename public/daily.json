@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-04-25",
+    "date": "2026-04-26",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "A Daily Dose",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Wanderlust",
+    "templateId": "sunday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "R",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "A",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "S",
-      "clueIndex": 3
+      "char": "P",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "R",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "O",
+      "char": "S",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "U"
-    },
-    "1,2": {
       "char": "T"
     },
+    "1,2": {
+      "char": "O"
+    },
     "1,3": {
-      "char": null
+      "char": "O"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
       "char": "D",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "R"
-    },
-    "2,2": {
-      "char": "A"
-    },
-    "2,3": {
-      "char": "T",
+    "2,0": {
+      "char": "A",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "L"
+    },
+    "2,2": {
+      "char": "I"
+    },
+    "2,3": {
+      "char": "V"
+    },
     "2,4": {
-      "char": "H",
-      "clueIndex": 7
+      "char": "E"
     },
     "3,0": {
-      "char": null
+      "char": "P",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "A"
     },
     "3,2": {
-      "char": "T",
-      "clueIndex": 8
+      "char": "N"
     },
     "3,3": {
       "char": "E"
     },
     "3,4": {
-      "char": "A"
+      "char": "L"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "S",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "T"
     },
     "4,3": {
-      "char": "N"
+      "char": "R"
     },
     "4,4": {
-      "char": "D"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Regarding, in legalese",
-      "4": "Opposite of in",
-      "5": "Figure in a fantasy card game",
-      "8": "Popular afternoon brew",
-      "9": "The final stop"
+      "1": "Spring calendar abbr.",
+      "4": "Was on one's feet",
+      "6": "Full of vigor and spirit",
+      "7": "Solar energy collection unit",
+      "8": "Road abbr."
     },
     "down": {
-      "1": "Fishing pole, for one",
-      "2": "Europe, for short",
-      "3": "One of fifty United ones",
-      "6": "Dime's value, in cents",
-      "7": "Past tense of 'have'"
+      "1": "World traveler's book",
+      "2": "Compass direction or tip",
+      "3": "Martian explorer or wandering dog",
+      "4": "Tree's vital fluid",
+      "5": "Part of many Spanish names"
     }
   }
 }
