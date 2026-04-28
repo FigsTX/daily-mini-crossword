@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-04-27",
+    "date": "2026-04-28",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Daily Puzzle",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Digital Delights",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "D",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "G",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "S",
-      "clueIndex": 3
+      "char": "P",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "L",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "I",
+      "char": "M",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "N"
+      "char": "E"
     },
     "1,2": {
-      "char": "T"
+      "char": "R"
     },
     "1,3": {
-      "char": null
+      "char": "I"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "D"
-    },
-    "2,2": {
-      "char": "A"
-    },
-    "2,3": {
-      "char": "S",
+    "2,0": {
+      "char": "A",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "N"
+    },
+    "2,2": {
+      "char": "I"
+    },
+    "2,3": {
+      "char": "M"
+    },
     "2,4": {
-      "char": "E",
-      "clueIndex": 7
+      "char": "E"
     },
     "3,0": {
-      "char": null
+      "char": "R",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "T",
-      "clueIndex": 8
+      "char": "M"
     },
     "3,3": {
       "char": "I"
     },
     "3,4": {
-      "char": "P"
+      "char": "X"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "S",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "E"
     },
     "4,3": {
-      "char": "R"
+      "char": "T"
     },
     "4,4": {
-      "char": "A"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "5": "Clue for EDASE",
-      "1": "Clue for DES",
-      "4": "Clue for INT",
-      "8": "Clue for TIP",
-      "9": "Clue for ERA"
+      "1": "Code's \"free\" agreement",
+      "4": "Something that's earned or deserved",
+      "6": "Tokyo-born cartoon art",
+      "7": "A fresh spin on a track",
+      "8": "Director's background location"
     },
     "down": {
-      "3": "Clue for STATE",
-      "1": "Clue for DIE",
-      "2": "Clue for END",
-      "6": "Clue for SIR",
-      "7": "Clue for EPA"
+      "1": "Hereditary material units",
+      "2": "At its very best",
+      "3": "Go-no-further boundary",
+      "4": "Spoil the appearance of",
+      "5": "Lone Star State's informal name"
     }
   }
 }
