@@ -1,6 +1,6 @@
 {
   "meta": {
-    "date": "2026-04-29",
+    "date": "2026-04-30",
     "author": "AI Generated",
     "difficulty": "easy",
     "theme": "Daily Puzzle",
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "C",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "D",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -35,7 +35,7 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "I"
+      "char": "A"
     },
     "1,2": {
       "char": "T"
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "E"
+      "char": "T"
     },
     "2,2": {
-      "char": "A"
+      "char": "E"
     },
     "2,3": {
-      "char": "T",
+      "char": "A",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "T",
+      "char": "E",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "O"
+      "char": "R"
     },
     "3,4": {
-      "char": "E"
+      "char": "A"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "E",
+      "char": "L",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "P"
+      "char": "E"
     },
     "4,4": {
-      "char": "A"
+      "char": "G"
     }
   },
   "clues": {
     "across": {
-      "5": "Clue for SEATS",
-      "1": "Clue for CDS",
-      "4": "Clue for SIT",
-      "8": "Clue for TOE",
-      "9": "Clue for EPA"
+      "5": "Clue for TTEAT",
+      "1": "Clue for PET",
+      "4": "Clue for SAT",
+      "8": "Clue for ERA",
+      "9": "Clue for LEG"
     },
     "down": {
-      "3": "Clue for STATE",
-      "1": "Clue for CSS",
-      "2": "Clue for DIE",
-      "6": "Clue for TOP",
-      "7": "Clue for SEA"
+      "3": "Clue for TTEEL",
+      "1": "Clue for PST",
+      "2": "Clue for EAT",
+      "6": "Clue for ARE",
+      "7": "Clue for TAG"
     }
   }
 }
