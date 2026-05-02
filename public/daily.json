@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-05-01",
+    "date": "2026-05-02",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short Stories",
+    "theme": "A Paws-itive Experience",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "M",
+      "char": "C",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "A"
     },
     "1,2": {
-      "char": "H"
+      "char": "T"
     },
     "1,3": {
       "char": null
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "I"
+      "char": "T"
     },
     "2,2": {
-      "char": "E"
+      "char": "A"
     },
     "2,3": {
-      "char": "D",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "R",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "O"
     },
     "3,4": {
-      "char": "P"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -91,26 +91,26 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "Y"
     },
     "4,4": {
-      "char": "A"
+      "char": "E"
     }
   },
   "clues": {
     "across": {
-      "1": "Pedal power, maybe",
-      "4": "Dash display, briefly",
-      "5": "Makes things even",
-      "8": "Salesperson, in short",
-      "9": "A memorable period"
+      "1": "Doted-on animal",
+      "4": "Purring household companion",
+      "5": "Player's numbers, informally",
+      "8": "Smallest foot digit",
+      "9": "Hurricane's calm center"
     },
     "down": {
-      "1": "Universal clock letters",
-      "2": "Interface for coders, briefly",
-      "3": "Fierce tiger Khan",
-      "6": "The German way",
-      "7": "Relaxing mineral bath site"
+      "1": "Computer units, for short",
+      "2": "Doggie dish activity",
+      "3": "Condition or status",
+      "6": "Bone for a pup",
+      "7": "Use your peepers"
     }
   }
 }
