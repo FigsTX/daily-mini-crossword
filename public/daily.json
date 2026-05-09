@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-05-08",
+    "date": "2026-05-09",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Daily Puzzle",
+    "theme": "Time to Get Out!",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "L",
+      "char": "G",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,11 +31,11 @@
       "char": null
     },
     "1,0": {
-      "char": "C",
+      "char": "O",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "S"
+      "char": "U"
     },
     "1,2": {
       "char": "T"
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "D",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "T"
+      "char": "R"
     },
     "2,2": {
-      "char": "A"
+      "char": "E"
     },
     "2,3": {
-      "char": "T",
+      "char": "A",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "H",
+      "char": "T",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,11 +71,11 @@
       "char": null
     },
     "3,2": {
-      "char": "T",
+      "char": "E",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "R"
     },
     "3,4": {
       "char": "A"
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "E",
+      "char": "L",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "N"
+      "char": "E"
     },
     "4,4": {
-      "char": "D"
+      "char": "G"
     }
   },
   "clues": {
     "across": {
-      "5": "Clue for DTATH",
-      "1": "Clue for LES",
-      "4": "Clue for CST",
-      "8": "Clue for TEA",
-      "9": "Clue for END"
+      "1": "Acquire or obtain",
+      "4": "Exit, as in \"Get ___!\"",
+      "5": "Special indulgence or candy",
+      "8": "A distinct historical period",
+      "9": "Tripod support or a journey section"
     },
     "down": {
-      "3": "Clue for STATE",
-      "1": "Clue for LCD",
-      "2": "Clue for EST",
-      "6": "Clue for TEN",
-      "7": "Clue for HAD"
+      "1": "Acquired, as in \"I ___ it!\"",
+      "2": "Continental currency, briefly",
+      "3": "Inflexible alloy or resolve",
+      "6": "Present tense of \"be\" for \"we\"",
+      "7": "\u201cYou're it!\u201d game"
     }
   }
 }
