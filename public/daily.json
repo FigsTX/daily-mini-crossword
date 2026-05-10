@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-05-09",
+    "date": "2026-05-10",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Time to Get Out!",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Abridged Edition",
+    "templateId": "sunday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "T",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "M",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "P",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "O",
+      "char": "B",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "U"
+      "char": "R"
     },
     "1,2": {
-      "char": "T"
-    },
-    "1,3": {
-      "char": null
-    },
-    "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "T",
-      "clueIndex": 5
-    },
-    "2,1": {
-      "char": "R"
-    },
-    "2,2": {
       "char": "E"
     },
-    "2,3": {
-      "char": "A",
+    "1,3": {
+      "char": "A"
+    },
+    "1,4": {
+      "char": "D",
+      "clueIndex": 5
+    },
+    "2,0": {
+      "char": "B",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "E"
+    },
+    "2,2": {
+      "char": "A"
+    },
+    "2,3": {
+      "char": "S"
+    },
     "2,4": {
-      "char": "T",
-      "clueIndex": 7
+      "char": "T"
     },
     "3,0": {
-      "char": null
+      "char": "C",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "E",
-      "clueIndex": 8
+      "char": "N"
     },
     "3,3": {
-      "char": "R"
+      "char": "T"
     },
     "3,4": {
-      "char": "A"
+      "char": "S"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "S",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "L",
-      "clueIndex": 9
+      "char": "T"
     },
     "4,3": {
       "char": "E"
     },
     "4,4": {
-      "char": "G"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Acquire or obtain",
-      "4": "Exit, as in \"Get ___!\"",
-      "5": "Special indulgence or candy",
-      "8": "A distinct historical period",
-      "9": "Tripod support or a journey section"
+      "1": "Temporary, briefly",
+      "4": "Baker's staple",
+      "6": "Beauty's partner",
+      "7": "Small change",
+      "8": "French saint, briefly"
     },
     "down": {
-      "1": "Acquired, as in \"I ___ it!\"",
-      "2": "Continental currency, briefly",
-      "3": "Inflexible alloy or resolve",
-      "6": "Present tense of \"be\" for \"we\"",
-      "7": "\u201cYou're it!\u201d game"
+      "1": "Family history diagrams",
+      "2": "Had in mind",
+      "3": "Stick with it?",
+      "4": "British broadcasting initials",
+      "5": "Shakes, briefly"
     }
   }
 }
