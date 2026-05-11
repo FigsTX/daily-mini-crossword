@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-05-10",
+    "date": "2026-05-11",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Abridged Edition",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Earth and Its Inhabitants",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "T",
+      "char": "P",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "M",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "P",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "B",
+      "char": "D",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
-    },
-    "1,2": {
-      "char": "E"
-    },
-    "1,3": {
-      "char": "A"
-    },
-    "1,4": {
-      "char": "D",
-      "clueIndex": 5
-    },
-    "2,0": {
-      "char": "B",
-      "clueIndex": 6
-    },
-    "2,1": {
-      "char": "E"
-    },
-    "2,2": {
-      "char": "A"
-    },
-    "2,3": {
-      "char": "S"
-    },
-    "2,4": {
-      "char": "T"
-    },
-    "3,0": {
-      "char": "C",
-      "clueIndex": 7
-    },
-    "3,1": {
-      "char": "E"
-    },
-    "3,2": {
       "char": "N"
     },
+    "1,2": {
+      "char": "A"
+    },
+    "1,3": {
+      "char": null
+    },
+    "1,4": {
+      "char": null
+    },
+    "2,0": {
+      "char": "T",
+      "clueIndex": 5
+    },
+    "2,1": {
+      "char": "D"
+    },
+    "2,2": {
+      "char": "S"
+    },
+    "2,3": {
+      "char": "T",
+      "clueIndex": 6
+    },
+    "2,4": {
+      "char": "S",
+      "clueIndex": 7
+    },
+    "3,0": {
+      "char": null
+    },
+    "3,1": {
+      "char": null
+    },
+    "3,2": {
+      "char": "T",
+      "clueIndex": 8
+    },
     "3,3": {
-      "char": "T"
+      "char": "O"
     },
     "3,4": {
-      "char": "S"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "S",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "T"
+      "char": "E",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "P"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Temporary, briefly",
-      "4": "Baker's staple",
-      "6": "Beauty's partner",
-      "7": "Small change",
-      "8": "French saint, briefly"
+      "1": "Fido or Felix, e.g.",
+      "4": "Genetic blueprint, for short",
+      "5": "Evaluation metrics, for short",
+      "8": "Little piggie, perhaps",
+      "9": "Green gov. agency"
     },
     "down": {
-      "1": "Family history diagrams",
-      "2": "Had in mind",
-      "3": "Stick with it?",
-      "4": "British broadcasting initials",
-      "5": "Shakes, briefly"
+      "1": "Los Angeles summer time, briefly",
+      "2": "The very last part",
+      "3": "Sense that detects flavor",
+      "6": "Mountain peak or spinning toy",
+      "7": "Part of the deep blue"
     }
   }
 }
