@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-05-13",
+    "date": "2026-05-14",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Times and Measures",
+    "theme": "Double Takes",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
+      "char": "U",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "A",
+      "char": "S",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "P",
+      "char": "A",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "M",
+      "char": "S",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "E"
     },
     "1,2": {
-      "char": "H"
+      "char": "T"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "T",
+      "char": "E",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "R"
-    },
-    "2,2": {
       "char": "E"
     },
+    "2,2": {
+      "char": "A"
+    },
     "2,3": {
-      "char": "D",
+      "char": "S",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,11 +71,11 @@
       "char": null
     },
     "3,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "I"
     },
     "3,4": {
       "char": "E"
@@ -91,26 +91,26 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "R"
     },
     "4,4": {
-      "char": "T"
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "A break in time",
-      "4": "Dash unit, for short",
-      "5": "Paces the floor",
-      "8": "Perceive with eyes",
-      "9": "NYC time zone, abbr."
+      "1": "Land of the free, briefly",
+      "4": "Ready, ___, go!",
+      "5": "East, phonetically drawn out",
+      "8": "It can keep things even",
+      "9": "A major league time"
     },
     "down": {
-      "1": "London's time zone",
-      "2": "Loan cost, briefly",
-      "3": "Lunar stages, nearly",
-      "6": "French 'of the'",
-      "7": "Ready, ___, go!"
+      "1": "1-Across, anagrammed",
+      "2": "Spot with your peepers",
+      "3": "Tate gallery, with repeated letters",
+      "6": "Polite address for a man",
+      "7": "What a crumpet may accompany"
     }
   }
 }
