@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-05-14",
+    "date": "2026-05-15",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Double Takes",
+    "theme": "Simple Pleasures",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "U",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "A",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "U",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "E"
+      "char": "S"
     },
     "1,2": {
-      "char": "T"
+      "char": "R"
     },
     "1,3": {
       "char": null
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "E"
+      "char": "T"
     },
     "2,2": {
-      "char": "A"
+      "char": "E"
     },
     "2,3": {
-      "char": "S",
+      "char": "A",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,11 +71,11 @@
       "char": null
     },
     "3,2": {
-      "char": "T",
+      "char": "E",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "I"
+      "char": "V"
     },
     "3,4": {
       "char": "E"
@@ -87,11 +87,11 @@
       "char": null
     },
     "4,2": {
-      "char": "E",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "E"
     },
     "4,4": {
       "char": "A"
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "1": "Land of the free, briefly",
-      "4": "Ready, ___, go!",
-      "5": "East, phonetically drawn out",
-      "8": "It can keep things even",
-      "9": "A major league time"
+      "1": "A loyal companion",
+      "4": "Account holder, briefly",
+      "5": "A sweet reward",
+      "8": "The night before",
+      "9": "Vast body of salt water"
     },
     "down": {
-      "1": "1-Across, anagrammed",
-      "2": "Spot with your peepers",
-      "3": "Tate gallery, with repeated letters",
-      "6": "Polite address for a man",
-      "7": "What a crumpet may accompany"
+      "1": "Place or position",
+      "2": "Direction of the rising sun",
+      "3": "Forest features offering shade",
+      "6": "City street, for short",
+      "7": "A calming hot drink"
     }
   }
 }
