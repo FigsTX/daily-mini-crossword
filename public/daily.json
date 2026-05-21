@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-05-20",
+    "date": "2026-05-21",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Word Bites",
+    "theme": "Everyday Words",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "C",
+      "char": "B",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "D",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "A"
     },
     "1,2": {
-      "char": "E"
+      "char": "R"
     },
     "1,3": {
       "char": null
@@ -47,7 +47,7 @@
       "char": null
     },
     "2,0": {
-      "char": "N",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
@@ -57,11 +57,11 @@
       "char": "E"
     },
     "2,3": {
-      "char": "D",
+      "char": "E",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "L",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "N",
+      "char": "A",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "R"
     },
     "3,4": {
-      "char": "C"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "A"
     },
     "4,4": {
-      "char": "I"
+      "char": "G"
     }
   },
   "clues": {
     "across": {
-      "1": "A feline companion",
-      "4": "Plural of \"is\"",
-      "5": "Paid to join the poker pot",
-      "8": "Japanese electronics giant",
-      "9": "___ Lanka or Asian honorific"
+      "1": "Place to rest one's head.",
+      "4": "What a corn may have.",
+      "5": "Strong metal; resolve.",
+      "8": "Present tense verb for \"we\".",
+      "9": "Game of chase, or a label."
     },
     "down": {
-      "1": "Tin or ability",
-      "2": "Works found in a museum",
-      "3": "Some high schoolers",
-      "6": "German definite article",
-      "7": "Biology, e.g. (abbr.)"
+      "1": "Place a wager.",
+      "2": "Consume a meal.",
+      "3": "Terrific, wonderful.",
+      "6": "Distinct period of history.",
+      "7": "Part of a journey, perhaps."
     }
   }
 }
