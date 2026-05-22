@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-05-21",
+    "date": "2026-05-22",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Everyday Words",
+    "theme": "Short & Sweet",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "D",
+      "char": "N",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "E",
+      "char": "D",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
+      "char": "U"
     },
     "1,2": {
-      "char": "R"
+      "char": "E"
     },
     "1,3": {
       "char": null
@@ -51,17 +51,17 @@
       "clueIndex": 5
     },
     "2,1": {
-      "char": "T"
+      "char": "R"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "E",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "L",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "A",
+      "char": "N",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "R"
+      "char": "E"
     },
     "3,4": {
-      "char": "E"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "A"
+      "char": "R"
     },
     "4,4": {
-      "char": "G"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Place to rest one's head.",
-      "4": "What a corn may have.",
-      "5": "Strong metal; resolve.",
-      "8": "Present tense verb for \"we\".",
-      "9": "Game of chase, or a label."
+      "1": "Writer's handy tool",
+      "4": "Expected on the bill",
+      "5": "Takes steps on",
+      "8": "Electrical safety code, for short",
+      "9": "A respectful Indian title"
     },
     "down": {
-      "1": "Place a wager.",
-      "2": "Consume a meal.",
-      "3": "Terrific, wonderful.",
-      "6": "Distinct period of history.",
-      "7": "Part of a journey, perhaps."
+      "1": "California's summer time zone, abbr.",
+      "2": "The common European currency, for short",
+      "3": "Whiny, drawn-out sounds",
+      "6": "German definite article",
+      "7": "School subject, for short"
     }
   }
 }
