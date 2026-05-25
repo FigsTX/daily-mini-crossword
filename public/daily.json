@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-05-24",
+    "date": "2026-05-25",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Core Concepts",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Digital Shorts",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "N",
+      "char": "G",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "L",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "P",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "E"
-    },
-    "1,2": {
       "char": "R"
     },
+    "1,2": {
+      "char": "E"
+    },
     "1,3": {
-      "char": "U"
+      "char": null
     },
     "1,4": {
-      "char": "M",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "P",
-      "clueIndex": 6
+      "char": "S",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "E"
-    },
-    "2,2": {
       "char": "A"
     },
-    "2,3": {
-      "char": "C"
-    },
-    "2,4": {
+    "2,2": {
       "char": "E"
     },
-    "3,0": {
-      "char": "A",
+    "2,3": {
+      "char": "N",
+      "clueIndex": 6
+    },
+    "2,4": {
+      "char": "E",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "D"
+      "char": null
     },
     "3,2": {
-      "char": "M"
+      "char": "N",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "I"
+      "char": "O"
     },
     "3,4": {
-      "char": "N"
+      "char": "T"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "S",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "E"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "A"
+      "char": "R"
     },
     "4,4": {
-      "char": null
+      "char": "C"
     }
   },
   "clues": {
     "across": {
-      "1": "Gridiron initials.",
-      "4": "Skincare fluid.",
-      "6": "Dove's message.",
-      "7": "Business department, informally.",
-      "8": "Nautical expanse."
+      "1": "Grasp, as a concept.",
+      "4": "Starter for view or fix.",
+      "5": "A kind of flowing grace.",
+      "8": "Word of denial.",
+      "9": "Code location, often."
     },
     "down": {
-      "1": "Must-haves.",
-      "2": "Picture holder.",
-      "3": "St. ___ (Caribbean island).",
-      "4": "Pampering place.",
-      "5": "The \"M\" in YMCA."
+      "1": "Car screen letters.",
+      "2": "A distinct historical period.",
+      "3": "High schoolers' age group.",
+      "6": "Conjunction after neither.",
+      "7": "More to come, for short."
     }
   }
 }
