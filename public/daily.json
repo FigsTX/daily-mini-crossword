@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-05-25",
+    "date": "2026-05-27",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Digital Shorts",
+    "theme": "Mini-Marvels",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
+      "char": "B",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "N",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,11 +31,11 @@
       "char": null
     },
     "1,0": {
-      "char": "P",
+      "char": "U",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "S"
     },
     "1,2": {
       "char": "E"
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "A"
+      "char": "T"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "N",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "E",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -75,10 +75,10 @@
       "clueIndex": 8
     },
     "3,3": {
-      "char": "O"
+      "char": "E"
     },
     "3,4": {
-      "char": "T"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -94,23 +94,23 @@
       "char": "R"
     },
     "4,4": {
-      "char": "C"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Grasp, as a concept.",
-      "4": "Starter for view or fix.",
-      "5": "A kind of flowing grace.",
-      "8": "Word of denial.",
-      "9": "Code location, often."
+      "1": "Actor Stiller or Kingsley",
+      "4": "Employ, as a tool",
+      "5": "A pair of Teds, perhaps?",
+      "8": "Big Japanese tech company",
+      "9": "Asian title of respect"
     },
     "down": {
-      "1": "Car screen letters.",
-      "2": "A distinct historical period.",
-      "3": "High schoolers' age group.",
-      "6": "Conjunction after neither.",
-      "7": "More to come, for short."
+      "1": "A word of contrast",
+      "2": "Suffix for 'largest' or 'best'",
+      "3": "Siren's characteristic sound, repeated?",
+      "6": "___ Tag (German for 'the day')",
+      "7": "Subject for a lab coat (abbr.)"
     }
   }
 }
