@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Mini-Marvels",
+    "theme": "Going Backward",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
+      "char": "L",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "N",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "U",
+      "char": "O",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "S"
+      "char": "U"
     },
     "1,2": {
-      "char": "E"
+      "char": "T"
     },
     "1,3": {
       "char": null
@@ -51,17 +51,17 @@
       "clueIndex": 5
     },
     "2,1": {
-      "char": "T"
+      "char": "R"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "D",
+      "char": "A",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "N",
+      "char": "E",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "R"
     },
     "3,4": {
-      "char": "C"
+      "char": "A"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "L",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "E"
     },
     "4,4": {
-      "char": "I"
+      "char": "G"
     }
   },
   "clues": {
     "across": {
-      "1": "Actor Stiller or Kingsley",
-      "4": "Employ, as a tool",
-      "5": "A pair of Teds, perhaps?",
-      "8": "Big Japanese tech company",
-      "9": "Asian title of respect"
+      "1": "___ bygones be bygones",
+      "4": "Opposite of in",
+      "5": "A special indulgence",
+      "8": "A historical period",
+      "9": "Part of a journey"
     },
     "down": {
-      "1": "A word of contrast",
-      "2": "Suffix for 'largest' or 'best'",
-      "3": "Siren's characteristic sound, repeated?",
-      "6": "___ Tag (German for 'the day')",
-      "7": "Subject for a lab coat (abbr.)"
+      "1": "A plot of land",
+      "2": "Common currency, for short",
+      "3": "Strong metal, backwards",
+      "6": "Plural of 'is'",
+      "7": "Game of chase"
     }
   }
 }
