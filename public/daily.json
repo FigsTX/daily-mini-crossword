@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-05-28",
+    "date": "2026-05-29",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Going Backward",
+    "theme": "Letters and Sounds",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "L",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "O",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "U"
+      "char": "R"
     },
     "1,2": {
-      "char": "T"
+      "char": "E"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "T",
+      "char": "N",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "R"
+      "char": "A"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "A",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "N",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "R"
+      "char": "E"
     },
     "3,4": {
-      "char": "A"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "L",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "R"
     },
     "4,4": {
-      "char": "G"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "___ bygones be bygones",
-      "4": "Opposite of in",
-      "5": "A special indulgence",
-      "8": "A historical period",
-      "9": "Part of a journey"
+      "1": "Teacher's favorite, perhaps",
+      "4": "Current state of being",
+      "5": "Sounds like 'needs' a lot",
+      "8": "Tokyo electronics letters",
+      "9": "Asian honorific like Mr."
     },
     "down": {
-      "1": "A plot of land",
-      "2": "Common currency, for short",
-      "3": "Strong metal, backwards",
-      "6": "Plural of 'is'",
-      "7": "Game of chase"
+      "1": "Skillet, or criticize harshly",
+      "2": "Distinct period of time",
+      "3": "Awkward years crowd",
+      "6": "German 'the,' for a male",
+      "7": "School subject, for short"
     }
   }
 }
