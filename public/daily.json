@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-05-29",
+    "date": "2026-05-30",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Letters and Sounds",
+    "theme": "Abridged Language",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "1": "Teacher's favorite, perhaps",
-      "4": "Current state of being",
-      "5": "Sounds like 'needs' a lot",
-      "8": "Tokyo electronics letters",
-      "9": "Asian honorific like Mr."
+      "1": "Favorite companion at home.",
+      "4": "You, we, or they ___.",
+      "5": "Educational data systems group, for short.",
+      "8": "Japanese electronics brand.",
+      "9": "___ Lanka or ___ Ganesh."
     },
     "down": {
-      "1": "Skillet, or criticize harshly",
-      "2": "Distinct period of time",
-      "3": "Awkward years crowd",
-      "6": "German 'the,' for a male",
-      "7": "School subject, for short"
+      "1": "Skillet or a Greek god.",
+      "2": "A historical period.",
+      "3": "Adolescents in their numerical years.",
+      "6": "\"The\" in German.",
+      "7": "Lab subject, briefly."
     }
   }
 }
