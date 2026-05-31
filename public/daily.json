@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-05-30",
+    "date": "2026-05-31",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Abridged Language",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Short & Sweet",
+    "templateId": "sunday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,25 +13,25 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "T",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "M",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "P",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "B",
       "clueIndex": 4
     },
     "1,1": {
@@ -41,76 +41,75 @@
       "char": "E"
     },
     "1,3": {
-      "char": null
-    },
-    "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "N",
-      "clueIndex": 5
-    },
-    "2,1": {
       "char": "A"
     },
-    "2,2": {
-      "char": "E"
-    },
-    "2,3": {
+    "1,4": {
       "char": "D",
+      "clueIndex": 5
+    },
+    "2,0": {
+      "char": "B",
       "clueIndex": 6
     },
-    "2,4": {
-      "char": "S",
-      "clueIndex": 7
-    },
-    "3,0": {
-      "char": null
-    },
-    "3,1": {
-      "char": null
-    },
-    "3,2": {
-      "char": "N",
-      "clueIndex": 8
-    },
-    "3,3": {
+    "2,1": {
       "char": "E"
     },
+    "2,2": {
+      "char": "A"
+    },
+    "2,3": {
+      "char": "S"
+    },
+    "2,4": {
+      "char": "T"
+    },
+    "3,0": {
+      "char": "C",
+      "clueIndex": 7
+    },
+    "3,1": {
+      "char": "E"
+    },
+    "3,2": {
+      "char": "N"
+    },
+    "3,3": {
+      "char": "T"
+    },
     "3,4": {
-      "char": "C"
+      "char": "S"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "S",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "S",
-      "clueIndex": 9
+      "char": "T"
     },
     "4,3": {
-      "char": "R"
+      "char": "E"
     },
     "4,4": {
-      "char": "I"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Favorite companion at home.",
-      "4": "You, we, or they ___.",
-      "5": "Educational data systems group, for short.",
-      "8": "Japanese electronics brand.",
-      "9": "___ Lanka or ___ Ganesh."
+      "1": "Fleeting file type",
+      "4": "The staff of life, or \"dough\"",
+      "6": "Mythical or wild creature",
+      "7": "Smallest units of a dollar",
+      "8": "French saint, briefly"
     },
     "down": {
-      "1": "Skillet or a Greek god.",
-      "2": "A historical period.",
-      "3": "Adolescents in their numerical years.",
-      "6": "\"The\" in German.",
-      "7": "Lab subject, briefly."
+      "1": "Oxygen producers in a forest",
+      "2": "Had in mind",
+      "3": "Copy command's partner",
+      "4": "\"The Beeb,\" for short",
+      "5": "\"The shakes,\" medically"
     }
   }
 }
