@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-06-03",
+    "date": "2026-06-04",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Daily Puzzle",
+    "theme": "Nature's Delights",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,11 +13,11 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
+      "char": "E",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 2
     },
     "0,2": {
@@ -31,11 +31,11 @@
       "char": null
     },
     "1,0": {
-      "char": "U",
+      "char": "S",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "S"
+      "char": "I"
     },
     "1,2": {
       "char": "R"
@@ -47,11 +47,11 @@
       "char": null
     },
     "2,0": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "T"
+      "char": "R"
     },
     "2,2": {
       "char": "E"
@@ -61,7 +61,7 @@
       "clueIndex": 6
     },
     "2,4": {
-      "char": "L",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -75,7 +75,7 @@
       "clueIndex": 8
     },
     "3,3": {
-      "char": "R"
+      "char": "V"
     },
     "3,4": {
       "char": "E"
@@ -91,26 +91,26 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "A"
+      "char": "E"
     },
     "4,4": {
-      "char": "G"
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "5": "Clue for STEEL",
-      "1": "Clue for BET",
-      "4": "Clue for USR",
-      "8": "Clue for ARE",
-      "9": "Clue for TAG"
+      "1": "Enjoy a picnic",
+      "4": "Knight's address",
+      "5": "Forest features",
+      "8": "Shady path",
+      "9": "Iced porch drink"
     },
     "down": {
-      "3": "Clue for TREAT",
-      "1": "Clue for BUS",
-      "2": "Clue for EST",
-      "6": "Clue for ERA",
-      "7": "Clue for LEG"
+      "1": "Superlative suffix",
+      "2": "Essential for breathing",
+      "3": "A pleasant surprise",
+      "6": "Just before night",
+      "7": "Vast body of saltwater"
     }
   }
 }
