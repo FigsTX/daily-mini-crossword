@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-06-04",
+    "date": "2026-06-05",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Nature's Delights",
+    "theme": "A Gentle Day",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "E",
+      "char": "C",
       "clueIndex": 1
     },
     "0,1": {
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "1": "Enjoy a picnic",
-      "4": "Knight's address",
-      "5": "Forest features",
-      "8": "Shady path",
-      "9": "Iced porch drink"
+      "1": "What's out of the bag?",
+      "4": "Formal address for a man.",
+      "5": "Maple and oak, for example.",
+      "8": "Hail, in Latin.",
+      "9": "Oolong or Earl Grey."
     },
     "down": {
-      "1": "Superlative suffix",
-      "2": "Essential for breathing",
-      "3": "A pleasant surprise",
-      "6": "Just before night",
-      "7": "Vast body of saltwater"
+      "1": "Central time, for short.",
+      "2": "What we breathe.",
+      "3": "Reward for good behavior.",
+      "6": "Garden resident, mythologically.",
+      "7": "Large body of salt water."
     }
   }
 }
