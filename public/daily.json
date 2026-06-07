@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-06-06",
+    "date": "2026-06-07",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Time & Tech Talk",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Digital Currents",
+    "templateId": "sunday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "A",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "P",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "M",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "T"
     },
     "1,2": {
-      "char": "H"
+      "char": "L"
     },
     "1,3": {
-      "char": null
+      "char": "A"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "I"
-    },
-    "2,2": {
-      "char": "R"
-    },
-    "2,3": {
-      "char": "D",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "H"
+    },
+    "2,2": {
+      "char": "O"
+    },
+    "2,3": {
+      "char": "R"
+    },
     "2,4": {
-      "char": "S",
-      "clueIndex": 7
+      "char": "T"
     },
     "3,0": {
-      "char": null
+      "char": "N",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "E",
-      "clueIndex": 8
+      "char": "W"
     },
     "3,3": {
-      "char": "V"
+      "char": "E"
     },
     "3,4": {
-      "char": "E"
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "D"
+      "char": "S"
     },
     "4,4": {
-      "char": "T"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Generation ___",
-      "4": "Speed unit on a sign",
-      "5": "Parts of pie, to a tyke",
-      "8": "Partner of Adam",
-      "9": "NYC summer clock setting"
+      "1": "No longer operating",
+      "4": "Book containing world maps",
+      "6": "Concise; not long",
+      "7": "More up-to-date",
+      "8": "Blog update feed letters"
     },
     "down": {
-      "1": "London's time zone, initially",
-      "2": "Developer's interface, briefly",
-      "3": "'On the house,' phonetically",
-      "6": "Old movie disk, for short",
-      "7": "Sun does this at dusk"
+      "1": "A different one",
+      "2": "Goes smoothly, like data",
+      "3": "What a taxi charges",
+      "4": "Network identifier letters",
+      "5": "Abbreviation for a city road"
     }
   }
 }
