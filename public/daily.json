@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-06-08",
+    "date": "2026-06-09",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Everyday Lexicon",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Digital Destinations",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "P",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "T"
     },
     "1,2": {
-      "char": "E"
+      "char": "L"
     },
     "1,3": {
-      "char": null
+      "char": "A"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
       "char": "S",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "A"
-    },
-    "2,2": {
-      "char": "E"
-    },
-    "2,3": {
-      "char": "N",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
-    "2,4": {
-      "char": "E",
-      "clueIndex": 7
+    "2,1": {
+      "char": "H"
     },
-    "3,0": {
-      "char": null
-    },
-    "3,1": {
-      "char": null
-    },
-    "3,2": {
-      "char": "N",
-      "clueIndex": 8
-    },
-    "3,3": {
+    "2,2": {
       "char": "O"
     },
+    "2,3": {
+      "char": "R"
+    },
+    "2,4": {
+      "char": "E"
+    },
+    "3,0": {
+      "char": "N",
+      "clueIndex": 7
+    },
+    "3,1": {
+      "char": "E"
+    },
+    "3,2": {
+      "char": "W"
+    },
+    "3,3": {
+      "char": "E"
+    },
     "3,4": {
-      "char": "T"
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "S",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "R"
+      "char": "S"
     },
     "4,4": {
-      "char": "C"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "\u201cI ___ it!\u201d moment.",
-      "4": "Prefix for \u201cgame\u201d or \u201cview.\u201d",
-      "5": "River flowing through Paris.",
-      "8": "Word for negation.",
-      "9": "Code's origin, briefly."
+      "1": "No longer connected",
+      "4": "World in a book",
+      "6": "Where water meets land",
+      "7": "More up-to-date",
+      "8": "Digital subscription letters"
     },
     "down": {
-      "1": "Map app letters.",
-      "2": "A distinct historical period.",
-      "3": "The awkward years.",
-      "6": "\u201cNeither fish ___ fowl.\u201d",
-      "7": "\u201cAnd more,\u201d briefly."
+      "1": "A different choice",
+      "2": "Moves like a river",
+      "3": "What passengers pay for trips",
+      "4": "Autonomous system letters",
+      "5": "Computer host, briefly"
     }
   }
 }
