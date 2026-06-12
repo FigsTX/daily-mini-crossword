@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-06-11",
+    "date": "2026-06-12",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Everyday Concepts",
+    "theme": "Everyday Briefs",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,11 +13,11 @@
   },
   "grid": {
     "0,0": {
-      "char": "I",
+      "char": "G",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "T",
+      "char": "A",
       "clueIndex": 2
     },
     "0,2": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "L",
+      "char": "P",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "O"
+      "char": "D"
     },
     "1,2": {
-      "char": "T"
+      "char": "A"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "L",
+      "char": "S",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "E"
+      "char": "S"
     },
     "2,2": {
-      "char": "A"
+      "char": "S"
     },
     "2,3": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -91,7 +91,7 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "P"
     },
     "4,4": {
       "char": "A"
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "1": "Possessive for a thing.",
-      "4": "Property piece, perhaps.",
-      "5": "Of the smallest degree.",
-      "8": "Game result, often.",
-      "9": "Significant time period."
+      "1": "Fuel for your ride",
+      "4": "PalmPilot, for one",
+      "5": "Librarian's repeated sound",
+      "8": "Formal wear accessory",
+      "9": "Federal green agency"
     },
     "down": {
-      "1": "Feeling under the weather.",
-      "2": "Smallest foot digit.",
-      "3": "One of fifty, maybe.",
-      "6": "Formal male address.",
-      "7": "Hot drink from leaves."
+      "1": "Navigator's aid, briefly",
+      "2": "Commercial breaks features",
+      "3": "To satisfy appetite, perhaps?",
+      "6": "Helpful bit of advice",
+      "7": "Vast body of saltwater"
     }
   }
 }
