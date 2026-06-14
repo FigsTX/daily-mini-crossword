@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Sounds Right!",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Information Highways",
+    "templateId": "sunday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
       "char": "E",
-      "clueIndex": 2
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "N",
-      "clueIndex": 3
+      "char": "R",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "P",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "U",
+      "char": "F",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "S"
+      "char": "L"
     },
     "1,2": {
-      "char": "E"
+      "char": "O"
     },
     "1,3": {
-      "char": null
+      "char": "A"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
       "char": "T",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "T"
-    },
-    "2,2": {
-      "char": "E"
-    },
-    "2,3": {
-      "char": "D",
+    "2,0": {
+      "char": "C",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "L"
+    },
+    "2,2": {
+      "char": "O"
+    },
+    "2,3": {
+      "char": "N"
+    },
     "2,4": {
-      "char": "S",
-      "clueIndex": 7
+      "char": "E"
     },
     "3,0": {
-      "char": null
+      "char": "C",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "I"
     },
     "3,2": {
-      "char": "N",
-      "clueIndex": 8
+      "char": "T"
     },
     "3,3": {
       "char": "E"
     },
     "3,4": {
-      "char": "C"
+      "char": "D"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "S",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "S",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "R"
+      "char": "L"
     },
     "4,4": {
-      "char": "I"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Franklin or Affleck, for short",
-      "4": "Put to work",
-      "5": "Sounds like \"Two Teds\"?",
-      "8": "Japanese electronics giant, for short",
-      "9": "Respected Indian title"
+      "1": "Business planning software acronym.",
+      "4": "Stay aloft on water.",
+      "6": "Perfect genetic duplicate.",
+      "7": "Referenced in a report.",
+      "8": "Secure web address letters."
     },
     "down": {
-      "1": "Word of exception",
-      "2": "Most superlative ending",
-      "3": "Sounds like \"nines\"?",
-      "6": "German article for \"the\"",
-      "7": "Short for science"
+      "1": "NYC immigrant island's name.",
+      "2": "Plant anchors; family origins.",
+      "3": "Expert discussion group.",
+      "4": "Broadcast regulator letters.",
+      "5": "\"Ideas worth spreading\" conference."
     }
   }
 }
