@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-06-14",
+    "date": "2026-06-15",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Information Highways",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Quick Bits & Briefs",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "E",
+      "char": "G",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "R",
+    "0,1": {
+      "char": "A",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "P",
+    "0,2": {
+      "char": "Y",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "F",
+      "char": "M",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "L"
+      "char": "P"
     },
     "1,2": {
-      "char": "O"
+      "char": "H"
     },
     "1,3": {
-      "char": "A"
+      "char": null
     },
     "1,4": {
+      "char": null
+    },
+    "2,0": {
       "char": "T",
       "clueIndex": 5
     },
-    "2,0": {
-      "char": "C",
-      "clueIndex": 6
-    },
     "2,1": {
-      "char": "L"
-    },
-    "2,2": {
-      "char": "O"
-    },
-    "2,3": {
-      "char": "N"
-    },
-    "2,4": {
-      "char": "E"
-    },
-    "3,0": {
-      "char": "C",
-      "clueIndex": 7
-    },
-    "3,1": {
       "char": "I"
     },
+    "2,2": {
+      "char": "E"
+    },
+    "2,3": {
+      "char": "N",
+      "clueIndex": 6
+    },
+    "2,4": {
+      "char": "S",
+      "clueIndex": 7
+    },
+    "3,0": {
+      "char": null
+    },
+    "3,1": {
+      "char": null
+    },
     "3,2": {
-      "char": "T"
+      "char": "S",
+      "clueIndex": 8
     },
     "3,3": {
       "char": "E"
     },
     "3,4": {
-      "char": "D"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "S",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "E",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "L"
+      "char": "T"
     },
     "4,4": {
-      "char": null
+      "char": "C"
     }
   },
   "clues": {
     "across": {
-      "1": "Business planning software acronym.",
-      "4": "Stay aloft on water.",
-      "6": "Perfect genetic duplicate.",
-      "7": "Referenced in a report.",
-      "8": "Secure web address letters."
+      "1": "Happy and festive.",
+      "4": "Speed unit on a dash.",
+      "5": "French \"Hold on!\"",
+      "8": "Perceive with your eyes.",
+      "9": "And so on, abbr."
     },
     "down": {
-      "1": "NYC immigrant island's name.",
-      "2": "Plant anchors; family origins.",
-      "3": "Expert discussion group.",
-      "4": "Broadcast regulator letters.",
-      "5": "\"Ideas worth spreading\" conference."
+      "1": "London's time zone.",
+      "2": "Coder's program link (abbr.).",
+      "3": "Plural of \"this.\"",
+      "6": "Final take-home amount.",
+      "7": "Just a moment, for short."
     }
   }
 }
