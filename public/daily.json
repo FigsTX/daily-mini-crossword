@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-06-21",
+    "date": "2026-06-22",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Wanderlust",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Daily Diversions",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "O",
+      "char": "G",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "P",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
-    },
-    "1,2": {
-      "char": "L"
-    },
-    "1,3": {
       "char": "A"
     },
+    "1,2": {
+      "char": "T"
+    },
+    "1,3": {
+      "char": null
+    },
     "1,4": {
-      "char": "S",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
       "char": "S",
-      "clueIndex": 6
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "H"
+      "char": "T"
     },
     "2,2": {
-      "char": "O"
+      "char": "A"
     },
     "2,3": {
-      "char": "R"
+      "char": "T",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "E"
-    },
-    "3,0": {
-      "char": "N",
+      "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "W"
+      "char": "T",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "I"
     },
     "3,4": {
-      "char": "R"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "R",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "E",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "P"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Set ___ (start a journey)",
-      "4": "World in a book",
-      "6": "Coastal land",
-      "7": "More up-to-date",
-      "8": "Web feed letters"
+      "1": "Acquire or understand",
+      "4": "Gentle tap on the head",
+      "5": "Numerical data, briefly",
+      "8": "Even score, or neckwear",
+      "9": "Clean air watchdog, briefly"
     },
     "down": {
-      "1": "Different one",
-      "2": "Moves like a river",
-      "3": "Travel costs",
-      "4": "Network ID initials",
-      "5": "Spanish verb for 'to be'"
+      "1": "Driver's navigation system, initially",
+      "2": "Have a meal",
+      "3": "A state, with an extra T",
+      "6": "Gratuity or sound advice",
+      "7": "Vast body of salt water"
     }
   }
 }
