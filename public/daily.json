@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-06-24",
+    "date": "2026-06-25",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Daily Puzzle",
+    "theme": "Time & Motion",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
+      "char": "G",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "R",
+      "char": "S",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "E",
+      "char": "M",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
+      "char": "P"
     },
     "1,2": {
-      "char": "T"
+      "char": "H"
     },
     "1,3": {
       "char": null
@@ -51,7 +51,7 @@
       "clueIndex": 5
     },
     "2,1": {
-      "char": "R"
+      "char": "I"
     },
     "2,2": {
       "char": "E"
@@ -61,7 +61,7 @@
       "clueIndex": 6
     },
     "2,4": {
-      "char": "T",
+      "char": "M",
       "clueIndex": 7
     },
     "3,0": {
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "L",
+      "char": "T",
       "clueIndex": 9
     },
     "4,3": {
       "char": "E"
     },
     "4,4": {
-      "char": "G"
+      "char": "N"
     }
   },
   "clues": {
     "across": {
-      "5": "Clue for TREAT",
-      "1": "Clue for PER",
-      "4": "Clue for EAT",
-      "8": "Clue for ERA",
-      "9": "Clue for LEG"
+      "1": "Foot on the accelerator",
+      "4": "Unit of freeway velocity",
+      "5": "Collaborative working group",
+      "8": "Historical period",
+      "9": "Top score, perhaps"
     },
     "down": {
-      "3": "Clue for RTEEL",
-      "1": "Clue for PET",
-      "2": "Clue for EAR",
-      "6": "Clue for ARE",
-      "7": "Clue for TAG"
+      "1": "London's time standard",
+      "2": "Tech specification letters",
+      "3": "Sail on a boat",
+      "6": "Plural verb of being",
+      "7": "Every ___ for himself"
     }
   }
 }
