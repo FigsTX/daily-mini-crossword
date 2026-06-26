@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-06-25",
+    "date": "2026-06-26",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Time & Motion",
+    "theme": "Senses & Play",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "M",
+      "char": "U",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "S"
     },
     "1,2": {
-      "char": "H"
+      "char": "A"
     },
     "1,3": {
       "char": null
@@ -51,17 +51,17 @@
       "clueIndex": 5
     },
     "2,1": {
-      "char": "I"
+      "char": "T"
     },
     "2,2": {
-      "char": "E"
+      "char": "S"
     },
     "2,3": {
-      "char": "A",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "M",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "R"
+      "char": "O"
     },
     "3,4": {
-      "char": "A"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "T",
+      "char": "E",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "Y"
     },
     "4,4": {
-      "char": "N"
+      "char": "E"
     }
   },
   "clues": {
     "across": {
-      "1": "Foot on the accelerator",
-      "4": "Unit of freeway velocity",
-      "5": "Collaborative working group",
-      "8": "Historical period",
-      "9": "Top score, perhaps"
+      "1": "Fido or Felix, e.g.",
+      "4": "Land of the free.",
+      "5": "Tee, Tee, Ess, Tee, Ess.",
+      "8": "Little piggy, perhaps.",
+      "9": "Organ of sight."
     },
     "down": {
-      "1": "London's time standard",
-      "2": "Tech specification letters",
-      "3": "Sail on a boat",
-      "6": "Plural verb of being",
-      "7": "Every ___ for himself"
+      "1": "To ___-in one's two cents.",
+      "2": "Suffix for biggest.",
+      "3": "Sense of flavor.",
+      "6": "A child's plaything.",
+      "7": "\"I ___ what you mean.\""
     }
   }
 }
