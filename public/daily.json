@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-06-26",
+    "date": "2026-06-27",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Senses & Play",
+    "theme": "Daily Diversions",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
+      "char": "B",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "D",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "U",
+      "char": "M",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "S"
+      "char": "P"
     },
     "1,2": {
-      "char": "A"
+      "char": "H"
     },
     "1,3": {
       "char": null
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "T",
+      "char": "W",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "T"
+      "char": "A"
     },
     "2,2": {
-      "char": "S"
+      "char": "E"
     },
     "2,3": {
-      "char": "T",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,11 +71,11 @@
       "char": null
     },
     "3,2": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "O"
+      "char": "E"
     },
     "3,4": {
       "char": "E"
@@ -91,26 +91,26 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "Y"
+      "char": "S"
     },
     "4,4": {
-      "char": "E"
+      "char": "T"
     }
   },
   "clues": {
     "across": {
-      "1": "Fido or Felix, e.g.",
-      "4": "Land of the free.",
-      "5": "Tee, Tee, Ess, Tee, Ess.",
-      "8": "Little piggy, perhaps.",
-      "9": "Organ of sight."
+      "1": "Place to hit the hay.",
+      "4": "Measure of highway speed.",
+      "5": "Walks through water.",
+      "8": "Spot or observe.",
+      "9": "Time zone abbr."
     },
     "down": {
-      "1": "To ___-in one's two cents.",
-      "2": "Suffix for biggest.",
-      "3": "Sense of flavor.",
-      "6": "A child's plaything.",
-      "7": "\"I ___ what you mean.\""
+      "1": "German luxury auto.",
+      "2": "Eco-protection org.",
+      "3": "Plural pointer.",
+      "6": "Common French article.",
+      "7": "Arrange or place."
     }
   }
 }
