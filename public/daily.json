@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-06-29",
+    "date": "2026-06-30",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Brief Encounters",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Broadcast & Beyond",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "D",
-      "clueIndex": 2
+      "char": "L",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "A",
-      "clueIndex": 3
+      "char": "L",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "P",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "D",
+      "char": "P",
       "clueIndex": 4
     },
     "1,1": {
       "char": "E"
     },
     "1,2": {
-      "char": "S"
+      "char": "A"
     },
     "1,3": {
-      "char": null
+      "char": "R"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "T",
+      "char": "L",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "N"
-    },
-    "2,2": {
-      "char": "S"
-    },
-    "2,3": {
-      "char": "T",
+    "2,0": {
+      "char": "R",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "A"
+    },
+    "2,2": {
+      "char": "D"
+    },
+    "2,3": {
+      "char": "I"
+    },
     "2,4": {
+      "char": "O"
+    },
+    "3,0": {
       "char": "E",
       "clueIndex": 7
     },
-    "3,0": {
-      "char": null
-    },
     "3,1": {
-      "char": null
+      "char": "V"
     },
     "3,2": {
-      "char": "E",
-      "clueIndex": 8
+      "char": "E"
     },
     "3,3": {
-      "char": "U"
+      "char": "N"
     },
     "3,4": {
-      "char": "R"
+      "char": "T"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "E",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "T",
-      "clueIndex": 9
+      "char": "N"
     },
     "4,3": {
-      "char": "E"
+      "char": "T"
     },
     "4,4": {
-      "char": "A"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Romance in public, briefly",
-      "4": "French 'of the'",
-      "5": "Principles found in 'stent'",
-      "8": "European currency, briefly",
-      "9": "Earl Grey serving"
+      "1": "Biz initials limiting liability",
+      "4": "An oyster's prized possession",
+      "6": "Tune in and listen",
+      "7": "What's happening now",
+      "8": "Ear specialist's abbr."
     },
     "down": {
-      "1": "Pacific time zone, briefly",
-      "2": "Comfy room for reading",
-      "3": "Something of value",
-      "6": "Follows Monday, briefly",
-      "7": "Notable stretch of time"
+      "1": "Bid adieu and depart",
+      "2": "Heavily burdened",
+      "3": "The newspaper does this",
+      "4": "A starter's prefix",
+      "5": "Property parcel"
     }
   }
 }
