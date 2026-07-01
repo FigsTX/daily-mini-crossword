@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-06-30",
+    "date": "2026-07-01",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Broadcast & Beyond",
-    "templateId": "tuesday",
-    "wordTier": 1
+    "theme": "Simple Pleasures",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "L",
+      "char": "P",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "L",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "P",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "P",
+      "char": "U",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "E"
+      "char": "S"
     },
     "1,2": {
-      "char": "A"
-    },
-    "1,3": {
       "char": "R"
     },
+    "1,3": {
+      "char": null
+    },
     "1,4": {
-      "char": "L",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "R",
-      "clueIndex": 6
+      "char": "T",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "A"
+      "char": "T"
     },
     "2,2": {
-      "char": "D"
-    },
-    "2,3": {
-      "char": "I"
-    },
-    "2,4": {
-      "char": "O"
-    },
-    "3,0": {
-      "char": "E",
-      "clueIndex": 7
-    },
-    "3,1": {
-      "char": "V"
-    },
-    "3,2": {
       "char": "E"
     },
+    "2,3": {
+      "char": "A",
+      "clueIndex": 6
+    },
+    "2,4": {
+      "char": "T",
+      "clueIndex": 7
+    },
+    "3,0": {
+      "char": null
+    },
+    "3,1": {
+      "char": null
+    },
+    "3,2": {
+      "char": "E",
+      "clueIndex": 8
+    },
     "3,3": {
-      "char": "N"
+      "char": "V"
     },
     "3,4": {
-      "char": "T"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "E",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "N"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "T"
+      "char": "E"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Biz initials limiting liability",
-      "4": "An oyster's prized possession",
-      "6": "Tune in and listen",
-      "7": "What's happening now",
-      "8": "Ear specialist's abbr."
+      "1": "Loved household animal.",
+      "4": "Login ID part, briefly.",
+      "5": "A special indulgence.",
+      "8": "Day before, often.",
+      "9": "Place for a cruise."
     },
     "down": {
-      "1": "Bid adieu and depart",
-      "2": "Heavily burdened",
-      "3": "The newspaper does this",
-      "4": "A starter's prefix",
-      "5": "Property parcel"
+      "1": "Place or position.",
+      "2": "Superlative ending.",
+      "3": "Forest dwellers.",
+      "6": "Boulevard, briefly.",
+      "7": "Afternoon beverage."
     }
   }
 }
