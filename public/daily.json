@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-07-01",
+    "date": "2026-07-02",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Simple Pleasures",
+    "theme": "Short & Sweet Surprises",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
+      "char": "B",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "N",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,11 +31,11 @@
       "char": null
     },
     "1,0": {
-      "char": "U",
+      "char": "E",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "S"
+      "char": "A"
     },
     "1,2": {
       "char": "R"
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "1": "Loved household animal.",
-      "4": "Login ID part, briefly.",
-      "5": "A special indulgence.",
-      "8": "Day before, often.",
-      "9": "Place for a cruise."
+      "1": "Big clock or an actor's first name.",
+      "4": "A listening organ.",
+      "5": "Double-T delight, maybe?",
+      "8": "Holiday's preceder.",
+      "9": "Vast ocean expanse."
     },
     "down": {
-      "1": "Place or position.",
-      "2": "Superlative ending.",
-      "3": "Forest dwellers.",
-      "6": "Boulevard, briefly.",
-      "7": "Afternoon beverage."
+      "1": "Make a wager.",
+      "2": "Enjoy a meal.",
+      "3": "Sounds like many green plants.",
+      "6": "Street name abbr.",
+      "7": "Popular hot drink."
     }
   }
 }
