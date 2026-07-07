@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-07-06",
+    "date": "2026-07-07",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Briefings & Backwards",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Web of Connections",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,19 +13,19 @@
   },
   "grid": {
     "0,0": {
-      "char": "C",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "O",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
@@ -35,47 +35,46 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "T"
     },
     "1,2": {
-      "char": "R"
+      "char": "L"
     },
     "1,3": {
-      "char": null
-    },
-    "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "M",
-      "clueIndex": 5
-    },
-    "2,1": {
       "char": "A"
     },
-    "2,2": {
-      "char": "E"
+    "1,4": {
+      "char": "S",
+      "clueIndex": 5
     },
-    "2,3": {
-      "char": "T",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "H"
+    },
+    "2,2": {
+      "char": "O"
+    },
+    "2,3": {
+      "char": "R"
+    },
     "2,4": {
-      "char": "S",
-      "clueIndex": 7
+      "char": "E"
     },
     "3,0": {
-      "char": null
+      "char": "N",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "E",
-      "clueIndex": 8
+      "char": "W"
     },
     "3,3": {
-      "char": "U"
+      "char": "E"
     },
     "3,4": {
       "char": "R"
@@ -84,33 +83,33 @@
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "S",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "E"
+      "char": "S"
     },
     "4,4": {
-      "char": "C"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Top boss, for short",
-      "4": "Loan rate abbr.",
-      "5": "Engine power, backward",
-      "8": "Common currency abbr.",
-      "9": "Wall Street regulator"
+      "1": "Disconnected, perhaps",
+      "4": "Book of world maps",
+      "6": "Coastline, a land's edge",
+      "7": "More up-to-date",
+      "8": "Web feed initials"
     },
     "down": {
-      "1": "Web device, often",
-      "2": "Green agency initials",
-      "3": "Sounds like \"Oh, Rhys!\"",
-      "6": "Day after Mon., briefly",
-      "7": "Origin, for short"
+      "1": "Not the same",
+      "2": "Moves like a river",
+      "3": "Taxi or plane costs",
+      "4": "Internet routing abbr.",
+      "5": "'To be' in Spanish"
     }
   }
 }
