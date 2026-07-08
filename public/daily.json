@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Web of Connections",
-    "templateId": "tuesday",
-    "wordTier": 1
+    "theme": "Short & Sweet",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "O",
+      "char": "C",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "A",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "S",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
+      "char": "P"
     },
     "1,2": {
-      "char": "L"
-    },
-    "1,3": {
       "char": "A"
     },
+    "1,3": {
+      "char": null
+    },
     "1,4": {
-      "char": "S",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "S",
-      "clueIndex": 6
+      "char": "T",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "H"
+      "char": "I"
     },
     "2,2": {
-      "char": "O"
+      "char": "S"
     },
     "2,3": {
-      "char": "R"
+      "char": "T",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "E"
-    },
-    "3,0": {
-      "char": "N",
+      "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "W"
+      "char": "T",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "O"
     },
     "3,4": {
-      "char": "R"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "R",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "E",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "P"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Disconnected, perhaps",
-      "4": "Book of world maps",
-      "6": "Coastline, a land's edge",
-      "7": "More up-to-date",
-      "8": "Web feed initials"
+      "1": "Purr-fect pet.",
+      "4": "Relaxation spot.",
+      "5": "Many professional endings.",
+      "8": "Foot digit.",
+      "9": "Green govt. agency."
     },
     "down": {
-      "1": "Not the same",
-      "2": "Moves like a river",
-      "3": "Taxi or plane costs",
-      "4": "Internet routing abbr.",
-      "5": "'To be' in Spanish"
+      "1": "Central time abbr.",
+      "2": "Developer's interface.",
+      "3": "Sense of flavor.",
+      "6": "Very best position.",
+      "7": "Vast blue expanse."
     }
   }
 }
