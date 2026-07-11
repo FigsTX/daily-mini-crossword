@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-07-10",
+    "date": "2026-07-11",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Daily Puzzle",
+    "theme": "Campus Life",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "R",
+      "char": "B",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "O",
+      "char": "U",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "U"
+      "char": "S"
     },
     "1,2": {
-      "char": "T"
+      "char": "E"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "M",
+      "char": "S",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "R"
+      "char": "T"
     },
     "2,2": {
-      "char": "A"
+      "char": "E"
     },
     "2,3": {
-      "char": "N",
+      "char": "P",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "T",
+      "char": "N",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "O"
+      "char": "E"
     },
     "3,4": {
-      "char": "E"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "E",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
       "char": "R"
     },
     "4,4": {
-      "char": "A"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "5": "Clue for MRANT",
-      "1": "Clue for RES",
-      "4": "Clue for OUT",
-      "8": "Clue for TOE",
-      "9": "Clue for ERA"
+      "1": "Put money on a final, perhaps",
+      "4": "Apply newly learned knowledge",
+      "5": "Progression toward a degree",
+      "8": "Abbr. for necessary",
+      "9": "Revered Indian title"
     },
     "down": {
-      "3": "Clue for STATE",
-      "1": "Clue for ROM",
-      "2": "Clue for EUR",
-      "6": "Clue for NOR",
-      "7": "Clue for TEA"
+      "1": "School day transport",
+      "2": "Part of a college's founding date",
+      "3": "Many high school students",
+      "6": "___ semester or ___ credit",
+      "7": "College major abbr."
     }
   }
 }
