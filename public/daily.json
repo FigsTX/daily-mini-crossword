@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-07-12",
+    "date": "2026-07-13",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Digital Diction",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Short Order",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,19 +13,19 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "O",
+      "char": "P",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
@@ -35,46 +35,47 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
+      "char": "P"
     },
     "1,2": {
-      "char": "L"
-    },
-    "1,3": {
-      "char": "A"
-    },
-    "1,4": {
-      "char": "S",
-      "clueIndex": 5
-    },
-    "2,0": {
-      "char": "S",
-      "clueIndex": 6
-    },
-    "2,1": {
-      "char": "H"
-    },
-    "2,2": {
-      "char": "O"
-    },
-    "2,3": {
       "char": "R"
     },
-    "2,4": {
-      "char": "T"
+    "1,3": {
+      "char": null
     },
-    "3,0": {
+    "1,4": {
+      "char": null
+    },
+    "2,0": {
       "char": "N",
+      "clueIndex": 5
+    },
+    "2,1": {
+      "char": "A"
+    },
+    "2,2": {
+      "char": "E"
+    },
+    "2,3": {
+      "char": "D",
+      "clueIndex": 6
+    },
+    "2,4": {
+      "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "W"
+      "char": "E",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "U"
     },
     "3,4": {
       "char": "R"
@@ -83,33 +84,33 @@
       "char": null
     },
     "4,1": {
-      "char": "R",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "E"
     },
     "4,4": {
-      "char": null
+      "char": "C"
     }
   },
   "clues": {
     "across": {
-      "1": "No longer active, perhaps.",
-      "4": "Mythical titan or map collection.",
-      "6": "Not long; a URL type.",
-      "7": "More up-to-date.",
-      "8": "Web feed format letters."
+      "1": "Teacher's favorite",
+      "4": "Fourth mo.",
+      "5": "Data group for schools, briefly",
+      "8": "Continent abbr.",
+      "9": "A quick moment"
     },
     "down": {
-      "1": "Different from this one.",
-      "2": "Moves like water or data.",
-      "3": "Ride prices or menu offerings.",
-      "4": "Internet routing ID letters.",
-      "5": "String or Street, briefly."
+      "1": "Kitchen skillet",
+      "2": "Pollution-fighting org.",
+      "3": "Forest growth",
+      "6": "Expected or owed",
+      "7": "Origin point, abbr."
     }
   }
 }
