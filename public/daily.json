@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-07-14",
+    "date": "2026-07-15",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Routes and Reads",
-    "templateId": "tuesday",
-    "wordTier": 1
+    "theme": "Brief Encounters",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "O",
+      "char": "D",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "S",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "S",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
-    },
-    "1,2": {
-      "char": "L"
-    },
-    "1,3": {
       "char": "A"
     },
+    "1,2": {
+      "char": "T"
+    },
+    "1,3": {
+      "char": null
+    },
     "1,4": {
-      "char": "S",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
+      "char": "L",
+      "clueIndex": 5
+    },
+    "2,1": {
+      "char": "T"
+    },
+    "2,2": {
+      "char": "A"
+    },
+    "2,3": {
       "char": "S",
       "clueIndex": 6
     },
-    "2,1": {
-      "char": "H"
-    },
-    "2,2": {
-      "char": "O"
-    },
-    "2,3": {
-      "char": "R"
-    },
     "2,4": {
-      "char": "T"
-    },
-    "3,0": {
-      "char": "N",
+      "char": "E",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "W"
+      "char": "T",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "I"
     },
     "3,4": {
-      "char": "R"
+      "char": "P"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "R",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "E",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "R"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "No longer connected",
-      "4": "Collection of world maps",
-      "6": "Not lengthy or tall",
-      "7": "More up-to-date",
-      "8": "Letters for news feeds"
+      "1": "Prefix for 'destroy' or 'designate'",
+      "4": "College admission exam, for short",
+      "5": "Enzyme with lytic activity",
+      "8": "Helpful bit of advice",
+      "9": "Baseball pitcher's stat, briefly"
     },
     "down": {
-      "1": "Not this one, but a different",
-      "2": "Moves like a river",
-      "3": "Cab or bus charges",
-      "4": "Internet ID letters",
-      "5": "Road abbr."
+      "1": "Legacy internet connection type",
+      "2": "Grab a bite to ___",
+      "3": "Massachusetts or Missouri, for example",
+      "6": "Polite way to address a man",
+      "7": "U.S. environmental agency"
     }
   }
 }
