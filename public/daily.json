@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-07-17",
+    "date": "2026-07-18",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Initials & Intrigue",
+    "theme": "Mini Word Bites",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "D",
+      "char": "N",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "M",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
       "char": "P"
     },
     "1,2": {
-      "char": "H"
+      "char": "R"
     },
     "1,3": {
       "char": null
@@ -47,7 +47,7 @@
       "char": null
     },
     "2,0": {
-      "char": "W",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
@@ -57,11 +57,11 @@
       "char": "E"
     },
     "2,3": {
-      "char": "D",
+      "char": "A",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,11 +71,11 @@
       "char": null
     },
     "3,2": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "V"
     },
     "3,4": {
       "char": "E"
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "E",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "E"
     },
     "4,4": {
-      "char": "T"
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Place for slumber.",
-      "4": "Common speedometer reading.",
-      "5": "Steps into water.",
-      "8": "Perceive with eyes.",
-      "9": "Briefly, as in 'established'."
+      "1": "Writer's tool or pig's enclosure",
+      "4": "Showers month, briefly",
+      "5": "Sounds like a wish to consume food",
+      "8": "Adam's first partner",
+      "9": "Vast body of water"
     },
     "down": {
-      "1": "German auto initials.",
-      "2": "Green group, for short.",
-      "3": "Opposite of \"those.\"",
-      "6": "Des Moines' start.",
-      "7": "Put down firmly."
+      "1": "Gentle tap or butter serving",
+      "2": "US environmental protection grp.",
+      "3": "Odd letters that might grow in a forest",
+      "6": "Street name abbr.",
+      "7": "Hot afternoon beverage"
     }
   }
 }
