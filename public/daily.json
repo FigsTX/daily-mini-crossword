@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-07-19",
+    "date": "2026-07-20",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Bits & Pieces",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Brief Encounters",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "G",
+      "char": "P",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "P",
+    "0,1": {
+      "char": "A",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "L",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "M",
+      "char": "E",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "E"
+      "char": "V"
     },
     "1,2": {
-      "char": "R"
+      "char": "E"
     },
     "1,3": {
-      "char": "I"
+      "char": null
     },
     "1,4": {
+      "char": null
+    },
+    "2,0": {
       "char": "T",
       "clueIndex": 5
     },
-    "2,0": {
-      "char": "A",
-      "clueIndex": 6
-    },
     "2,1": {
-      "char": "N"
+      "char": "E"
     },
     "2,2": {
-      "char": "I"
+      "char": "E"
     },
     "2,3": {
-      "char": "M"
+      "char": "D",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "E"
-    },
-    "3,0": {
-      "char": "R",
+      "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "M"
+      "char": "N",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "I"
+      "char": "E"
     },
     "3,4": {
-      "char": "X"
+      "char": "C"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "S",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "E"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "T"
+      "char": "R"
     },
     "4,4": {
-      "char": null
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Code-sharing agreement initials.",
-      "4": "Worth or value.",
-      "6": "Japanese animation style.",
-      "7": "DJ's alternate track.",
-      "8": "Collection or group."
+      "1": "Gentle tap of affection",
+      "4": "First biblical woman",
+      "5": "Tiny bits of something",
+      "8": "Tech giant abbr.",
+      "9": "Hindu title of respect"
     },
     "down": {
-      "1": "Heredity units.",
-      "2": "Peak condition.",
-      "3": "Boundary or restriction.",
-      "4": "Spoil or blemish.",
-      "5": "Texas, briefly."
+      "1": "Furry friend at home",
+      "2": "Common street abbr.",
+      "3": "High school group",
+      "6": "German for 'the,' masculinely",
+      "7": "Lab subject, for short"
     }
   }
 }
