@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-07-21",
+    "date": "2026-07-22",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Digital Currents",
-    "templateId": "tuesday",
-    "wordTier": 1
+    "theme": "Park Picnic",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "O",
+      "char": "B",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "N",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
-    },
-    "1,2": {
-      "char": "L"
-    },
-    "1,3": {
       "char": "A"
     },
+    "1,2": {
+      "char": "R"
+    },
+    "1,3": {
+      "char": null
+    },
     "1,4": {
-      "char": "S",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "S",
-      "clueIndex": 6
+      "char": "T",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "H"
+      "char": "T"
     },
     "2,2": {
-      "char": "O"
+      "char": "E"
     },
     "2,3": {
-      "char": "R"
+      "char": "A",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "E"
-    },
-    "3,0": {
-      "char": "N",
+      "char": "T",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "W"
+      "char": "E",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "V"
     },
     "3,4": {
-      "char": "R"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "R",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "E"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Not currently running.",
-      "4": "Digital world map source.",
-      "6": "Land bordering the sea.",
-      "7": "More recently updated.",
-      "8": "Feed format for web content."
+      "1": "A common picnic-goer's name.",
+      "4": "Part of corn on the cob.",
+      "5": "Sweet dessert at the gathering.",
+      "8": "The night before.",
+      "9": "Big body of water."
     },
     "down": {
-      "1": "A different one.",
-      "2": "Data stream movements.",
-      "3": "Costs for a trip.",
-      "4": "Network identifier letters.",
-      "5": "First part of 'server.'"
+      "1": "Friendly wager at a game.",
+      "2": "Enjoy the picnic food.",
+      "3": "Provide shade in the park.",
+      "6": "Street name abbr.",
+      "7": "Iced drink at the picnic."
     }
   }
 }
