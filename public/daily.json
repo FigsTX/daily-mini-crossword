@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-07-23",
+    "date": "2026-07-24",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Brief Encounters",
+    "theme": "Language Games",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
+      "char": "C",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "S",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "N",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -35,10 +35,10 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "I"
     },
     "1,2": {
-      "char": "E"
+      "char": "R"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "D",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "A"
+      "char": "N"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "D",
+      "char": "E",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "L",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "N",
+      "char": "A",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "R"
     },
     "3,4": {
-      "char": "C"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "A"
     },
     "4,4": {
-      "char": "I"
+      "char": "G"
     }
   },
   "clues": {
     "across": {
-      "1": "London's Big ___",
-      "4": "\"You ___ what you eat.\"",
-      "5": "Papas, to tots",
-      "8": "Japanese electronics company",
-      "9": "Indian title of respect"
+      "1": "Chicago time zone abbr.",
+      "4": "What you breathe.",
+      "5": "The Spanish net, reversed.",
+      "8": "We ___ family.",
+      "9": "Kids' chase game."
     },
     "down": {
-      "1": "Definitely not good.",
-      "2": "A historic period",
-      "3": "\"Sweet sixteen,\" minus seven",
-      "6": "German for \"the\"",
-      "7": "High school subject, briefly"
+      "1": "Popular household pet.",
+      "2": "Trigonometry class function.",
+      "3": "Halloween night handout.",
+      "6": "Significant historical period.",
+      "7": "Part of a long journey."
     }
   }
 }
