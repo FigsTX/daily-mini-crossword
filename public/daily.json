@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-07-24",
+    "date": "2026-07-25",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Language Games",
+    "theme": "Basics & Beginnings",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,11 +13,11 @@
   },
   "grid": {
     "0,0": {
-      "char": "C",
+      "char": "S",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
@@ -35,10 +35,10 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "I"
+      "char": "V"
     },
     "1,2": {
-      "char": "R"
+      "char": "E"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "T",
+      "char": "M",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "N"
+      "char": "E"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "L",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "A",
+      "char": "N",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "R"
+      "char": "O"
     },
     "3,4": {
-      "char": "E"
+      "char": "R"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "A"
+      "char": "E"
     },
     "4,4": {
-      "char": "G"
+      "char": "C"
     }
   },
   "clues": {
     "across": {
-      "1": "Chicago time zone abbr.",
-      "4": "What you breathe.",
-      "5": "The Spanish net, reversed.",
-      "8": "We ___ family.",
-      "9": "Kids' chase game."
+      "1": "Ready, get, ___!",
+      "4": "Greeting in old Rome.",
+      "5": "Encounters or comes together.",
+      "8": "Neither here ___ there.",
+      "9": "A brief moment, abbr."
     },
     "down": {
-      "1": "Popular household pet.",
-      "2": "Trigonometry class function.",
-      "3": "Halloween night handout.",
-      "6": "Significant historical period.",
-      "7": "Part of a long journey."
+      "1": "Uncle's patriotic first name.",
+      "2": "Adam's first partner.",
+      "3": "Adolescents, age 13 to 19.",
+      "6": "Piggy often tapped.",
+      "7": "Origin point, briefly."
     }
   }
 }
