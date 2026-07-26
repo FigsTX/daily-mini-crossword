@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-07-25",
+    "date": "2026-07-26",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Basics & Beginnings",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Bits & Bytes",
+    "templateId": "sunday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,19 +13,19 @@
   },
   "grid": {
     "0,0": {
-      "char": "S",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
@@ -35,47 +35,46 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "V"
+      "char": "T"
     },
     "1,2": {
-      "char": "E"
+      "char": "L"
     },
     "1,3": {
-      "char": null
+      "char": "A"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "M",
+      "char": "S",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "E"
-    },
-    "2,2": {
-      "char": "E"
-    },
-    "2,3": {
-      "char": "T",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "H"
+    },
+    "2,2": {
+      "char": "O"
+    },
+    "2,3": {
+      "char": "R"
+    },
     "2,4": {
-      "char": "S",
-      "clueIndex": 7
+      "char": "E"
     },
     "3,0": {
-      "char": null
+      "char": "N",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "N",
-      "clueIndex": 8
+      "char": "W"
     },
     "3,3": {
-      "char": "O"
+      "char": "E"
     },
     "3,4": {
       "char": "R"
@@ -84,33 +83,33 @@
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "S",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "E"
+      "char": "S"
     },
     "4,4": {
-      "char": "C"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Ready, get, ___!",
-      "4": "Greeting in old Rome.",
-      "5": "Encounters or comes together.",
-      "8": "Neither here ___ there.",
-      "9": "A brief moment, abbr."
+      "1": "Power down state",
+      "4": "Map-filled volume",
+      "6": "Ocean's edge land",
+      "7": "More up-to-date",
+      "8": "News feed acronym"
     },
     "down": {
-      "1": "Uncle's patriotic first name.",
-      "2": "Adam's first partner.",
-      "3": "Adolescents, age 13 to 19.",
-      "6": "Piggy often tapped.",
-      "7": "Origin point, briefly."
+      "1": "A different one",
+      "2": "Moves like a river",
+      "3": "Travel transportation fees",
+      "4": "Network ID abbr.",
+      "5": "Server part, briefly"
     }
   }
 }
