@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-07-29",
+    "date": "2026-07-30",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Daily Puzzle",
+    "theme": "Quick Takes",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "R",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,11 +31,11 @@
       "char": null
     },
     "1,0": {
-      "char": "E",
+      "char": "U",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
+      "char": "S"
     },
     "1,2": {
       "char": "R"
@@ -57,7 +57,7 @@
       "char": "E"
     },
     "2,3": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "R"
+      "char": "V"
     },
     "3,4": {
-      "char": "A"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 9
     },
     "4,3": {
       "char": "E"
     },
     "4,4": {
-      "char": "T"
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "5": "Clue for TTEAS",
-      "1": "Clue for PER",
-      "4": "Clue for EAR",
-      "8": "Clue for ERA",
-      "9": "Clue for SET"
+      "1": "A cuddly companion",
+      "4": "Computer account holder, briefly",
+      "5": "Stands for golf balls",
+      "8": "Park or Fifth, for short",
+      "9": "Beverage served with crumpets"
     },
     "down": {
-      "3": "Clue for RREES",
-      "1": "Clue for PET",
-      "2": "Clue for EAT",
-      "6": "Clue for ARE",
-      "7": "Clue for SAT"
+      "1": "Place, or a golf shot",
+      "2": "Founded, for short",
+      "3": "Special indulgence or kindness",
+      "6": "The night before, say",
+      "7": "Deep blue expanse"
     }
   }
 }
