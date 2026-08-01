@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-07-31",
+    "date": "2026-08-01",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Sound Play",
+    "theme": "First Things First",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "D",
+      "char": "J",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "O",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "E",
+      "char": "I",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
+      "char": "N"
     },
     "1,2": {
-      "char": "T"
+      "char": "N"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "N",
+      "char": "M",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "R"
+      "char": "E"
     },
     "2,2": {
-      "char": "A"
+      "char": "T"
     },
     "2,3": {
-      "char": "S",
+      "char": "A",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "E",
+      "char": "L",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "T",
+      "char": "E",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "I"
+      "char": "R"
     },
     "3,4": {
-      "char": "P"
+      "char": "A"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "E",
+      "char": "R",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "E"
     },
     "4,4": {
-      "char": "A"
+      "char": "S"
     }
   },
   "clues": {
     "across": {
-      "1": "French 'of the'",
-      "4": "Have a meal",
-      "5": "Sounds like 'en-raze', to demolish",
-      "8": "Gratuity or good advice",
-      "9": "Historic time period"
+      "1": "Morning coffee, informally",
+      "4": "Traveler's roadside lodging",
+      "5": "Iron or aluminum, for example",
+      "8": "A distinct historic age",
+      "9": "Start of a resolution, briefly"
     },
     "down": {
-      "1": "Lion's hideaway",
-      "2": "Corn part or body part",
-      "3": "Fifty in the U.S.",
-      "6": "A knight's address",
-      "7": "Pollution fighting agency"
+      "1": "Common man's nickname",
+      "2": "The first digit",
+      "3": "Press a key to submit",
+      "6": "You ___ what you eat",
+      "7": "___ Vegas, Nevada"
     }
   }
 }
