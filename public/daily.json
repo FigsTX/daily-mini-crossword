@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-08-02",
+    "date": "2026-08-03",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Finding Your Way",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Sense and Simplicity",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "O",
+      "char": "P",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "A",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
+      "char": "R"
     },
     "1,2": {
-      "char": "L"
-    },
-    "1,3": {
       "char": "A"
     },
+    "1,3": {
+      "char": null
+    },
     "1,4": {
-      "char": "S",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "S",
-      "clueIndex": 6
+      "char": "N",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "H"
+      "char": "E"
     },
     "2,2": {
-      "char": "O"
+      "char": "S"
     },
     "2,3": {
-      "char": "R"
+      "char": "T",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "T"
-    },
-    "3,0": {
-      "char": "N",
+      "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "W"
+      "char": "T",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "O"
     },
     "3,4": {
-      "char": "R"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "R",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "E",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "Y"
     },
     "4,4": {
-      "char": null
+      "char": "E"
     }
   },
   "clues": {
     "across": {
-      "1": "No longer connected.",
-      "4": "World leader?",
-      "6": "Not long, perhaps a path.",
-      "7": "More recently released.",
-      "8": "News feed format letters."
+      "1": "What a good dog gets",
+      "4": "Distinct period in history",
+      "5": "Cozy bird lodgings",
+      "8": "Tip of a foot",
+      "9": "Organ of sight"
     },
     "down": {
-      "1": "A different path.",
-      "2": "Moves smoothly, like traffic.",
-      "3": "Payments for your journey.",
-      "4": "Network ID abbr.",
-      "5": "Road sign abbr."
+      "1": "Writer's tool or pig's enclosure",
+      "2": "You ___ there",
+      "3": "Sense of flavor",
+      "6": "Child's plaything",
+      "7": "Observe or understand"
     }
   }
 }
