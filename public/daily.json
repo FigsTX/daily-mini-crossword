@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-08-03",
+    "date": "2026-08-04",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Sense and Simplicity",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "The Information Highway",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "A",
-      "clueIndex": 2
+      "char": "E",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "R",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "P",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "E",
+      "char": "F",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "L"
     },
     "1,2": {
-      "char": "A"
-    },
-    "1,3": {
-      "char": null
-    },
-    "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "N",
-      "clueIndex": 5
-    },
-    "2,1": {
-      "char": "E"
-    },
-    "2,2": {
-      "char": "S"
-    },
-    "2,3": {
-      "char": "T",
-      "clueIndex": 6
-    },
-    "2,4": {
-      "char": "S",
-      "clueIndex": 7
-    },
-    "3,0": {
-      "char": null
-    },
-    "3,1": {
-      "char": null
-    },
-    "3,2": {
-      "char": "T",
-      "clueIndex": 8
-    },
-    "3,3": {
       "char": "O"
     },
-    "3,4": {
+    "1,3": {
+      "char": "A"
+    },
+    "1,4": {
+      "char": "T",
+      "clueIndex": 5
+    },
+    "2,0": {
+      "char": "C",
+      "clueIndex": 6
+    },
+    "2,1": {
+      "char": "L"
+    },
+    "2,2": {
+      "char": "O"
+    },
+    "2,3": {
+      "char": "N"
+    },
+    "2,4": {
       "char": "E"
+    },
+    "3,0": {
+      "char": "C",
+      "clueIndex": 7
+    },
+    "3,1": {
+      "char": "I"
+    },
+    "3,2": {
+      "char": "T"
+    },
+    "3,3": {
+      "char": "E"
+    },
+    "3,4": {
+      "char": "D"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "S",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "Y"
+      "char": "L"
     },
     "4,4": {
-      "char": "E"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "What a good dog gets",
-      "4": "Distinct period in history",
-      "5": "Cozy bird lodgings",
-      "8": "Tip of a foot",
-      "9": "Organ of sight"
+      "1": "Business-managing software acronym.",
+      "4": "Ice cream drink.",
+      "6": "Genetically identical copy.",
+      "7": "Given a traffic ticket.",
+      "8": "Website security protocol acronym."
     },
     "down": {
-      "1": "Writer's tool or pig's enclosure",
-      "2": "You ___ there",
-      "3": "Sense of flavor",
-      "6": "Child's plaything",
-      "7": "Observe or understand"
+      "1": "Historic immigrant island.",
+      "2": "Alex Haley's family saga.",
+      "3": "Expert discussion group.",
+      "4": "US broadcast regulator initials.",
+      "5": "\"Ideas Worth Spreading\" group."
     }
   }
 }
