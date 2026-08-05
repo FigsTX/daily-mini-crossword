@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-08-04",
+    "date": "2026-08-05",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "The Information Highway",
-    "templateId": "tuesday",
-    "wordTier": 1
+    "theme": "Short & Sweet",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
+      "char": "C",
+      "clueIndex": 1
     },
     "0,1": {
       "char": "E",
-      "clueIndex": 1
-    },
-    "0,2": {
-      "char": "R",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "P",
+    "0,2": {
+      "char": "O",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "F",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "L"
+      "char": "P"
     },
     "1,2": {
-      "char": "O"
+      "char": "R"
     },
     "1,3": {
-      "char": "A"
+      "char": null
     },
     "1,4": {
+      "char": null
+    },
+    "2,0": {
       "char": "T",
       "clueIndex": 5
     },
-    "2,0": {
-      "char": "C",
-      "clueIndex": 6
-    },
     "2,1": {
-      "char": "L"
+      "char": "A"
     },
     "2,2": {
-      "char": "O"
+      "char": "E"
     },
     "2,3": {
-      "char": "N"
+      "char": "A",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "E"
-    },
-    "3,0": {
-      "char": "C",
+      "char": "T",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "I"
+      "char": null
     },
     "3,2": {
-      "char": "T"
+      "char": "E",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "V"
     },
     "3,4": {
-      "char": "D"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "S",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "L"
+      "char": "E"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Business-managing software acronym.",
-      "4": "Ice cream drink.",
-      "6": "Genetically identical copy.",
-      "7": "Given a traffic ticket.",
-      "8": "Website security protocol acronym."
+      "1": "Head of the company, briefly.",
+      "4": "Loan rate, for short.",
+      "5": "Martial art prefix found `__` the gym.",
+      "8": "Night before a holiday.",
+      "9": "Many a voyage setting."
     },
     "down": {
-      "1": "Historic immigrant island.",
-      "2": "Alex Haley's family saga.",
-      "3": "Expert discussion group.",
-      "4": "US broadcast regulator initials.",
-      "5": "\"Ideas Worth Spreading\" group."
+      "1": "Four-legged purring pet.",
+      "2": "US environmental agency, for short.",
+      "3": "Metal-bearing rock and extra `E`'s.",
+      "6": "A Roman greeting.",
+      "7": "Break time brew."
     }
   }
 }
