@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-08-05",
+    "date": "2026-08-06",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short & Sweet",
+    "theme": "Green & Growing",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "C",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "O",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "1": "Head of the company, briefly.",
-      "4": "Loan rate, for short.",
-      "5": "Martial art prefix found `__` the gym.",
-      "8": "Night before a holiday.",
-      "9": "Many a voyage setting."
+      "1": "Furry companion",
+      "4": "Earth Day's month, briefly",
+      "5": "Take a bite, informally?",
+      "8": "First lady of Eden",
+      "9": "Where whales roam"
     },
     "down": {
-      "1": "Four-legged purring pet.",
-      "2": "US environmental agency, for short.",
-      "3": "Metal-bearing rock and extra `E`'s.",
-      "6": "A Roman greeting.",
-      "7": "Break time brew."
+      "1": "Gentle stroke, as for a dog",
+      "2": "Environmental watchdog, briefly",
+      "3": "What grow in the forest",
+      "6": "Street name abbr.",
+      "7": "Green or black drink"
     }
   }
 }
