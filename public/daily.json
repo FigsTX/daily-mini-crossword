@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-08-06",
+    "date": "2026-08-07",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Green & Growing",
+    "theme": "A Little Bit of Everything",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,11 +13,11 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
+      "char": "B",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "I",
       "clueIndex": 2
     },
     "0,2": {
@@ -31,11 +31,11 @@
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "A"
     },
     "1,2": {
       "char": "R"
@@ -51,7 +51,7 @@
       "clueIndex": 5
     },
     "2,1": {
-      "char": "A"
+      "char": "N"
     },
     "2,2": {
       "char": "E"
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "1": "Furry companion",
-      "4": "Earth Day's month, briefly",
-      "5": "Take a bite, informally?",
-      "8": "First lady of Eden",
-      "9": "Where whales roam"
+      "1": "What a horse might take.",
+      "4": "Place for a hoop.",
+      "5": "Tidy and orderly.",
+      "8": "Adam's original partner.",
+      "9": "Large body of salt water."
     },
     "down": {
-      "1": "Gentle stroke, as for a dog",
-      "2": "Environmental watchdog, briefly",
-      "3": "What grow in the forest",
-      "6": "Street name abbr.",
-      "7": "Green or black drink"
+      "1": "Place a small wager.",
+      "2": "Scottish guy's name.",
+      "3": "Oaks and maples.",
+      "6": "Popular street abbreviation.",
+      "7": "English afternoon beverage."
     }
   }
 }
