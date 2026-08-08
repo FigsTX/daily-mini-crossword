@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-08-07",
+    "date": "2026-08-08",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "A Little Bit of Everything",
+    "theme": "Little Touches",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,11 +13,11 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "I",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
+      "char": "R"
     },
     "1,2": {
-      "char": "R"
+      "char": "E"
     },
     "1,3": {
       "char": null
@@ -51,17 +51,17 @@
       "clueIndex": 5
     },
     "2,1": {
-      "char": "N"
+      "char": "A"
     },
     "2,2": {
-      "char": "E"
+      "char": "S"
     },
     "2,3": {
-      "char": "A",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "T",
+      "char": "E",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "V"
+      "char": "I"
     },
     "3,4": {
-      "char": "E"
+      "char": "P"
     },
     "4,0": {
       "char": null
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "1": "What a horse might take.",
-      "4": "Place for a hoop.",
-      "5": "Tidy and orderly.",
-      "8": "Adam's original partner.",
-      "9": "Large body of salt water."
+      "1": "Teacher's favorite, perhaps",
+      "4": "\"You ___ the one!\"",
+      "5": "Try a sample",
+      "8": "Advice or a gratuity",
+      "9": "Ocean for short"
     },
     "down": {
-      "1": "Place a small wager.",
-      "2": "Scottish guy's name.",
-      "3": "Oaks and maples.",
-      "6": "Popular street abbreviation.",
-      "7": "English afternoon beverage."
+      "1": "Gentle back gesture",
+      "2": "A new one may dawn",
+      "3": "Student's dread, perhaps",
+      "6": "Neckwear or a draw",
+      "7": "Pollution-fighting org."
     }
   }
 }
