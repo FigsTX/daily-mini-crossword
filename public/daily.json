@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-08-09",
+    "date": "2026-08-10",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Foundational Elements",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Essential Elements",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "S",
+      "char": "B",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "A",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "P",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
+      "char": "P"
     },
     "1,2": {
-      "char": "A"
+      "char": "I"
     },
     "1,3": {
-      "char": "R"
+      "char": null
     },
     "1,4": {
-      "char": "T",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "M",
-      "clueIndex": 6
+      "char": "R",
+      "clueIndex": 5
     },
     "2,1": {
       "char": "A"
     },
     "2,2": {
-      "char": "R"
-    },
-    "2,3": {
-      "char": "I"
-    },
-    "2,4": {
-      "char": "E"
-    },
-    "3,0": {
-      "char": "S",
-      "clueIndex": 7
-    },
-    "3,1": {
       "char": "T"
     },
+    "2,3": {
+      "char": "E",
+      "clueIndex": 6
+    },
+    "2,4": {
+      "char": "D",
+      "clueIndex": 7
+    },
+    "3,0": {
+      "char": null
+    },
+    "3,1": {
+      "char": null
+    },
     "3,2": {
-      "char": "O"
+      "char": "L",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "N"
+      "char": "A"
     },
     "3,4": {
-      "char": "E"
+      "char": "N"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "E",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "N"
+      "char": "E",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "T"
+      "char": "R"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Maple tree's sweet fluid.",
-      "4": "Begin something new.",
-      "6": "Curie who discovered radium.",
-      "7": "Building material or a peach pit.",
-      "8": "Otolaryngology field, for short."
+      "1": "Place a wager.",
+      "4": "Code connection, briefly.",
+      "5": "Given a classification.",
+      "8": "Local network, for short.",
+      "9": "A distinct period of time."
     },
     "down": {
-      "1": "Condition or a declaration.",
-      "2": "Baseball's Judge or a biblical brother.",
-      "3": "Newspaper format or a fingerprint.",
-      "4": "Brief phone message (abbr.).",
-      "5": "Golf ball stand or a letter."
+      "1": "Candy segment or saloon.",
+      "2": "U.S. environmental agency, briefly.",
+      "3": "Book's name or a champion's prize.",
+      "6": "Body part for hearing.",
+      "7": "Genetic material initials."
     }
   }
 }
