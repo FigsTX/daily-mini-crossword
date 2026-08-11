@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-08-10",
+    "date": "2026-08-11",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Essential Elements",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Familiar Figures",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "R",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "R",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "P",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "M",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "O"
     },
     "1,2": {
-      "char": "I"
+      "char": "O"
     },
     "1,3": {
-      "char": null
+      "char": "R"
     },
     "1,4": {
-      "char": null
+      "char": "E",
+      "clueIndex": 5
     },
     "2,0": {
       "char": "R",
-      "clueIndex": 5
-    },
-    "2,1": {
-      "char": "A"
-    },
-    "2,2": {
-      "char": "T"
-    },
-    "2,3": {
-      "char": "E",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "O"
+    },
+    "2,2": {
+      "char": "B"
+    },
+    "2,3": {
+      "char": "I"
+    },
     "2,4": {
-      "char": "D",
-      "clueIndex": 7
+      "char": "N"
     },
     "3,0": {
-      "char": null
+      "char": "S",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "T"
     },
     "3,2": {
-      "char": "L",
-      "clueIndex": 8
+      "char": "O"
     },
     "3,3": {
-      "char": "A"
+      "char": "O"
     },
     "3,4": {
-      "char": "N"
+      "char": "D"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "S",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "T"
     },
     "4,3": {
       "char": "R"
     },
     "4,4": {
-      "char": "A"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Place a wager.",
-      "4": "Code connection, briefly.",
-      "5": "Given a classification.",
-      "8": "Local network, for short.",
-      "9": "A distinct period of time."
+      "1": "Price found on many a tag, briefly.",
+      "4": "Bond portrayer Roger, or actress Demi.",
+      "6": "Batman's crime-fighting partner, for one.",
+      "7": "Kept one's feet.",
+      "8": "Avenue's abbreviated neighbor."
     },
     "down": {
-      "1": "Candy segment or saloon.",
-      "2": "U.S. environmental agency, briefly.",
-      "3": "Book's name or a champion's prize.",
-      "6": "Body part for hearing.",
-      "7": "Genetic material initials."
+      "1": "Ancestry or below-ground plant parts.",
+      "2": "Mechanical helper, like a droid.",
+      "3": "Earlier in time.",
+      "4": "Married woman's title.",
+      "5": "The bitter conclusion."
     }
   }
 }
