@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-08-13",
+    "date": "2026-08-14",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Words in Brief",
+    "theme": "Brief Encounters",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,11 +13,11 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
+      "char": "C",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 2
     },
     "0,2": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "S",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "I"
     },
     "1,2": {
-      "char": "E"
+      "char": "R"
     },
     "1,3": {
       "char": null
@@ -47,11 +47,11 @@
       "char": null
     },
     "2,0": {
-      "char": "N",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "A"
+      "char": "D"
     },
     "2,2": {
       "char": "E"
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "N",
+      "char": "E",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "U"
     },
     "3,4": {
-      "char": "C"
+      "char": "R"
     },
     "4,0": {
       "char": null
@@ -91,26 +91,26 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "E"
     },
     "4,4": {
-      "char": "I"
+      "char": "C"
     }
   },
   "clues": {
     "across": {
-      "1": "Teacher's favored one",
-      "4": "They ___ here",
-      "5": "Electrical distributors' group, briefly",
-      "8": "Electricians' code, for short",
-      "9": "Indian respectful title"
+      "1": "Purring household pet.",
+      "4": "Knightly title.",
+      "5": "Scrambled acts of bravery.",
+      "8": "European currency abbr.",
+      "9": "Brief moment, for short."
     },
     "down": {
-      "1": "Kitchen frying vessel",
-      "2": "Notable period of time",
-      "3": "High school students, often",
-      "6": "German for 'the'",
-      "7": "School subject, briefly"
+      "1": "Midwest time zone, briefly.",
+      "2": "Lend a helping hand.",
+      "3": "Forest's main inhabitants.",
+      "6": "Scheduled for payment.",
+      "7": "Origin, for short."
     }
   }
 }
