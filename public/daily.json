@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-08-14",
+    "date": "2026-08-15",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Brief Encounters",
+    "theme": "Earth Day Everyday",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "C",
+      "char": "R",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "I"
+      "char": "A"
     },
     "1,2": {
-      "char": "R"
+      "char": "T"
     },
     "1,3": {
       "char": null
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "T",
+      "char": "D",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "D"
+      "char": "R"
     },
     "2,2": {
-      "char": "E"
+      "char": "A"
     },
     "2,3": {
-      "char": "D",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "U"
+      "char": "I"
     },
     "3,4": {
-      "char": "R"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "P"
     },
     "4,4": {
-      "char": "C"
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Purring household pet.",
-      "4": "Knightly title.",
-      "5": "Scrambled acts of bravery.",
-      "8": "European currency abbr.",
-      "9": "Brief moment, for short."
+      "1": "Doh, ___, and mi",
+      "4": "Consume a meal",
+      "5": "'___! I forgot my reusable bag!'",
+      "8": "Connect, or finish evenly",
+      "9": "US pollution-fighting agency"
     },
     "down": {
-      "1": "Midwest time zone, briefly.",
-      "2": "Lend a helping hand.",
-      "3": "Forest's main inhabitants.",
-      "6": "Scheduled for payment.",
-      "7": "Origin, for short."
+      "1": "Warning color, like an alarm",
+      "2": "Hear the birds with it",
+      "3": "Condition or a political entity",
+      "6": "Helpful advice or a gratuity",
+      "7": "Vast body of saltwater"
     }
   }
 }
