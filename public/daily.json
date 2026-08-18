@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-08-17",
+    "date": "2026-08-18",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Word Bites",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Information & Exploration",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,19 +13,19 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "N",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
@@ -35,82 +35,81 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "V"
+      "char": "T"
     },
     "1,2": {
-      "char": "E"
+      "char": "L"
     },
     "1,3": {
-      "char": null
+      "char": "A"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "R",
+      "char": "S",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "E"
-    },
-    "2,2": {
-      "char": "E"
-    },
-    "2,3": {
-      "char": "D",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "H"
+    },
+    "2,2": {
+      "char": "O"
+    },
+    "2,3": {
+      "char": "R"
+    },
     "2,4": {
-      "char": "S",
-      "clueIndex": 7
+      "char": "E"
     },
     "3,0": {
-      "char": null
+      "char": "N",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "N",
-      "clueIndex": 8
+      "char": "W"
     },
     "3,3": {
       "char": "E"
     },
     "3,4": {
-      "char": "C"
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "S",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "R"
+      "char": "S"
     },
     "4,4": {
-      "char": "I"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Affleck or Franklin's first name.",
-      "4": "Thoroughfare, briefly.",
-      "5": "Oboe or clarinet parts.",
-      "8": "Japanese electronics giant, abbr.",
-      "9": "Honorific in India."
+      "1": "Set ___ for adventure.",
+      "4": "Book of global maps.",
+      "6": "Coastal exploration destination.",
+      "7": "More recently discovered.",
+      "8": "Web feed letters."
     },
     "down": {
-      "1": "Pub or candy segment.",
-      "2": "Night before a holiday.",
-      "3": "Nickname for Maureen, perhaps.",
-      "6": "German article for \"the.\"",
-      "7": "Subject in a lab, briefly."
+      "1": "The remaining one.",
+      "2": "River currents do this.",
+      "3": "Travel ticket costs.",
+      "4": "Internet network letters.",
+      "5": "Spanish for 'to be'."
     }
   }
 }
