@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-08-19",
+    "date": "2026-08-20",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Mini Mix-up",
+    "theme": "Everyday Mini Moments",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,11 +13,11 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "O",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
@@ -35,10 +35,10 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "P"
     },
     "1,2": {
-      "char": "E"
+      "char": "R"
     },
     "1,3": {
       "char": null
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "G"
+      "char": "A"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "D",
+      "char": "E",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "N",
+      "char": "A",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "V"
     },
     "3,4": {
-      "char": "C"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "E"
     },
     "4,4": {
-      "char": "I"
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Secured, as a prize",
-      "4": "You ___ the champ!",
-      "5": "A chaotic collection of letters",
-      "8": "Big name in Japanese tech",
-      "9": "Asian honorific for a guru"
+      "1": "Teacher's favorite student",
+      "4": "Fourth month, for short",
+      "5": "Oaks and maples, e.g.",
+      "8": "Street, in short",
+      "9": "High social affair"
     },
     "down": {
-      "1": "Pump offering",
-      "2": "Website suffix for a group",
-      "3": "Some high schoolers",
-      "6": "The, in Hamburg",
-      "7": "___-fi, short for a genre"
+      "1": "Gentle hand stroke",
+      "2": "U.S. environmental agency",
+      "3": "Go \"trick or ___\"",
+      "6": "New Year's preceder",
+      "7": "Large body of water"
     }
   }
 }
