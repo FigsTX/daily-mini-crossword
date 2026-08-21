@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-08-20",
+    "date": "2026-08-21",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Everyday Mini Moments",
+    "theme": "Global Lexicon",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "N",
       "clueIndex": 3
     },
     "0,3": {
@@ -35,10 +35,10 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "R"
     },
     "1,2": {
-      "char": "R"
+      "char": "E"
     },
     "1,3": {
       "char": null
@@ -57,7 +57,7 @@
       "char": "E"
     },
     "2,3": {
-      "char": "E",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "A",
+      "char": "N",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "V"
+      "char": "E"
     },
     "3,4": {
-      "char": "E"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "R"
     },
     "4,4": {
-      "char": "A"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Teacher's favorite student",
-      "4": "Fourth month, for short",
-      "5": "Oaks and maples, e.g.",
-      "8": "Street, in short",
-      "9": "High social affair"
+      "1": "Writer's hand holder.",
+      "4": "Metric land unit.",
+      "5": "Some chemical activators.",
+      "8": "Japanese tech giant initials.",
+      "9": "Indian respectful title."
     },
     "down": {
-      "1": "Gentle hand stroke",
-      "2": "U.S. environmental agency",
-      "3": "Go \"trick or ___\"",
-      "6": "New Year's preceder",
-      "7": "Large body of water"
+      "1": "Light, gentle tap.",
+      "2": "Distinct time period.",
+      "3": "Archaic 'nones,' plural.",
+      "6": "German definite article.",
+      "7": "High school subject, briefly."
     }
   }
 }
