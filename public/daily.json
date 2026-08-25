@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-08-24",
+    "date": "2026-08-25",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Daily Delights",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Wanderlust Words",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "E",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "A",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "I"
+      "char": "T"
     },
     "1,2": {
-      "char": "R"
+      "char": "L"
     },
     "1,3": {
-      "char": null
+      "char": "A"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "R"
-    },
-    "2,2": {
-      "char": "E"
-    },
-    "2,3": {
-      "char": "A",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "H"
+    },
+    "2,2": {
+      "char": "O"
+    },
+    "2,3": {
+      "char": "R"
+    },
     "2,4": {
-      "char": "T",
-      "clueIndex": 7
+      "char": "E"
     },
     "3,0": {
-      "char": null
+      "char": "N",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "E",
-      "clueIndex": 8
+      "char": "W"
     },
     "3,3": {
-      "char": "V"
+      "char": "E"
     },
     "3,4": {
-      "char": "E"
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "S",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "E"
+      "char": "S"
     },
     "4,4": {
-      "char": "A"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "\"Dig in!\" command",
-      "4": "Knight's respectful address",
-      "5": "Reward for being good",
-      "8": "Day's end, often",
-      "9": "The briny deep"
+      "1": "Opposite of on, maybe for a trip.",
+      "4": "Book of routes for a journey.",
+      "6": "Where sand meets sea.",
+      "7": "More up-to-date, like a guidebook.",
+      "8": "Online feed letters."
     },
     "down": {
-      "1": "Eastern time abbr.",
-      "2": "Something sweet to breathe",
-      "3": "Oaks and maples, for example",
-      "6": "Avenues, for short",
-      "7": "English afternoon beverage"
+      "1": "Different, like another travel choice.",
+      "2": "Moves like a river.",
+      "3": "What you pay to travel.",
+      "4": "Tech letters, briefly.",
+      "5": "Spanish 'to be'."
     }
   }
 }
