@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-08-26",
+    "date": "2026-08-27",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short & Sweet",
+    "theme": "Brevity's Best",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "N",
+      "char": "R",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "M",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "R"
     },
     "1,2": {
-      "char": "H"
+      "char": "E"
     },
     "1,3": {
       "char": null
@@ -47,14 +47,14 @@
       "char": null
     },
     "2,0": {
-      "char": "W",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
       "char": "A"
     },
     "2,2": {
-      "char": "R"
+      "char": "E"
     },
     "2,3": {
       "char": "D",
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "N",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "V"
+      "char": "E"
     },
     "3,4": {
-      "char": "E"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "E",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "D"
+      "char": "R"
     },
     "4,4": {
-      "char": "T"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Founding Father Franklin, e.g.",
-      "4": "Unit of speed",
-      "5": "Hospital sections, often",
-      "8": "First lady of Genesis",
-      "9": "NYC summer clock setting"
+      "1": "___ capita or annum.",
+      "4": "What 'is' becomes in plural.",
+      "5": "Ancient flaming sticks.",
+      "8": "Electrical safety abbr.",
+      "9": "Respectful title for a guru."
     },
     "down": {
-      "1": "German luxury automaker",
-      "2": "Clean Air Act agency",
-      "3": "Letters for a number, oddly spelled",
-      "6": "Movie disc format",
-      "7": "Tennis game unit"
+      "1": "Kind of gentle tap.",
+      "2": "Distinct period of history.",
+      "3": "Wet field channels.",
+      "6": "'The' in Deutschland.",
+      "7": "Lab subject, for short."
     }
   }
 }
