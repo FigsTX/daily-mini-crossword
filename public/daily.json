@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-08-28",
+    "date": "2026-08-29",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Small Pleasures",
+    "theme": "Daily Puzzle",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -17,7 +17,7 @@
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 2
     },
     "0,2": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "U"
     },
     "1,2": {
-      "char": "A"
+      "char": "R"
     },
     "1,3": {
       "char": null
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "T",
+      "char": "N",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "A"
+      "char": "D"
     },
     "2,2": {
-      "char": "S"
+      "char": "E"
     },
     "2,3": {
-      "char": "T",
+      "char": "A",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "T",
+      "char": "E",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "O"
+      "char": "R"
     },
     "3,4": {
-      "char": "E"
+      "char": "A"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "E",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "Y"
+      "char": "E"
     },
     "4,4": {
-      "char": "E"
+      "char": "T"
     }
   },
   "clues": {
     "across": {
-      "1": "Beloved household companion",
-      "4": "Pampering place for self-care",
-      "5": "Briefly samples, in dialect",
-      "8": "A foot's littlest digit",
-      "9": "Hurricane's calm center"
+      "5": "Clue for NDEAS",
+      "1": "Clue for PAT",
+      "4": "Clue for EUR",
+      "8": "Clue for ERA",
+      "9": "Clue for SET"
     },
     "down": {
-      "1": "West Coast time zone, for short",
-      "2": "Environment-protecting US agency",
-      "3": "How a dish delights",
-      "6": "Child's favorite plaything",
-      "7": "Perceive with vision"
+      "3": "Clue for TREES",
+      "1": "Clue for PEN",
+      "2": "Clue for AUD",
+      "6": "Clue for ARE",
+      "7": "Clue for SAT"
     }
   }
 }
