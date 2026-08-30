@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-08-29",
+    "date": "2026-08-30",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Daily Puzzle",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Digital Streams",
+    "templateId": "sunday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "A",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "U"
+      "char": "T"
     },
     "1,2": {
-      "char": "R"
+      "char": "L"
     },
     "1,3": {
-      "char": null
+      "char": "A"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "N",
+      "char": "S",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "D"
-    },
-    "2,2": {
-      "char": "E"
-    },
-    "2,3": {
-      "char": "A",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
-    "2,4": {
-      "char": "S",
-      "clueIndex": 7
+    "2,1": {
+      "char": "H"
     },
-    "3,0": {
-      "char": null
+    "2,2": {
+      "char": "O"
     },
-    "3,1": {
-      "char": null
-    },
-    "3,2": {
-      "char": "E",
-      "clueIndex": 8
-    },
-    "3,3": {
+    "2,3": {
       "char": "R"
     },
+    "2,4": {
+      "char": "E"
+    },
+    "3,0": {
+      "char": "N",
+      "clueIndex": 7
+    },
+    "3,1": {
+      "char": "E"
+    },
+    "3,2": {
+      "char": "W"
+    },
+    "3,3": {
+      "char": "E"
+    },
     "3,4": {
-      "char": "A"
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "S",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "E"
+      "char": "S"
     },
     "4,4": {
-      "char": "T"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "5": "Clue for NDEAS",
-      "1": "Clue for PAT",
-      "4": "Clue for EUR",
-      "8": "Clue for ERA",
-      "9": "Clue for SET"
+      "1": "Opposite of on",
+      "4": "World map collection",
+      "6": "Land along the water",
+      "7": "More up-to-date",
+      "8": "Website news feed abbr."
     },
     "down": {
-      "3": "Clue for TREES",
-      "1": "Clue for PEN",
-      "2": "Clue for AUD",
-      "6": "Clue for ARE",
-      "7": "Clue for SAT"
+      "1": "A different one",
+      "2": "Data stream movements",
+      "3": "Travel ticket prices",
+      "4": "Internet routing abbr.",
+      "5": "Abbr. for server or serial"
     }
   }
 }
