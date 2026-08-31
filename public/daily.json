@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-08-30",
+    "date": "2026-08-31",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Digital Streams",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Reversal Revelations",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "O",
+      "char": "L",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "S",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
-    },
-    "1,2": {
-      "char": "L"
-    },
-    "1,3": {
       "char": "A"
     },
+    "1,2": {
+      "char": "T"
+    },
+    "1,3": {
+      "char": null
+    },
     "1,4": {
-      "char": "S",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "S",
-      "clueIndex": 6
+      "char": "T",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "H"
+      "char": "R"
     },
     "2,2": {
-      "char": "O"
+      "char": "A"
     },
     "2,3": {
-      "char": "R"
+      "char": "T",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "E"
-    },
-    "3,0": {
-      "char": "N",
+      "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "W"
+      "char": "T",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "O"
     },
     "3,4": {
-      "char": "R"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "R",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "E",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "Y"
     },
     "4,4": {
-      "char": null
+      "char": "E"
     }
   },
   "clues": {
     "across": {
-      "1": "Opposite of on",
-      "4": "World map collection",
-      "6": "Land along the water",
-      "7": "More up-to-date",
-      "8": "Website news feed abbr."
+      "1": "The, in France (plural)",
+      "4": "Consume a meal",
+      "5": "START, but in reverse",
+      "8": "Smallest foot digit",
+      "9": "Organ of sight"
     },
     "down": {
-      "1": "A different one",
-      "2": "Data stream movements",
-      "3": "Travel ticket prices",
-      "4": "Internet routing abbr.",
-      "5": "Abbr. for server or serial"
+      "1": "Allow to happen",
+      "2": "Body part for sound",
+      "3": "Condition; U.S. division",
+      "6": "Child's plaything",
+      "7": "Observe with eyes"
     }
   }
 }
