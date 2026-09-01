@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-08-31",
+    "date": "2026-09-01",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Reversal Revelations",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Info Highways",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "L",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "S",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
-    },
-    "1,2": {
       "char": "T"
     },
+    "1,2": {
+      "char": "L"
+    },
     "1,3": {
-      "char": null
-    },
-    "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "T",
-      "clueIndex": 5
-    },
-    "2,1": {
-      "char": "R"
-    },
-    "2,2": {
       "char": "A"
     },
-    "2,3": {
-      "char": "T",
+    "1,4": {
+      "char": "S",
+      "clueIndex": 5
+    },
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
-    "2,4": {
-      "char": "S",
-      "clueIndex": 7
+    "2,1": {
+      "char": "H"
     },
-    "3,0": {
-      "char": null
-    },
-    "3,1": {
-      "char": null
-    },
-    "3,2": {
-      "char": "T",
-      "clueIndex": 8
-    },
-    "3,3": {
+    "2,2": {
       "char": "O"
     },
-    "3,4": {
+    "2,3": {
+      "char": "R"
+    },
+    "2,4": {
       "char": "E"
+    },
+    "3,0": {
+      "char": "N",
+      "clueIndex": 7
+    },
+    "3,1": {
+      "char": "E"
+    },
+    "3,2": {
+      "char": "W"
+    },
+    "3,3": {
+      "char": "E"
+    },
+    "3,4": {
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "Y"
+      "char": "S"
     },
     "4,4": {
-      "char": "E"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "The, in France (plural)",
-      "4": "Consume a meal",
-      "5": "START, but in reverse",
-      "8": "Smallest foot digit",
-      "9": "Organ of sight"
+      "1": "Start of a journey, maybe",
+      "4": "Book of routes and maps",
+      "6": "Beach or coast",
+      "7": "More up-to-date",
+      "8": "Feed format letters"
     },
     "down": {
-      "1": "Allow to happen",
-      "2": "Body part for sound",
-      "3": "Condition; U.S. division",
-      "6": "Child's plaything",
-      "7": "Observe with eyes"
+      "1": "A different one",
+      "2": "Moves like a river",
+      "3": "Transportation costs",
+      "4": "Network ID letters",
+      "5": "___vice (service abbr.)"
     }
   }
 }
