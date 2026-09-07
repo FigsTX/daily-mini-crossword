@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-09-06",
+    "date": "2026-09-07",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Common Words & Concepts",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Short & Sweet",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "O",
+      "char": "I",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "T",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "S",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "L",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "O"
     },
     "1,2": {
-      "char": "A"
+      "char": "T"
     },
     "1,3": {
-      "char": "I"
+      "char": null
     },
     "1,4": {
-      "char": "N",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "R",
-      "clueIndex": 6
+      "char": "L",
+      "clueIndex": 5
     },
     "2,1": {
       "char": "E"
     },
     "2,2": {
-      "char": "T"
+      "char": "A"
     },
     "2,3": {
-      "char": "R"
+      "char": "S",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "O"
-    },
-    "3,0": {
-      "char": "I",
+      "char": "E",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "N"
+      "char": null
     },
     "3,2": {
-      "char": "T"
+      "char": "T",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "I"
     },
     "3,4": {
-      "char": "R"
+      "char": "P"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "S",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "Y"
+      "char": "E",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "R"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "On/___ switch position.",
-      "4": "Iberian Peninsula nation.",
-      "6": "Going back in style.",
-      "7": "Prefix for net or national.",
-      "8": "Computer ___ (abbr.)."
+      "1": "Itsy-bitsy spider's pronoun.",
+      "4": "Plot of land.",
+      "5": "Sign for an apartment.",
+      "8": "A bit of advice.",
+      "9": "A period of history."
     },
     "down": {
-      "1": "Draws back a curtain.",
-      "2": "Like some rich bacon.",
-      "3": "Ignites, or discharges.",
-      "4": "Asian honorific like Mr.",
-      "5": "Partner to 'neither'."
+      "1": "Under the weather.",
+      "2": "Little piggie's home.",
+      "3": "Express an opinion.",
+      "6": "Proper address for a man.",
+      "7": "Environmental group, for short."
     }
   }
 }
