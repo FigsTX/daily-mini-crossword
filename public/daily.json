@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-09-10",
+    "date": "2026-09-11",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short & Sweet",
+    "theme": "Short Subjects",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,11 +13,11 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 2
     },
     "0,2": {
@@ -31,11 +31,11 @@
       "char": null
     },
     "1,0": {
-      "char": "P",
+      "char": "E",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "V"
     },
     "1,2": {
       "char": "E"
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "S",
+      "char": "N",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "A"
+      "char": "E"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "N",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "E",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -75,10 +75,10 @@
       "clueIndex": 8
     },
     "3,3": {
-      "char": "O"
+      "char": "E"
     },
     "3,4": {
-      "char": "T"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -94,23 +94,23 @@
       "char": "R"
     },
     "4,4": {
-      "char": "C"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Obtain",
-      "4": "Before, in a prefix",
-      "5": "Parisian river's phonetic spelling?",
-      "8": "Opposite of 'is'",
-      "9": "Source, for short"
+      "1": "A small tap or touch.",
+      "4": "Night before a holiday.",
+      "5": "Must-haves for survival.",
+      "8": "Natl. Electrical Code, for short.",
+      "9": "Honorific like \"Mr.\" in Asia."
     },
     "down": {
-      "1": "Navigation aid letters",
-      "2": "Historical period",
-      "3": "Some adolescents",
-      "6": "Neither ___ (conjunction)",
-      "7": "And so on, briefly"
+      "1": "Writing instrument, or pig's home.",
+      "2": "Street, abbr., or a greeting.",
+      "3": "Ages between 12 and 20.",
+      "6": "German masculine article.",
+      "7": "Lab subject, briefly."
     }
   }
 }
