@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-09-19",
+    "date": "2026-09-20",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Sound & Sense",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Word Link",
+    "templateId": "sunday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "O",
+      "char": "S",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "U"
-    },
-    "1,2": {
-      "char": "R"
-    },
-    "1,3": {
-      "char": null
-    },
-    "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "T",
-      "clueIndex": 5
-    },
-    "2,1": {
-      "char": "R"
-    },
-    "2,2": {
-      "char": "E"
-    },
-    "2,3": {
-      "char": "A",
-      "clueIndex": 6
-    },
-    "2,4": {
-      "char": "T",
-      "clueIndex": 7
-    },
-    "3,0": {
-      "char": null
-    },
-    "3,1": {
-      "char": null
-    },
-    "3,2": {
-      "char": "E",
-      "clueIndex": 8
-    },
-    "3,3": {
       "char": "P"
     },
-    "3,4": {
+    "1,2": {
       "char": "A"
+    },
+    "1,3": {
+      "char": "I"
+    },
+    "1,4": {
+      "char": "N",
+      "clueIndex": 5
+    },
+    "2,0": {
+      "char": "R",
+      "clueIndex": 6
+    },
+    "2,1": {
+      "char": "E"
+    },
+    "2,2": {
+      "char": "T"
+    },
+    "2,3": {
+      "char": "R"
+    },
+    "2,4": {
+      "char": "O"
+    },
+    "3,0": {
+      "char": "I",
+      "clueIndex": 7
+    },
+    "3,1": {
+      "char": "N"
+    },
+    "3,2": {
+      "char": "T"
+    },
+    "3,3": {
+      "char": "E"
+    },
+    "3,4": {
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "S",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "S",
-      "clueIndex": 9
+      "char": "Y"
     },
     "4,3": {
-      "char": "I"
+      "char": "S"
     },
     "4,4": {
-      "char": "X"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Acquire or receive",
-      "4": "Belonging to you and me",
-      "5": "Sweet indulgence or pleasant surprise",
-      "8": "Environmental protection org., initially",
-      "9": "Half a dozen"
+      "1": "Start of a markdown",
+      "4": "European nation for flamenco",
+      "6": "Old school, but cool",
+      "7": "Prefix for \"national\" or \"net\"",
+      "8": "Computer ___tem (abbr.)"
     },
     "down": {
-      "1": "Successfully acquired in the past",
-      "2": "European currency unit, for short",
-      "3": "Forest full of maples and oaks",
-      "6": "Programmer's connection, briefly",
-      "7": "Government levy on income"
+      "1": "Cracks a bottle, say",
+      "2": "Oily or rich in lipids",
+      "3": "Ignites or discharges",
+      "4": "Oriental title of respect",
+      "5": "Paired with \"neither\""
     }
   }
 }
