@@ -1,6 +1,6 @@
 {
   "meta": {
-    "date": "2026-09-24",
+    "date": "2026-09-25",
     "author": "AI Generated",
     "difficulty": "easy",
     "theme": "Short & Sweet",
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
+      "char": "D",
       "clueIndex": 1
     },
     "0,1": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "V"
     },
     "1,2": {
-      "char": "A"
+      "char": "E"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "T",
+      "char": "N",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "A"
+      "char": "E"
     },
     "2,2": {
-      "char": "T"
+      "char": "E"
     },
     "2,3": {
-      "char": "C",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "H",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "N",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "A"
+      "char": "E"
     },
     "3,4": {
-      "char": "R"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -91,26 +91,26 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "M"
+      "char": "R"
     },
     "4,4": {
-      "char": "S"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Writer's implement or pigsty",
-      "4": "Hot tub destination",
-      "5": "Quick connection, informally",
-      "8": "Hear with it",
-      "9": "Quick digital note"
+      "1": "Cozy home office",
+      "4": "Street abbr. or Latin 'Hail!'",
+      "5": "Basic requirements for life",
+      "8": "Abbr. for 'necessary' or body part",
+      "9": "Honorific in India and beyond"
     },
     "down": {
-      "1": "CA's time zone",
-      "2": "Clean air initials",
-      "3": "Anatomical seat parts",
-      "6": "Security device, briefly",
-      "7": "Time unit, briefly"
+      "1": "Karate belt level or a common name",
+      "2": "First woman or night before",
+      "3": "Playful way to say essentials",
+      "6": "German 'the' (masculine)",
+      "7": "Fi follower, or school subject abbr."
     }
   }
 }
