@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-09-25",
+    "date": "2026-09-26",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short & Sweet",
+    "theme": "Sounds Like Fun!",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "D",
+      "char": "B",
       "clueIndex": 1
     },
     "0,1": {
@@ -35,7 +35,7 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "V"
+      "char": "R"
     },
     "1,2": {
       "char": "E"
@@ -47,11 +47,11 @@
       "char": null
     },
     "2,0": {
-      "char": "N",
+      "char": "D",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "E"
+      "char": "A"
     },
     "2,2": {
       "char": "E"
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "1": "Cozy home office",
-      "4": "Street abbr. or Latin 'Hail!'",
-      "5": "Basic requirements for life",
-      "8": "Abbr. for 'necessary' or body part",
-      "9": "Honorific in India and beyond"
+      "1": "Famed actor Affleck or Stiller",
+      "4": "\u201cYou ___ kidding me?\u201d",
+      "5": "Pop culture pops",
+      "8": "Japanese electronics company",
+      "9": "Asian honorific for deities or saints"
     },
     "down": {
-      "1": "Karate belt level or a common name",
-      "2": "First woman or night before",
-      "3": "Playful way to say essentials",
-      "6": "German 'the' (masculine)",
-      "7": "Fi follower, or school subject abbr."
+      "1": "Naughty, no good, very ___",
+      "2": "A distinct historical period",
+      "3": "Sounds like nine lives",
+      "6": "German article for masculine nouns",
+      "7": "Start of science or fiction"
     }
   }
 }
