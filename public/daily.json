@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-09-27",
+    "date": "2026-09-28",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Mini Mix",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "A Bit of Comfort",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "O",
+      "char": "P",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "U",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "S"
     },
     "1,2": {
-      "char": "A"
+      "char": "R"
     },
     "1,3": {
-      "char": "I"
+      "char": null
     },
     "1,4": {
-      "char": "N",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "R",
-      "clueIndex": 6
+      "char": "T",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "E"
+      "char": "T"
     },
     "2,2": {
-      "char": "T"
-    },
-    "2,3": {
-      "char": "R"
-    },
-    "2,4": {
-      "char": "O"
-    },
-    "3,0": {
-      "char": "I",
-      "clueIndex": 7
-    },
-    "3,1": {
-      "char": "N"
-    },
-    "3,2": {
-      "char": "T"
-    },
-    "3,3": {
       "char": "E"
     },
+    "2,3": {
+      "char": "A",
+      "clueIndex": 6
+    },
+    "2,4": {
+      "char": "T",
+      "clueIndex": 7
+    },
+    "3,0": {
+      "char": null
+    },
+    "3,1": {
+      "char": null
+    },
+    "3,2": {
+      "char": "E",
+      "clueIndex": 8
+    },
+    "3,3": {
+      "char": "V"
+    },
     "3,4": {
-      "char": "R"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "S",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "Y"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "E"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Not currently running or connected.",
-      "4": "European country known for flamenco.",
-      "6": "Fashionably old-fashioned style.",
-      "7": "Prefix meaning 'between' or 'among'.",
-      "8": "Abbr. for a computer system."
+      "1": "A pampered pal.",
+      "4": "Computer regular, briefly.",
+      "5": "A sweet indulgence.",
+      "8": "The night before.",
+      "9": "Vast salty expanse."
     },
     "down": {
-      "1": "Begins proceedings or events.",
-      "2": "Like rich cuts of bacon.",
-      "3": "Starts a blaze.",
-      "4": "Part of the name ___ Lanka.",
-      "5": "Conjunction used with 'neither'."
+      "1": "\"___ your feet up!\"",
+      "2": "Company founding abbr.",
+      "3": "Shady forest features.",
+      "6": "Street sign abbr.",
+      "7": "Hot comforting drink."
     }
   }
 }
