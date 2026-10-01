@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-09-30",
+    "date": "2026-10-01",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Simple Pleasures",
+    "theme": "Word Play",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "C",
+      "char": "G",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "N",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "I"
+      "char": "B"
     },
     "1,2": {
-      "char": "R"
+      "char": "A"
     },
     "1,3": {
       "char": null
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "T",
+      "char": "U",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "R"
+      "char": "C"
     },
     "2,2": {
-      "char": "E"
+      "char": "S"
     },
     "2,3": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,11 +71,11 @@
       "char": null
     },
     "3,2": {
-      "char": "A",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "V"
+      "char": "O"
     },
     "3,4": {
       "char": "E"
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "T",
+      "char": "E",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "Y"
     },
     "4,4": {
-      "char": "A"
+      "char": "E"
     }
   },
   "clues": {
     "across": {
-      "1": "Feline friend",
-      "4": "Knightly address",
-      "5": "Forest inhabitants",
-      "8": "\"Hail!\" in Latin",
-      "9": "Afternoon brew"
+      "1": "Fill 'er up!",
+      "4": "Pro hoopsters' org.",
+      "5": "You hear 'you see, T.S.'?",
+      "8": "Smallest foot digit",
+      "9": "Orb of sight"
     },
     "down": {
-      "1": "Chicago time (abbr.)",
-      "2": "What we breathe",
-      "3": "A welcome delight",
-      "6": "Night before",
-      "7": "Large body of water"
+      "1": "Wildebeest (sounds like 'new')",
+      "2": "Primer's first trio",
+      "3": "Gave a cheeky reply, informally (by sound)",
+      "6": "Something to play with",
+      "7": "Gaze upon (or the ocean)"
     }
   }
 }
