@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-10-01",
+    "date": "2026-10-02",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Word Play",
+    "theme": "Doubled Up!",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
+      "char": "B",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "A",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "S",
+      "char": "N",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "N",
+      "char": "U",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "B"
+      "char": "S"
     },
     "1,2": {
-      "char": "A"
+      "char": "E"
     },
     "1,3": {
       "char": null
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "U",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "C"
+      "char": "T"
     },
     "2,2": {
-      "char": "S"
+      "char": "E"
     },
     "2,3": {
-      "char": "T",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "T",
+      "char": "N",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "O"
+      "char": "E"
     },
     "3,4": {
-      "char": "E"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "E",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "Y"
+      "char": "R"
     },
     "4,4": {
-      "char": "E"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Fill 'er up!",
-      "4": "Pro hoopsters' org.",
-      "5": "You hear 'you see, T.S.'?",
-      "8": "Smallest foot digit",
-      "9": "Orb of sight"
+      "1": "First name for Affleck.",
+      "4": "Employ a tool.",
+      "5": "Teddy's friends, with a twin T.",
+      "8": "Big name in tech, abbr.",
+      "9": "Hindu title of respect."
     },
     "down": {
-      "1": "Wildebeest (sounds like 'new')",
-      "2": "Primer's first trio",
-      "3": "Gave a cheeky reply, informally (by sound)",
-      "6": "Something to play with",
-      "7": "Gaze upon (or the ocean)"
+      "1": "A conjunction, however.",
+      "2": "Superlative ending, often.",
+      "3": "Number after eight, with twin E's.",
+      "6": "German article for 'the'.",
+      "7": "Lab subject, for short."
     }
   }
 }
