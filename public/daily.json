@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-10-04",
+    "date": "2026-10-05",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Messages & Meanings",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Phonetic Phun",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "R",
+      "char": "B",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "A",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "P",
+    "0,2": {
+      "char": "N",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "T",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "E"
+      "char": "R"
     },
     "1,2": {
-      "char": "L"
-    },
-    "1,3": {
-      "char": "L"
-    },
-    "1,4": {
-      "char": "S",
-      "clueIndex": 5
-    },
-    "2,0": {
-      "char": "I",
-      "clueIndex": 6
-    },
-    "2,1": {
-      "char": "S"
-    },
-    "2,2": {
-      "char": "L"
-    },
-    "2,3": {
-      "char": "A"
-    },
-    "2,4": {
-      "char": "M"
-    },
-    "3,0": {
-      "char": "M",
-      "clueIndex": 7
-    },
-    "3,1": {
       "char": "E"
     },
-    "3,2": {
+    "1,3": {
+      "char": null
+    },
+    "1,4": {
+      "char": null
+    },
+    "2,0": {
+      "char": "R",
+      "clueIndex": 5
+    },
+    "2,1": {
       "char": "A"
     },
+    "2,2": {
+      "char": "E"
+    },
+    "2,3": {
+      "char": "D",
+      "clueIndex": 6
+    },
+    "2,4": {
+      "char": "S",
+      "clueIndex": 7
+    },
+    "3,0": {
+      "char": null
+    },
+    "3,1": {
+      "char": null
+    },
+    "3,2": {
+      "char": "N",
+      "clueIndex": 8
+    },
     "3,3": {
-      "char": "N"
+      "char": "E"
     },
     "3,4": {
-      "char": "S"
+      "char": "C"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "T",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "H"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "R"
     },
     "4,4": {
-      "char": null
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Hip-hop genre, often quick",
-      "4": "Relates a story or secret",
-      "6": "Religion of submission to God",
-      "7": "Signifies or intends to",
-      "8": "Most common definite article"
+      "1": "Big ___, London landmark.",
+      "4": "Present tense for 'we'.",
+      "5": "Sounds like what a bookworm does.",
+      "8": "Japanese electronics giant, abbr.",
+      "9": "Indian title of respect."
     },
     "down": {
-      "1": "Start over, like a password",
-      "2": "Arabic word for God",
-      "3": "Winged transportation",
-      "4": "Common short form of Timothy",
-      "5": "Old-school text message initials"
+      "1": "Pub or chocolate ___.",
+      "2": "Distinct period of history.",
+      "3": "Sounds like 'the number after eight'.",
+      "6": "German definite article.",
+      "7": "School subject, briefly."
     }
   }
 }
