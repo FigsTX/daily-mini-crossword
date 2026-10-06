@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-10-05",
+    "date": "2026-10-06",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Phonetic Phun",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "On Stage!",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,19 +13,19 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "A",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "N",
-      "clueIndex": 3
+      "char": "P",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "P",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
@@ -35,82 +35,81 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "L"
     },
     "1,2": {
-      "char": "E"
+      "char": "L"
     },
     "1,3": {
-      "char": null
-    },
-    "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "R",
-      "clueIndex": 5
-    },
-    "2,1": {
       "char": "A"
     },
-    "2,2": {
-      "char": "E"
+    "1,4": {
+      "char": "H",
+      "clueIndex": 5
     },
-    "2,3": {
-      "char": "D",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "T"
+    },
+    "2,2": {
+      "char": "A"
+    },
+    "2,3": {
+      "char": "G"
+    },
     "2,4": {
-      "char": "S",
-      "clueIndex": 7
+      "char": "E"
     },
     "3,0": {
-      "char": null
+      "char": "P",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "N",
-      "clueIndex": 8
+      "char": "T"
     },
     "3,3": {
       "char": "E"
     },
     "3,4": {
-      "char": "C"
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "S",
-      "clueIndex": 9
+      "char": "E"
     },
     "4,3": {
-      "char": "R"
+      "char": "S"
     },
     "4,4": {
-      "char": "I"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Big ___, London landmark.",
-      "4": "Present tense for 'we'.",
-      "5": "Sounds like what a bookworm does.",
-      "8": "Japanese electronics giant, abbr.",
-      "9": "Indian title of respect."
+      "1": "Phone program, briefly",
+      "4": "God in Islam",
+      "6": "Where the play unfolds",
+      "7": "Boy who never grew up",
+      "8": "Screen clarity, briefly"
     },
     "down": {
-      "1": "Pub or chocolate ___.",
-      "2": "Distinct period of history.",
-      "3": "Sounds like 'the number after eight'.",
-      "6": "German definite article.",
-      "7": "School subject, briefly."
+      "1": "Make a change",
+      "2": "Dinner setting item",
+      "3": "Book's individual sheets",
+      "4": "Cleopatra's deadly snake",
+      "5": "Pronoun for a lady"
     }
   }
 }
