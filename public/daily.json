@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-10-08",
+    "date": "2026-10-09",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Everyday Essentials",
+    "theme": "Short & Sweet",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "N",
+      "char": "D",
       "clueIndex": 3
     },
     "0,3": {
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "1": "Jerry's ice cream partner",
-      "4": "Speedometer reading abbr.",
-      "5": "Hospital treatment areas",
-      "8": "Adam's Garden partner",
-      "9": "NYC summer zone"
+      "1": "Place to rest a weary head.",
+      "4": "Car's speed unit, briefly.",
+      "5": "Hospital sections for care.",
+      "8": "Just before Christmas.",
+      "9": "Summer time in NYC, abbr."
     },
     "down": {
-      "1": "German luxury automaker",
-      "2": "Environmental watchdog group",
-      "3": "Number of blind mice",
-      "6": "Movie disc format",
-      "7": "Tennis match division"
+      "1": "Luxury German auto maker.",
+      "2": "Green gov't watchdog group.",
+      "3": "What makes a crowd, proverbially.",
+      "6": "Movie disc for home viewing.",
+      "7": "Collection or tennis segment."
     }
   }
 }
