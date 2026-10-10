@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-10-09",
+    "date": "2026-10-10",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short & Sweet",
+    "theme": "Just a Little Bit",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "D",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "M",
+      "char": "C",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "S"
     },
     "1,2": {
-      "char": "H"
+      "char": "T"
     },
     "1,3": {
       "char": null
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "W",
+      "char": "S",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "A"
+      "char": "T"
     },
     "2,2": {
-      "char": "R"
+      "char": "A"
     },
     "2,3": {
-      "char": "D",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,11 +71,11 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "V"
+      "char": "O"
     },
     "3,4": {
       "char": "E"
@@ -91,26 +91,26 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "D"
+      "char": "P"
     },
     "4,4": {
-      "char": "T"
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Place to rest a weary head.",
-      "4": "Car's speed unit, briefly.",
-      "5": "Hospital sections for care.",
-      "8": "Just before Christmas.",
-      "9": "Summer time in NYC, abbr."
+      "1": "Beloved animal companion.",
+      "4": "Central US clocks, briefly.",
+      "5": "Figures on a report, slangily.",
+      "8": "Where the sock ends.",
+      "9": "Green gov't watchdog."
     },
     "down": {
-      "1": "Luxury German auto maker.",
-      "2": "Green gov't watchdog group.",
-      "3": "What makes a crowd, proverbially.",
-      "6": "Movie disc for home viewing.",
-      "7": "Collection or tennis segment."
+      "1": "Many home computers.",
+      "2": "New York's zone.",
+      "3": "Nation division, or a mood.",
+      "6": "Summit or spinning toy.",
+      "7": "The deep blue."
     }
   }
 }
