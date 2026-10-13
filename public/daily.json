@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "A Little R&R",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Digital Currents",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "C",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "A",
-      "clueIndex": 2
+      "char": "N",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "L",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "R",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
+      "char": "O"
     },
     "1,2": {
-      "char": "A"
+      "char": "L"
     },
     "1,3": {
-      "char": null
+      "char": "E"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "I"
-    },
-    "2,2": {
-      "char": "S"
-    },
-    "2,3": {
-      "char": "T",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "T"
+    },
+    "2,2": {
+      "char": "E"
+    },
+    "2,3": {
+      "char": "A"
+    },
     "2,4": {
+      "char": "M"
+    },
+    "3,0": {
       "char": "S",
       "clueIndex": 7
     },
-    "3,0": {
-      "char": null
-    },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "T",
-      "clueIndex": 8
+      "char": "E"
     },
     "3,3": {
-      "char": "O"
+      "char": "D"
     },
     "3,4": {
-      "char": "E"
+      "char": "S"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "D",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "T"
     },
     "4,3": {
-      "char": "P"
+      "char": "S"
     },
     "4,4": {
-      "char": "A"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Lap lounger, often",
-      "4": "Place to soak away stress",
-      "5": "They're often professional types",
-      "8": "Digit with a nail",
-      "9": "Protector of nature, for short"
+      "1": "Pro football's big league.",
+      "4": "Parts in a movie.",
+      "6": "Gaming platform or hot vapor.",
+      "7": "What's planted in a garden.",
+      "8": "Surround sound initials."
     },
     "down": {
-      "1": "It's between EST and MST",
-      "2": "Developers' interface, for short",
-      "3": "A little bit, or a sense",
-      "6": "Spinning toy, or a lid",
-      "7": "Ocean, or a calm view"
+      "1": "Famous, or written down.",
+      "2": "Group of ships or trucks.",
+      "3": "Journalists follow them.",
+      "4": "Web feed letters.",
+      "5": "Cell message letters."
     }
   }
 }
