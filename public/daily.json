@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Backward Glance",
+    "theme": "Daily Puzzle",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "L",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
+      "char": "V"
     },
     "1,2": {
-      "char": "T"
+      "char": "E"
     },
     "1,3": {
       "char": null
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "E",
+      "char": "N",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "R"
+      "char": "E"
     },
     "2,2": {
-      "char": "A"
+      "char": "E"
     },
     "2,3": {
-      "char": "T",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "T",
+      "char": "N",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "I"
+      "char": "E"
     },
     "3,4": {
-      "char": "E"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "E",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "P"
+      "char": "R"
     },
     "4,4": {
-      "char": "A"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "French definite article, or Mis\u00e9rables opener.",
-      "4": "Enjoy a meal.",
-      "5": "What \"STARE\" is, backwards.",
-      "8": "Kind of knot or neckwear.",
-      "9": "What \"APE\" is, backwards."
+      "5": "Clue for NEEDS",
+      "1": "Clue for PET",
+      "4": "Clue for AVE",
+      "8": "Clue for NEC",
+      "9": "Clue for SRI"
     },
     "down": {
-      "1": "Side away from the wind.",
-      "2": "Organ for listening.",
-      "3": "Declare or a commonwealth.",
-      "6": "Gratuity for good service.",
-      "7": "Vast body of salt water."
+      "3": "Clue for TEENS",
+      "1": "Clue for PAN",
+      "2": "Clue for EVE",
+      "6": "Clue for DER",
+      "7": "Clue for SCI"
     }
   }
 }
