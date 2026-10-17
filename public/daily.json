@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Daily Puzzle",
+    "theme": "Global Language Lesson",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -35,7 +35,7 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "V"
+      "char": "R"
     },
     "1,2": {
       "char": "E"
@@ -51,7 +51,7 @@
       "clueIndex": 5
     },
     "2,1": {
-      "char": "E"
+      "char": "A"
     },
     "2,2": {
       "char": "E"
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "5": "Clue for NEEDS",
-      "1": "Clue for PET",
-      "4": "Clue for AVE",
-      "8": "Clue for NEC",
-      "9": "Clue for SRI"
+      "1": "Lap occupant, perhaps.",
+      "4": "Present tense verb.",
+      "5": "A requirement, essentially.",
+      "8": "Japanese electronics giant.",
+      "9": "Indian honorific title."
     },
     "down": {
-      "3": "Clue for TEENS",
-      "1": "Clue for PAN",
-      "2": "Clue for EVE",
-      "6": "Clue for DER",
-      "7": "Clue for SCI"
+      "1": "Kitchen skillet or Greek god.",
+      "2": "Baseball stat or time period.",
+      "3": "Ages thirteen to nineteen.",
+      "6": "German word for \"the.\"",
+      "7": "Lab subject, briefly."
     }
   }
 }
