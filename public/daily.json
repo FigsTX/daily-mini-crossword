@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Mini Backtrack",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Expedition Essentials",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "Y",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "S",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
-    },
-    "1,2": {
       "char": "T"
     },
+    "1,2": {
+      "char": "L"
+    },
     "1,3": {
-      "char": null
-    },
-    "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "T",
-      "clueIndex": 5
-    },
-    "2,1": {
-      "char": "R"
-    },
-    "2,2": {
       "char": "A"
     },
-    "2,3": {
-      "char": "T",
+    "1,4": {
+      "char": "S",
+      "clueIndex": 5
+    },
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
-    "2,4": {
-      "char": "S",
-      "clueIndex": 7
+    "2,1": {
+      "char": "H"
     },
-    "3,0": {
-      "char": null
-    },
-    "3,1": {
-      "char": null
-    },
-    "3,2": {
-      "char": "T",
-      "clueIndex": 8
-    },
-    "3,3": {
+    "2,2": {
       "char": "O"
     },
-    "3,4": {
+    "2,3": {
+      "char": "R"
+    },
+    "2,4": {
       "char": "E"
+    },
+    "3,0": {
+      "char": "N",
+      "clueIndex": 7
+    },
+    "3,1": {
+      "char": "E"
+    },
+    "3,2": {
+      "char": "W"
+    },
+    "3,3": {
+      "char": "E"
+    },
+    "3,4": {
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "Y"
+      "char": "S"
     },
     "4,4": {
-      "char": "E"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Word of affirmation.",
-      "4": "Enjoy dinner, perhaps.",
-      "5": "Beginning, viewed in a mirror.",
-      "8": "Smallest foot digit.",
-      "9": "Storm's calm center."
+      "1": "Time to get going!",
+      "4": "Essential map collection",
+      "6": "Place at ocean's edge",
+      "7": "More recently arrived",
+      "8": "Web feed format"
     },
     "down": {
-      "1": "Still, but not quite.",
-      "2": "Corn part, or hearing organ.",
-      "3": "Declare a condition.",
-      "6": "A child's prized possession.",
-      "7": "Discern with the peepers."
+      "1": "A different one",
+      "2": "Moves like a river",
+      "3": "Air travel charges",
+      "4": "\"As in\" abbr.",
+      "5": "Spanish word for mister"
     }
   }
 }
