@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Listen Closely",
+    "theme": "Life's Essentials",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
+      "char": "E",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "D",
+      "char": "T",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "E",
+      "char": "D",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
+      "char": "N"
     },
     "1,2": {
-      "char": "R"
+      "char": "A"
     },
     "1,3": {
       "char": null
@@ -51,13 +51,13 @@
       "clueIndex": 5
     },
     "2,1": {
-      "char": "T"
+      "char": "N"
     },
     "2,2": {
-      "char": "E"
+      "char": "S"
     },
     "2,3": {
-      "char": "D",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "U"
+      "char": "O"
     },
     "3,4": {
-      "char": "R"
+      "char": "E"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "E"
+      "char": "P"
     },
     "4,4": {
-      "char": "C"
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Place for a good night's rest.",
-      "4": "You can lend it.",
-      "5": "Double-T'd group of Edwards?",
-      "8": "Brussels' currency, briefly.",
-      "9": "Just a moment, briefly."
+      "1": "Partake of a meal",
+      "4": "Genetic code, briefly",
+      "5": "School exams or trials",
+      "8": "Go ____-to-____",
+      "9": "Environmental agency, for short"
     },
     "down": {
-      "1": "Wager at the track.",
-      "2": "Take a meal.",
-      "3": "Prom night outfits, perhaps.",
-      "6": "Owed and payable.",
-      "7": "Origin point, briefly."
+      "1": "Time in New York, briefly",
+      "2": "Actress Hathaway's first name",
+      "3": "Sense of what's delicious",
+      "6": "Spinning toy or summit",
+      "7": "Vast body of water"
     }
   }
 }
