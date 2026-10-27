@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Water's Edge",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Looking Ahead",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "A",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "N",
-      "clueIndex": 3
+      "char": "L",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "L",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "M",
+      "char": "C",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
-    },
-    "1,2": {
       "char": "H"
     },
-    "1,3": {
-      "char": null
-    },
-    "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "W",
-      "clueIndex": 5
-    },
-    "2,1": {
-      "char": "A"
-    },
-    "2,2": {
+    "1,2": {
       "char": "E"
     },
-    "2,3": {
-      "char": "D",
+    "1,3": {
+      "char": "A"
+    },
+    "1,4": {
+      "char": "P",
+      "clueIndex": 5
+    },
+    "2,0": {
+      "char": "A",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "E"
+    },
+    "2,2": {
+      "char": "A"
+    },
+    "2,3": {
+      "char": "T"
+    },
     "2,4": {
+      "char": "H"
+    },
+    "3,0": {
       "char": "S",
       "clueIndex": 7
     },
-    "3,0": {
-      "char": null
-    },
     "3,1": {
-      "char": null
+      "char": "A"
     },
     "3,2": {
-      "char": "S",
-      "clueIndex": 8
+      "char": "V"
     },
     "3,3": {
       "char": "E"
     },
     "3,4": {
-      "char": "E"
+      "char": "D"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "D",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "E"
     },
     "4,3": {
       "char": "R"
     },
     "4,4": {
-      "char": "A"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "First name for Affleck or Franklin",
-      "4": "Speedometer letters",
-      "5": "Walks through shallow water",
-      "8": "Spot, as a whale",
-      "9": "A distinct period of time"
+      "1": "The entire amount",
+      "4": "Kind to your wallet",
+      "6": "A fleeting moment",
+      "7": "Put away for a rainy day",
+      "8": "\"The\" in Hamburg"
     },
     "down": {
-      "1": "German auto maker",
-      "2": "US environmental agency",
-      "3": "Glimmer on water",
-      "6": "\"The\" in German",
-      "7": "Vast saltwater body"
+      "1": "Into the future",
+      "2": "Take off, as in a trip",
+      "3": "\"See you ___!\"",
+      "4": "Nick for Casper",
+      "5": "Highest academic degree"
     }
   }
 }
