@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Looking Ahead",
-    "templateId": "tuesday",
-    "wordTier": 1
+    "theme": "Daily Puzzle",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "A",
+      "char": "G",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "L",
+    "0,1": {
+      "char": "O",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "L",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "C",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "H"
+      "char": "R"
     },
     "1,2": {
       "char": "E"
     },
     "1,3": {
-      "char": "A"
+      "char": null
     },
     "1,4": {
-      "char": "P",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "A",
-      "clueIndex": 6
+      "char": "S",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "E"
+      "char": "G"
     },
     "2,2": {
-      "char": "A"
+      "char": "E"
     },
     "2,3": {
-      "char": "T"
+      "char": "D",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "H"
-    },
-    "3,0": {
       "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "A"
+      "char": null
     },
     "3,2": {
-      "char": "V"
+      "char": "N",
+      "clueIndex": 8
     },
     "3,3": {
       "char": "E"
     },
     "3,4": {
-      "char": "D"
+      "char": "C"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "D",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "E"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
       "char": "R"
     },
     "4,4": {
-      "char": null
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "The entire amount",
-      "4": "Kind to your wallet",
-      "6": "A fleeting moment",
-      "7": "Put away for a rainy day",
-      "8": "\"The\" in Hamburg"
+      "5": "Clue for SGEDS",
+      "1": "Clue for GOT",
+      "4": "Clue for ARE",
+      "8": "Clue for NEC",
+      "9": "Clue for SRI"
     },
     "down": {
-      "1": "Into the future",
-      "2": "Take off, as in a trip",
-      "3": "\"See you ___!\"",
-      "4": "Nick for Casper",
-      "5": "Highest academic degree"
+      "3": "Clue for TEENS",
+      "1": "Clue for GAS",
+      "2": "Clue for ORG",
+      "6": "Clue for DER",
+      "7": "Clue for SCI"
     }
   }
 }
