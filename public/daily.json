@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Life's Pleasures",
+    "theme": "Alphabet Soup",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,11 +13,11 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
+      "char": "E",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "E",
+      "char": "A",
       "clueIndex": 2
     },
     "0,2": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "C",
+      "char": "D",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
+      "char": "N"
     },
     "1,2": {
-      "char": "R"
+      "char": "A"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "T"
+      "char": "N"
     },
     "2,2": {
-      "char": "E"
+      "char": "S"
     },
     "2,3": {
-      "char": "E",
+      "char": "T",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "L",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,11 +71,11 @@
       "char": null
     },
     "3,2": {
-      "char": "A",
+      "char": "T",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "R"
+      "char": "I"
     },
     "3,4": {
       "char": "E"
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "T",
+      "char": "E",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "A"
+      "char": "P"
     },
     "4,4": {
-      "char": "G"
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Beloved household companion.",
-      "4": "Auto in a garage.",
-      "5": "Superman's \"Man of ___.\"",
-      "8": "Plural of \"is.\"",
-      "9": "Kid's chase game."
+      "1": "Have a meal.",
+      "4": "Genetic blueprint, for short.",
+      "5": "National Standard Test Series, briefly.",
+      "8": "Neckwear or a draw.",
+      "9": "Green agency, for short."
     },
     "down": {
-      "1": "Home desktop units.",
-      "2": "Have a meal.",
-      "3": "A sweet delight.",
-      "6": "Golden ___ (prosperous time).",
-      "7": "Part of a journey."
+      "1": "Summer time in NYC.",
+      "2": "Hathaway or Landers.",
+      "3": "Sense of flavor.",
+      "6": "Server's gratuity or hint.",
+      "7": "Large body of water."
     }
   }
 }
