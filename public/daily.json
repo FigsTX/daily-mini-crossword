@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Alphabet Soup",
+    "theme": "Short Takes",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "E",
+      "char": "G",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "P",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "D",
+      "char": "M",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "N"
+      "char": "P"
     },
     "1,2": {
-      "char": "A"
+      "char": "H"
     },
     "1,3": {
       "char": null
@@ -51,13 +51,13 @@
       "clueIndex": 5
     },
     "2,1": {
-      "char": "N"
+      "char": "I"
     },
     "2,2": {
-      "char": "S"
+      "char": "E"
     },
     "2,3": {
-      "char": "T",
+      "char": "N",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,11 +71,11 @@
       "char": null
     },
     "3,2": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "I"
+      "char": "E"
     },
     "3,4": {
       "char": "E"
@@ -91,26 +91,26 @@
       "clueIndex": 9
     },
     "4,3": {
-      "char": "P"
+      "char": "T"
     },
     "4,4": {
-      "char": "A"
+      "char": "C"
     }
   },
   "clues": {
     "across": {
-      "1": "Have a meal.",
-      "4": "Genetic blueprint, for short.",
-      "5": "National Standard Test Series, briefly.",
-      "8": "Neckwear or a draw.",
-      "9": "Green agency, for short."
+      "1": "Space or opening",
+      "4": "Speed unit, briefly",
+      "5": "French for 'Here, take this!'",
+      "8": "Glimpse or observe",
+      "9": "And so on, for short"
     },
     "down": {
-      "1": "Summer time in NYC.",
-      "2": "Hathaway or Landers.",
-      "3": "Sense of flavor.",
-      "6": "Server's gratuity or hint.",
-      "7": "Large body of water."
+      "1": "London's time zone, briefly",
+      "2": "App developer's interface",
+      "3": "Sounds like a stage",
+      "6": "Final profit or web",
+      "7": "Just a moment, briefly"
     }
   }
 }
