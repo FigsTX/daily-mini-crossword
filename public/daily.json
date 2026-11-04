@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Crossword Connections",
-    "templateId": "tuesday",
-    "wordTier": 1
+    "theme": "Daily Puzzle",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
+      "char": "G",
+      "clueIndex": 1
     },
     "0,1": {
       "char": "O",
-      "clueIndex": 1
-    },
-    "0,2": {
-      "char": "F",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "P"
-    },
-    "1,2": {
-      "char": "A"
-    },
-    "1,3": {
-      "char": "I"
-    },
-    "1,4": {
-      "char": "N",
-      "clueIndex": 5
-    },
-    "2,0": {
-      "char": "R",
-      "clueIndex": 6
-    },
-    "2,1": {
-      "char": "E"
-    },
-    "2,2": {
-      "char": "T"
-    },
-    "2,3": {
       "char": "R"
     },
-    "2,4": {
-      "char": "O"
+    "1,2": {
+      "char": "E"
     },
-    "3,0": {
-      "char": "I",
+    "1,3": {
+      "char": null
+    },
+    "1,4": {
+      "char": null
+    },
+    "2,0": {
+      "char": "S",
+      "clueIndex": 5
+    },
+    "2,1": {
+      "char": "G"
+    },
+    "2,2": {
+      "char": "E"
+    },
+    "2,3": {
+      "char": "D",
+      "clueIndex": 6
+    },
+    "2,4": {
+      "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "N"
+      "char": null
     },
     "3,2": {
-      "char": "T"
+      "char": "N",
+      "clueIndex": 8
     },
     "3,3": {
       "char": "E"
     },
     "3,4": {
-      "char": "R"
+      "char": "C"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "S",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "Y"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "R"
     },
     "4,4": {
-      "char": null
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Power switch status",
-      "4": "Peninsular nation known for tapas",
-      "6": "Fashionably old-fashioned",
-      "7": "Prefix for \"national\" or \"net\"",
-      "8": "Computer ____ admin (abbr.)"
+      "5": "Clue for SGEDS",
+      "1": "Clue for GOT",
+      "4": "Clue for ARE",
+      "8": "Clue for NEC",
+      "9": "Clue for SRI"
     },
     "down": {
-      "1": "Unlocks, or starts a program",
-      "2": "Rich in lipids",
-      "3": "Kindles, or lets go from a job",
-      "4": "___ Lanka, island nation",
-      "5": "Paired with \"neither\""
+      "3": "Clue for TEENS",
+      "1": "Clue for GAS",
+      "2": "Clue for ORG",
+      "6": "Clue for DER",
+      "7": "Clue for SCI"
     }
   }
 }
