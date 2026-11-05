@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Daily Puzzle",
+    "theme": "Flipped Out",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
+      "char": "P",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "O",
+      "char": "C",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "S",
       "clueIndex": 3
     },
     "0,3": {
@@ -35,7 +35,7 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "V"
     },
     "1,2": {
       "char": "E"
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "G"
+      "char": "S"
     },
     "2,2": {
-      "char": "E"
+      "char": "N"
     },
     "2,3": {
-      "char": "D",
+      "char": "E",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "N",
+      "char": "S",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "R"
     },
     "3,4": {
-      "char": "C"
+      "char": "I"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "E",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "A"
     },
     "4,4": {
-      "char": "I"
+      "char": "T"
     }
   },
   "clues": {
     "across": {
-      "5": "Clue for SGEDS",
-      "1": "Clue for GOT",
-      "4": "Clue for ARE",
-      "8": "Clue for NEC",
-      "9": "Clue for SRI"
+      "1": "Home office essentials, briefly.",
+      "4": "Boulevard partner, for short.",
+      "5": "3-Down, backward.",
+      "8": "Respectful Indian title.",
+      "9": "Enjoy a meal."
     },
     "down": {
-      "3": "Clue for TEENS",
-      "1": "Clue for GAS",
-      "2": "Clue for ORG",
-      "6": "Clue for DER",
-      "7": "Clue for SCI"
+      "1": "Gentle reassuring stroke.",
+      "2": "Chain with red storefronts, for short.",
+      "3": "Good judgment or feeling.",
+      "6": "Significant historical period.",
+      "7": "Rest on a chair."
     }
   }
 }
