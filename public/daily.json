@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Flipped Out",
+    "theme": "Brief Encounters",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -17,11 +17,11 @@
       "clueIndex": 1
     },
     "0,1": {
-      "char": "C",
+      "char": "E",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "S",
+      "char": "N",
       "clueIndex": 3
     },
     "0,3": {
@@ -47,17 +47,17 @@
       "char": null
     },
     "2,0": {
-      "char": "T",
+      "char": "N",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "S"
+      "char": "E"
     },
     "2,2": {
-      "char": "N"
+      "char": "E"
     },
     "2,3": {
-      "char": "E",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "S",
+      "char": "N",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "R"
+      "char": "E"
     },
     "3,4": {
-      "char": "I"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "E",
+      "char": "S",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "A"
+      "char": "R"
     },
     "4,4": {
-      "char": "T"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Home office essentials, briefly.",
-      "4": "Boulevard partner, for short.",
-      "5": "3-Down, backward.",
-      "8": "Respectful Indian title.",
-      "9": "Enjoy a meal."
+      "1": "Writer's tool or an animal's enclosure.",
+      "4": "Street abbr. on many signs.",
+      "5": "Basic requirements; wants.",
+      "8": "Japanese electronics giant, briefly.",
+      "9": "Asian honorific title."
     },
     "down": {
-      "1": "Gentle reassuring stroke.",
-      "2": "Chain with red storefronts, for short.",
-      "3": "Good judgment or feeling.",
-      "6": "Significant historical period.",
-      "7": "Rest on a chair."
+      "1": "Cooking vessel or a Greek god.",
+      "2": "Night before; first woman.",
+      "3": "Sounds like plural for the number after eight.",
+      "6": "German for 'the' (masculine).",
+      "7": "High school subject, briefly."
     }
   }
 }
