@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Worldly Words",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Online & Off-line",
+    "templateId": "sunday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,104 +13,103 @@
   },
   "grid": {
     "0,0": {
-      "char": "L",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "R",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "S",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "C",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "O",
+      "char": "S",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "U"
+      "char": "A"
     },
     "1,2": {
-      "char": "T"
+      "char": "L"
     },
     "1,3": {
-      "char": null
+      "char": "A"
     },
     "1,4": {
-      "char": null
+      "char": "D",
+      "clueIndex": 5
     },
     "2,0": {
       "char": "S",
-      "clueIndex": 5
-    },
-    "2,1": {
-      "char": "R"
-    },
-    "2,2": {
-      "char": "A"
-    },
-    "2,3": {
-      "char": "T",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "T"
+    },
+    "2,2": {
+      "char": "O"
+    },
+    "2,3": {
+      "char": "R"
+    },
     "2,4": {
-      "char": "S",
-      "clueIndex": 7
+      "char": "E"
     },
     "3,0": {
-      "char": null
+      "char": "L",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "T",
-      "clueIndex": 8
+      "char": "A"
     },
     "3,3": {
-      "char": "I"
+      "char": "D"
     },
     "3,4": {
-      "char": "E"
+      "char": "S"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "D",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "T"
     },
     "4,3": {
-      "char": "P"
+      "char": "S"
     },
     "4,4": {
-      "char": "A"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "French 'the'",
-      "4": "Not in residence",
-      "5": "Some Greek house members, informally",
-      "8": "Neckwear or deadlock",
-      "9": "Pollution-controlling U.S. agcy."
+      "1": "Internet standard request, for short",
+      "4": "Tossed greens dish",
+      "6": "Keep for later",
+      "7": "Main roles or guides",
+      "8": "Withdrawal jitters, briefly"
     },
     "down": {
-      "1": "Spanish 'the'",
-      "2": "Continent or currency unit, abbr.",
-      "3": "Declare or a U.S. division",
-      "6": "Waiter's extra or helpful hint",
-      "7": "Vast body of water"
+      "1": "Assessed for quality",
+      "2": "Root beer treat",
+      "3": "Poker hand components",
+      "4": "Secure website protocol, abbr.",
+      "5": "Old encryption standard, briefly"
     }
   }
 }
