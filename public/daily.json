@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-11-08",
+    "date": "2026-11-09",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Online & Off-line",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Short Cuts",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,103 +13,104 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "R",
+      "char": "P",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "C",
+    "0,2": {
+      "char": "T",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
     },
     "1,0": {
-      "char": "S",
+      "char": "A",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "A"
+      "char": "V"
     },
     "1,2": {
-      "char": "L"
+      "char": "E"
     },
     "1,3": {
-      "char": "A"
+      "char": null
     },
     "1,4": {
-      "char": "D",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
-      "char": "S",
-      "clueIndex": 6
+      "char": "N",
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "T"
+      "char": "E"
     },
     "2,2": {
-      "char": "O"
+      "char": "E"
     },
     "2,3": {
-      "char": "R"
+      "char": "D",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "E"
-    },
-    "3,0": {
-      "char": "L",
+      "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "A"
+      "char": "N",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "D"
+      "char": "E"
     },
     "3,4": {
-      "char": "S"
+      "char": "C"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "D",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "T"
+      "char": "S",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "R"
     },
     "4,4": {
-      "char": null
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Internet standard request, for short",
-      "4": "Tossed greens dish",
-      "6": "Keep for later",
-      "7": "Main roles or guides",
-      "8": "Withdrawal jitters, briefly"
+      "1": "Beloved companion animal",
+      "4": "Abbr. for a city street",
+      "5": "Basic requirements for survival",
+      "8": "Essential, for short",
+      "9": "Respectful Asian title"
     },
     "down": {
-      "1": "Assessed for quality",
-      "2": "Root beer treat",
-      "3": "Poker hand components",
-      "4": "Secure website protocol, abbr.",
-      "5": "Old encryption standard, briefly"
+      "1": "Kitchen cooking utensil",
+      "2": "The night before a holiday",
+      "3": "Not quite adults",
+      "6": "German article for \"the\"",
+      "7": "Lab subject, for short"
     }
   }
 }
