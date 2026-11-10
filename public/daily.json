@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short Cuts",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "Daily Puzzle",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,19 +13,19 @@
   },
   "grid": {
     "0,0": {
-      "char": "P",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "E",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "T",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
@@ -35,82 +35,81 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "V"
+      "char": "T"
     },
     "1,2": {
-      "char": "E"
+      "char": "L"
     },
     "1,3": {
-      "char": null
+      "char": "A"
     },
     "1,4": {
-      "char": null
-    },
-    "2,0": {
-      "char": "N",
+      "char": "S",
       "clueIndex": 5
     },
-    "2,1": {
-      "char": "E"
-    },
-    "2,2": {
-      "char": "E"
-    },
-    "2,3": {
-      "char": "D",
+    "2,0": {
+      "char": "S",
       "clueIndex": 6
     },
+    "2,1": {
+      "char": "H"
+    },
+    "2,2": {
+      "char": "O"
+    },
+    "2,3": {
+      "char": "R"
+    },
     "2,4": {
-      "char": "S",
-      "clueIndex": 7
+      "char": "E"
     },
     "3,0": {
-      "char": null
+      "char": "N",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "E"
     },
     "3,2": {
-      "char": "N",
-      "clueIndex": 8
+      "char": "W"
     },
     "3,3": {
       "char": "E"
     },
     "3,4": {
-      "char": "C"
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "R",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "S",
-      "clueIndex": 9
+      "char": "S"
     },
     "4,3": {
-      "char": "R"
+      "char": "S"
     },
     "4,4": {
-      "char": "I"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Beloved companion animal",
-      "4": "Abbr. for a city street",
-      "5": "Basic requirements for survival",
-      "8": "Essential, for short",
-      "9": "Respectful Asian title"
+      "4": "Clue for ATLAS",
+      "6": "Clue for SHORE",
+      "7": "Clue for NEWER",
+      "1": "Clue for OFF",
+      "8": "Clue for RSS"
     },
     "down": {
-      "1": "Kitchen cooking utensil",
-      "2": "The night before a holiday",
-      "3": "Not quite adults",
-      "6": "German article for \"the\"",
-      "7": "Lab subject, for short"
+      "1": "Clue for OTHER",
+      "2": "Clue for FLOWS",
+      "3": "Clue for FARES",
+      "4": "Clue for ASN",
+      "5": "Clue for SER"
     }
   }
 }
