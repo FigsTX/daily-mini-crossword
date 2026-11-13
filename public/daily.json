@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Abbreviated Affairs",
+    "theme": "Quick Bites",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,11 +13,11 @@
   },
   "grid": {
     "0,0": {
-      "char": "G",
+      "char": "B",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "O",
+      "char": "I",
       "clueIndex": 2
     },
     "0,2": {
@@ -31,11 +31,11 @@
       "char": null
     },
     "1,0": {
-      "char": "A",
+      "char": "O",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "R"
+      "char": "N"
     },
     "1,2": {
       "char": "E"
@@ -47,11 +47,11 @@
       "char": null
     },
     "2,0": {
-      "char": "S",
+      "char": "B",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "G"
+      "char": "T"
     },
     "2,2": {
       "char": "E"
@@ -99,18 +99,18 @@
   },
   "clues": {
     "across": {
-      "1": "Acquired",
-      "4": "Exists for many",
-      "5": "Software group's letters",
-      "8": "Japanese electronics co. (abbr.)",
-      "9": "Indian honorific"
+      "1": "Small mouthful",
+      "4": "The loneliest number",
+      "5": "Basic Typing, Every Day, Sir (abbr.)",
+      "8": "Japanese electronics giant",
+      "9": "Island nation near India"
     },
     "down": {
-      "1": "Pump purchase",
-      "2": "Nonprofit website suffix",
-      "3": "Adolescent years",
-      "6": "German 'the'",
-      "7": "Lab subject, briefly"
+      "1": "Short haircut",
+      "2": "Interest, briefly",
+      "3": "High schoolers, mostly",
+      "6": "German article meaning \"the\"",
+      "7": "Lab study field (abbr.)"
     }
   }
 }
