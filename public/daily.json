@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Quick Bites",
+    "theme": "Metrics and More",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,15 +13,15 @@
   },
   "grid": {
     "0,0": {
-      "char": "B",
+      "char": "G",
       "clueIndex": 1
     },
     "0,1": {
-      "char": "I",
+      "char": "A",
       "clueIndex": 2
     },
     "0,2": {
-      "char": "T",
+      "char": "P",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,14 +31,14 @@
       "char": null
     },
     "1,0": {
-      "char": "O",
+      "char": "M",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "N"
+      "char": "P"
     },
     "1,2": {
-      "char": "E"
+      "char": "H"
     },
     "1,3": {
       "char": null
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "B",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "T"
+      "char": "I"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "D",
+      "char": "A",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "S",
+      "char": "M",
       "clueIndex": 7
     },
     "3,0": {
@@ -71,14 +71,14 @@
       "char": null
     },
     "3,2": {
-      "char": "N",
+      "char": "E",
       "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "R"
     },
     "3,4": {
-      "char": "C"
+      "char": "A"
     },
     "4,0": {
       "char": null
@@ -87,30 +87,30 @@
       "char": null
     },
     "4,2": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 9
     },
     "4,3": {
-      "char": "R"
+      "char": "E"
     },
     "4,4": {
-      "char": "I"
+      "char": "N"
     }
   },
   "clues": {
     "across": {
-      "1": "Small mouthful",
-      "4": "The loneliest number",
-      "5": "Basic Typing, Every Day, Sir (abbr.)",
-      "8": "Japanese electronics giant",
-      "9": "Island nation near India"
+      "1": "Obvious division; popular retailer.",
+      "4": "Freeway speed stat (abbr.).",
+      "5": "Cohesive sports group.",
+      "8": "Pitcher's stat or time period.",
+      "9": "Perfect gymnastic score."
     },
     "down": {
-      "1": "Short haircut",
-      "2": "Interest, briefly",
-      "3": "High schoolers, mostly",
-      "6": "German article meaning \"the\"",
-      "7": "Lab study field (abbr.)"
+      "1": "London clock abbr.",
+      "2": "Developer's interface (abbr.).",
+      "3": "Body parts or a length unit.",
+      "6": "We ___ family.",
+      "7": "A grown-up male."
     }
   }
 }
