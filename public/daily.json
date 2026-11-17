@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Short Takes",
-    "templateId": "monday",
-    "wordTier": 0
+    "theme": "System Check",
+    "templateId": "tuesday",
+    "wordTier": 1
   },
   "dimensions": {
     "rows": 5,
@@ -13,19 +13,19 @@
   },
   "grid": {
     "0,0": {
-      "char": "U",
-      "clueIndex": 1
+      "char": null
     },
     "0,1": {
-      "char": "S",
-      "clueIndex": 2
+      "char": "O",
+      "clueIndex": 1
     },
     "0,2": {
-      "char": "E",
-      "clueIndex": 3
+      "char": "F",
+      "clueIndex": 2
     },
     "0,3": {
-      "char": null
+      "char": "F",
+      "clueIndex": 3
     },
     "0,4": {
       "char": null
@@ -35,82 +35,81 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "E"
+      "char": "P"
     },
     "1,2": {
-      "char": "T"
+      "char": "A"
     },
     "1,3": {
-      "char": null
+      "char": "I"
     },
     "1,4": {
-      "char": null
+      "char": "N",
+      "clueIndex": 5
     },
     "2,0": {
-      "char": "D",
-      "clueIndex": 5
+      "char": "R",
+      "clueIndex": 6
     },
     "2,1": {
       "char": "E"
     },
     "2,2": {
-      "char": "A"
+      "char": "T"
     },
     "2,3": {
-      "char": "T",
-      "clueIndex": 6
+      "char": "R"
     },
     "2,4": {
-      "char": "H",
-      "clueIndex": 7
+      "char": "O"
     },
     "3,0": {
-      "char": null
+      "char": "I",
+      "clueIndex": 7
     },
     "3,1": {
-      "char": null
+      "char": "N"
     },
     "3,2": {
-      "char": "T",
-      "clueIndex": 8
+      "char": "T"
     },
     "3,3": {
       "char": "E"
     },
     "3,4": {
-      "char": "A"
+      "char": "R"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": null
+      "char": "S",
+      "clueIndex": 8
     },
     "4,2": {
-      "char": "E",
-      "clueIndex": 9
+      "char": "Y"
     },
     "4,3": {
-      "char": "N"
+      "char": "S"
     },
     "4,4": {
-      "char": "D"
+      "char": null
     }
   },
   "clues": {
     "across": {
-      "1": "Put into service.",
-      "4": "Ready, ___, go!",
-      "5": "Grim Reaper's domain.",
-      "8": "Earl Grey, e.g.",
-      "9": "Opposite of start."
+      "1": "Power switch setting.",
+      "4": "European country with tapas.",
+      "6": "Like some classic video games.",
+      "7": "Prefix meaning 'between'.",
+      "8": "Computer ___ admin, for short."
     },
     "down": {
-      "1": "American currency abbr.",
-      "2": "Perceive with eyes.",
-      "3": "Chemical ester ending.",
-      "6": "Number of fingers, often.",
-      "7": "Owned, in the past."
+      "1": "Starts a program.",
+      "2": "Not lean, in terms of food.",
+      "3": "Discharges from a job.",
+      "4": "___ Lanka (Asian nation).",
+      "5": "Neither ___ (conjunction)."
     }
   }
 }
