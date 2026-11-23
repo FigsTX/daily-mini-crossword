@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Global Getaway",
-    "templateId": "sunday",
-    "wordTier": 1
+    "theme": "Global Glimpses",
+    "templateId": "monday",
+    "wordTier": 0
   },
   "dimensions": {
     "rows": 5,
@@ -13,19 +13,19 @@
   },
   "grid": {
     "0,0": {
-      "char": null
-    },
-    "0,1": {
-      "char": "O",
+      "char": "L",
       "clueIndex": 1
     },
-    "0,2": {
-      "char": "F",
+    "0,1": {
+      "char": "E",
       "clueIndex": 2
     },
-    "0,3": {
-      "char": "F",
+    "0,2": {
+      "char": "S",
       "clueIndex": 3
+    },
+    "0,3": {
+      "char": null
     },
     "0,4": {
       "char": null
@@ -35,81 +35,82 @@
       "clueIndex": 4
     },
     "1,1": {
-      "char": "T"
+      "char": "R"
     },
     "1,2": {
-      "char": "L"
+      "char": "T"
     },
     "1,3": {
-      "char": "A"
+      "char": null
     },
     "1,4": {
-      "char": "S",
-      "clueIndex": 5
+      "char": null
     },
     "2,0": {
       "char": "S",
-      "clueIndex": 6
+      "clueIndex": 5
     },
     "2,1": {
-      "char": "H"
+      "char": "A"
     },
     "2,2": {
-      "char": "O"
+      "char": "A"
     },
     "2,3": {
-      "char": "R"
+      "char": "T",
+      "clueIndex": 6
     },
     "2,4": {
-      "char": "E"
-    },
-    "3,0": {
-      "char": "N",
+      "char": "S",
       "clueIndex": 7
     },
+    "3,0": {
+      "char": null
+    },
     "3,1": {
-      "char": "E"
+      "char": null
     },
     "3,2": {
-      "char": "W"
+      "char": "T",
+      "clueIndex": 8
     },
     "3,3": {
-      "char": "E"
+      "char": "I"
     },
     "3,4": {
-      "char": "R"
+      "char": "E"
     },
     "4,0": {
       "char": null
     },
     "4,1": {
-      "char": "R",
-      "clueIndex": 8
+      "char": null
     },
     "4,2": {
-      "char": "S"
+      "char": "E",
+      "clueIndex": 9
     },
     "4,3": {
-      "char": "S"
+      "char": "P"
     },
     "4,4": {
-      "char": null
+      "char": "A"
     }
   },
   "clues": {
     "across": {
-      "1": "Not turned on",
-      "4": "Book of world maps",
-      "6": "Where ocean meets land",
-      "7": "More up-to-date",
-      "8": "Web news feed initials"
+      "1": "\"The\" for some francophones",
+      "4": "\"Mona Lisa,\" for example",
+      "5": "Some German garden starters",
+      "8": "It might hang from a knot",
+      "9": "U.S. environmental agency"
     },
     "down": {
-      "1": "A different one",
-      "2": "Moves like a river",
-      "3": "Travel ticket costs",
-      "4": "IP network ID letters",
-      "5": "Spanish verb for 'to be'"
+      "1": "\"The\" for some Latinas",
+      "2": "Distinct period of history",
+      "3": "California or Texas",
+      "6": "A little extra for service",
+      "7": "Large body of water"
     }
   }
 }
