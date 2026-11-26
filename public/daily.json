@@ -1,9 +1,9 @@
 {
   "meta": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "author": "AI Generated",
     "difficulty": "easy",
-    "theme": "Everyday Acronyms & More",
+    "theme": "The Short List",
     "templateId": "monday",
     "wordTier": 0
   },
@@ -13,7 +13,7 @@
   },
   "grid": {
     "0,0": {
-      "char": "C",
+      "char": "B",
       "clueIndex": 1
     },
     "0,1": {
@@ -21,7 +21,7 @@
       "clueIndex": 2
     },
     "0,2": {
-      "char": "O",
+      "char": "D",
       "clueIndex": 3
     },
     "0,3": {
@@ -31,11 +31,11 @@
       "char": null
     },
     "1,0": {
-      "char": "D",
+      "char": "U",
       "clueIndex": 4
     },
     "1,1": {
-      "char": "U"
+      "char": "S"
     },
     "1,2": {
       "char": "E"
@@ -47,21 +47,21 @@
       "char": null
     },
     "2,0": {
-      "char": "S",
+      "char": "T",
       "clueIndex": 5
     },
     "2,1": {
-      "char": "R"
+      "char": "T"
     },
     "2,2": {
       "char": "E"
     },
     "2,3": {
-      "char": "N",
+      "char": "D",
       "clueIndex": 6
     },
     "2,4": {
-      "char": "E",
+      "char": "S",
       "clueIndex": 7
     },
     "3,0": {
@@ -75,10 +75,10 @@
       "clueIndex": 8
     },
     "3,3": {
-      "char": "O"
+      "char": "E"
     },
     "3,4": {
-      "char": "T"
+      "char": "C"
     },
     "4,0": {
       "char": null
@@ -94,23 +94,23 @@
       "char": "R"
     },
     "4,4": {
-      "char": "C"
+      "char": "I"
     }
   },
   "clues": {
     "across": {
-      "1": "Company head, for short",
-      "4": "Expected, or owed",
-      "5": "Peaceful and calm",
-      "8": "Word of negation",
-      "9": "Origin, briefly"
+      "1": "Where you might hit the hay.",
+      "4": "Employ, as a tool.",
+      "5": "Many \"Theodores,\" informally.",
+      "8": "Code for wiring, briefly.",
+      "9": "Respected Indian title."
     },
     "down": {
-      "1": "Musical albums, briefly",
-      "2": "Currency of France, briefly",
-      "3": "NYC borough or royal women",
-      "6": "Paired with neither",
-      "7": "And so on, briefly"
+      "1": "\"No ___s about it!\"",
+      "2": "Superlative ending, often.",
+      "3": "Academic V.I.P.s.",
+      "6": "\"The,\" to Goethe.",
+      "7": "Physics or chemistry, briefly."
     }
   }
 }
